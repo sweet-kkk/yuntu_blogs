@@ -1,0 +1,40 @@
+
+[
+  
+  
+  {
+    "objectID": "1743691912",
+    "permalink": "/post/git/",
+    "title": "Git 工具使用",
+    
+    "content": " Git(必备) Git 是一个分布式版本控制系统，用于跟踪代码变更、协作开发和管理代码版本。此文档主要描述常用的 Git 使用场景，非所有 Git 命令讲解，关于 Git 命令大全请转至吐血整理，全网最全Git命令手册 - 知乎。\n# 初始化和克隆仓库 git init\t# 在当前目录初始化一个 Git 仓库 git clone \u0026lt;repo\u0026gt;\t# 克隆远程仓库到本地 # 代码提交和管理 git add \u0026lt;file\u0026gt;\t# 添加文件到暂存区（index） git commit -m \u0026#34;message\u0026#34;\t# 提交代码到本地仓库 git status\t# 查看当前工作区状态 git log\t# 查看提交历史 # 分支管理 git branch\t# 查看本地分支 git branch \u0026lt;name\u0026gt;\t# 创建新分支 git checkout \u0026lt;branch\u0026gt;\t# 切换分支 git merge \u0026lt;branch\u0026gt;\t# 合并分支 git rebase \u0026lt;branch\u0026gt;\t# 变基合并 # 远程仓库操作 git remote -v\t# 查看远程仓库信息 git remote add origin \u0026lt;url\u0026gt;\t# 添加远程仓库 git push origin \u0026lt;branch\u0026gt;\t# 推送本地代码到远程仓库 git pull origin \u0026lt;branch\u0026gt;\t# 拉取远程仓库最新代码 # 代码回退和撤销 git reset --hard \u0026lt;commit\u0026gt;\t# 回退到指定提交，并清除所有更改 git revert \u0026lt;commit\u0026gt;\t# 反向提交，撤销指定提交的更改 git stash\t# 暂存当前修改，恢复到干净工作区 1. Git信息配置 此信息用于推送到远程仓库的提交信息。\n# 查看 Git 所有配置 git config --list # 全局信息配置 git config --global user.name \u0026#34;Administrator\u0026#34; git config --global user.email \u0026#34;admin@example.com\u0026#34; # 当前 Git 仓库配置 git config --local user.name \u0026#34;你的用户名\u0026#34; git config --local user.email \u0026#34;你的邮箱\u0026#34; git config --global user.name \u0026quot;Administrator\u0026quot;：设置 Git 全局用户名为 \u0026ldquo;Administrator\u0026rdquo;。 git config --global user.email \u0026quot;admin@example.com\u0026quot;：设置 Git 全局用户邮箱为 \u0026ldquo;admin@example.com\u0026quot;。 2. 克隆并推送一个仓库 git clone http://b5bd5b9a12c2/root/springcloud.git cd springcloud touch README.md git add README.md git commit -m \u0026#34;add: README\u0026#34; git push -u origin master git clone http://b5bd5b9a12c2/root/springcloud.git：将远程仓库的代码克隆到本地。 cd springcloud：进入本地代码仓库目录。 touch README.md：在本地代码仓库中创建一个名为 README.md 的文件。 git add README.md：将新创建的文件添加到 Git 仓库中。 git commit -m \u0026quot;add: README\u0026quot;：提交新文件的修改，并添加提交信息 \u0026ldquo;add README\u0026rdquo;。 git push -u origin master：将本地代码仓库的修改推送到远程仓库的 master 分支。 3. 推送一个已有的文件夹 cd existing_folder rm -rf .git\tgit init git remote add origin http://b5bd5b9a12c2/root/springcloud.git git add . git commit -m \u0026#34;Initial commit\u0026#34; git push -u origin master 在已有本地仓库的情况下，将其与远程仓库关联：\ncd existing_folder：进入已有本地仓库的目录。 rm -rf .git：删除原仓库的 git 信息配置。 git init：将该目录初始化为 Git 仓库。 git remote add origin http://b5bd5b9a12c2/root/springcloud.git：将远程仓库的地址添加为本地仓库的远程地址。 git add .：将本地仓库中所有未被 Git 忽略的文件添加到 Git 仓库中。 git commit -m \u0026quot;Initial commit\u0026quot;：提交修改，并添加提交信息 \u0026quot;Initial commit\u0026quot;。 git push -u origin master：将本地代码仓库的修改推送到远程仓库的 master 分支。 注意：这将会本地文件夹替换远程仓库的内容，适合对空白仓库的提交。\n4. 关联并推送已有 Git 仓库 cd existing_repo git remote rename origin old-origin git remote add origin http://b5bd5b9a12c2/root/springcloud.git git push -u origin --all git push -u origin --tags 最后是在已有本地仓库的情况下，将其与一个新的远程仓库关联：\ncd existing_repo：进入已有本地仓库的目录。 git remote rename origin old-origin：将原本的远程仓库地址重命名为 old-origin。 git remote add origin http://b5bd5b9a12c2/root/springcloud.git：将新的远程仓库地址添加为本地仓库的远程地址。 git push -u origin --all：将本地仓库的所有分支推送到新的远程仓库。 git push -u origin --tags：将本地仓库的所有标签推送到新的远程仓库。 也可以删除仓库目录下的 .git 文件，然后初始化 Git 仓库，执行 [3. 推送一个已有的文件夹](#3. 推送一个已有的文件夹)\n5. 分支管理 首先，确保你本地有一个 Git 仓库，可以通过 git clond \u0026lt;url\u0026gt; 或 git clond -b \u0026lt;branch\u0026gt; \u0026lt;url\u0026gt; 拉取主分支或者指定分支的仓库。以下通过 yuntu-dev 分支做演练。\n查看分支：\n如果你不确定远程仓库 origin 上是否有 yuntu-dev 分支，可以通过以下命令查看远程分支：\n# 查看远程分支 git branch -r # 查看所有本地分支 git branch # 查看所有分支 git branch -a 创建分支：\n# 基于当前分支创建新分支 git checkout -b yuntu-dev # 在当前仓库中，从远程分支拉取分支（如果远程有 yuntu-dev 分支） git checkout -b yuntu-dev origin/yuntu-dev # 添加修改到提交 # git add . # git commit -m \u0026#34;add: 添加了单元测试\u0026#34; # 推送分支到远程仓库 git push -u origin yuntu-dev 因为 yuntu-dev 分支在远程仓库中可能还不存在，所以你需要使用 -u 或 --set-upstream 选项来设置上游（即跟踪）分支。 这条命令会推送 yuntu-dev 分支到远程仓库，并将其设置为本地 yuntu-dev 分支的上游分支。以后，你可以直接使用 git pull 和 git push 而不必指定远程仓库和分支名。 注意：在提交分支时，yuntu-dev 分支应包含了你想要推送的更改并添加到提交。\n远程仓库 url 配置： 如果上述步骤都正确无误，但你还是遇到了问题，那么请检查你的远程仓库 URL 是否正确。\n# 查看当前仓库的远程仓库信息 git remote -v 如果远程仓库并不是目录仓库，可以通过 set-url 进行修改。\n# 修改远程仓库 url git remote set-url origin git@gitlab.dev.wiqun.com:DP/pipelined_script/ops.git 注意：上面的 URL 是一个 SSH 格式的示例，如果你的 GitLab 支持 HTTPS，并且你之前是通过 HTTPS 克隆的仓库，那么你的 URL 可能以 http:// 或 https:// 开头。\n修改本地分支名称：\n常见错误：error: src refspec xxx does not match any / error: failed to push some refs to\n# 由于仓库名称不一样，导致远程和本地的仓库不能关联上 # 统一远程和本地的仓库名称即可 # 把本地的 master 仓库名称修改为远端的 main git branch -m master main git push -u origin main 6. 推送信息 修改最新提交信息:\n如果只是提交信息错了，可以直接修改.\ngit commit --amend -m \u0026#34;正确的提交信息\u0026#34; git push --force origin 分支名 # 强制推送 ⚠ 注意：强制推送 (--force) 可能会影响其他人同步代码，建议确保团队成员未拉取你的错误提交。\n回退提交并重新提交:\n如果提交已经被推送，回退之后提交需要添加 --force ，如果没有提交则不需要。\ngit reset --soft HEAD~1 # 回退到上一次提交，保留修改 git add . # 重新添加修改 git commit -m \u0026#34;正确的提交信息\u0026#34; git push --force origin yuntu-dev 7. Git 的 ssh 连接 Gitlab 和 Github 都是 Git 远程仓库，添加 ssh 密钥方法一致，这里以 Github 为例。ssh 密钥是用于与 GitHub 仓库安全通信的加密公钥。没有公开的 ssh 密钥，你将无法通过 ssh 协议克隆、推送或拉取 GitHub 上的仓库。\n# 生成 ssh 密钥 ssh-keygen -t rsa -b 4096 -C \u0026#34;your_email@example.com\u0026#34; # 启动 SSH 代理并添加私钥 eval \u0026#34;$(ssh-agent -s)\u0026#34; ssh-add ~/.ssh/id_rsa # 查看 ssh 公钥文件 cat ~/.ssh/id_rsa.pub 生成一个新的 ssh 密钥。在终端中运行以下命令，并按提示操作。如果你没有特别指定的邮箱地址，请使用你的GitHub注册邮箱。 确保你的 ssh agent正在运行，并且已经添加了你的新 ssh 密钥。可以使用以下命令启动 ssh agent（如果已经启动，则跳过）并添加你的 ssh 密钥： 将你的 ssh 公钥添加到 GitHub 账户。 如果你使用的是Linux或macOS，可能需要使用xclip或xsel命令查看公钥。\n转到你的 GitHub 账户设置，点击 SSH 和 GPG 密钥菜单项，然后点击\u0026quot;New SSH key\u0026rdquo;。 在弹出的表单中，为你的密钥起一个名字，然后粘贴你的 SSH 公钥内容到 Key 文本框中。 点击\u0026quot;Add SSH key\u0026quot;按钮保存你的密钥。 完成这些步骤后，你能够通过SSH与GitHub通信，并且不再看到原来的错误信息。\n",
+    
+    "date": "2025-04-03 22:51:52",
+    "updated": "2025-04-03 22:51:52"
+  }
+  
+  , 
+  {
+    "objectID": "1654776772",
+    "permalink": "/post/main/",
+    "title": "Markdown Basic Elements",
+    
+    "content": " Markdown 基本元素 标题 H1 H2 H3 H4 H5 H6 强调 Emphasis, aka italics, with asterisks or underscores.\nStrong emphasis, aka bold, with asterisks or underscores.\nCombined emphasis with asterisks and underscores.\nStrikethrough uses two tildes. Scratch this.\n列表 Definition List (dl) Ordered List (ol) List Item 1 List Item 2 List Item 3 Unordered List (ul) List Item 1 List Item 2 List Item 3 段落 Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam …",
+    
+    "date": "2022-06-09 20:12:52",
+    "updated": "2022-06-09 20:12:52"
+  }
+  
+  , 
+  {
+    "objectID": "1654776772",
+    "permalink": "/post/chinese/",
+    "title": "中文測試",
+    
+    "content": "This is a Chinese test post.\n善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。\n以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？\n就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。\n國新故。\n工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？\nFrom 亂數假文產生器 - Chinese Lorem Ipsum\n",
+    
+    "date": "2022-06-09 20:12:52",
+    "updated": "2022-06-09 20:12:52"
+  }
+  
+]
