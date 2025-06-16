@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ace/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ace/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/aliyun_0_100/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E9%A2%98%E5%BA%93/</loc>
+    <lastmod>2025-06-16T17:30:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2025-06-16T17:15:10+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-06-16T17:15:42+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/friend/</loc>
+    <lastmod>2025-06-16T17:15:52+08:00</lastmod>
+  </url>
+</urlset>
