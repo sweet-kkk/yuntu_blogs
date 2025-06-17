@@ -10,7 +10,7 @@
       "E. 通过阿里云 ACK Serverless 集群部署业务，底层 Pod 资源全部使用 ECI 承载"
     ],
     "answer": "BDE",
-    "explanation": "A错，无需担心并发和容量；C错，提供云上的海量或者说无限计算能力\n![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/n5dldtma0r8qvs.png)"
+    "explanation": "A错，无需担心并发和容量；C错，提供云上的海量或者说无限计算能力\n! https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/n5dldtma0r8qvs.png"
   },
   {
     "id": "2",
