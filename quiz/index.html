@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>题库练习</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+    :root {
+      --color-bg: #f7fafc;
+      --color-card-bg: #fff;
+      --color-primary: #3f51b5;
+      --color-primary-hover: #2c3e9a;
+      --color-text: #222831;
+      --color-text-muted: #555e6b;
+      --color-correct: #4caf50;
+      --color-incorrect: #e63946;
+      --color-hover: #e8eaf6;
+      --color-shadow: rgba(63, 81, 181, 0.15);
+      --border-radius: 12px;
+      --transition: 0.3s ease;
+      --max-width: 720px;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0 auto;
+      max-width: var(--max-width);
+      background: var(--color-bg);
+      color: var(--color-text);
+      padding: 2rem 1rem;
+      user-select: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .card {
+      background: var(--color-card-bg);
+      padding: 2rem 2.4rem;
+      border-radius: var(--border-radius);
+      box-shadow: 0 6px 20px var(--color-shadow);
+      margin-bottom: 2rem;
+      transition: box-shadow var(--transition);
+    }
+    .card:hover {
+      box-shadow: 0 10px 30px var(--color-shadow);
+    }
+
+    #question-box h2 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--color-primary);
+      margin-bottom: 0.8rem;
+      user-select: text;
+    }
+
+    #question-box p {
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-top: 0;
+      margin-bottom: 1.8rem;
+      color: var(--color-text);
+      user-select: text;
+    }
+
+    ul.options {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 14px;
+    }
+
+    ul.options li {
+      background: #f4f6fb;
+      border-radius: var(--border-radius);
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 1rem;
+      border: 2px solid transparent;
+      color: #4b5263;
+      box-shadow: inset 0 0 0 0 transparent;
+      transition:
+        background-color var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition),
+        color var(--transition),
+        font-weight var(--transition);
+      user-select: none;
+      display: flex;
+      align-items: center;
+    }
+    ul.options li:hover:not(.selected) {
+      background-color: var(--color-hover);
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      font-weight: 600;
+    }
+    ul.options li.selected.correct {
+      background-color: #e3f2df;
+      border-color: var(--color-correct);
+      color: var(--color-correct);
+      font-weight: 700;
+      box-shadow: 0 0 10px var(--color-correct);
+    }
+    ul.options li.selected.incorrect {
+      background-color: #fdecea;
+      border-color: var(--color-incorrect);
+      color: var(--color-incorrect);
+      font-weight: 700;
+      box-shadow: 0 0 10px var(--color-incorrect);
+    }
+
+    details {
+      margin-top: 2rem;
+      font-size: 1rem;
+      color: var(--color-text-muted);
+      border-top: 1px solid #d1d9e6;
+      padding-top: 1rem;
+      user-select: text;
+    }
+
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.1rem;
+      outline: none;
+      color: var(--color-primary);
+      user-select: none;
+      letter-spacing: 0.02em;
+    }
+    details[open] summary::after {
+      content: '▲';
+      float: right;
+      font-size: 0.85rem;
+      margin-left: 0.4rem;
+    }
+    details summary::after {
+      content: '▼';
+      float: right;
+      font-size: 0.85rem;
+      margin-left: 0.4rem;
+    }
+
+    .navigation {
+      text-align: center;
+      margin-bottom: 2rem;
+      user-select: none;
+    }
+    button {
+      background-color: var(--color-primary);
+      color: white;
+      border: none;
+      border-radius: var(--border-radius);
+      padding: 0.8rem 1.8rem;
+      margin: 0 0.6rem;
+      font-weight: 700;
+      font-size: 1.1rem;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgb(63 81 181 / 0.45);
+      transition: background-color var(--transition), box-shadow var(--transition);
+      user-select: none;
+    }
+    button:hover:not(:disabled) {
+      background-color: var(--color-primary-hover);
+      box-shadow: 0 6px 18px rgb(44 62 154 / 0.65);
+    }
+    button:disabled {
+      background-color: #b0b8c1;
+      box-shadow: none;
+      cursor: not-allowed;
+      color: #e6e9f0;
+    }
+
+    #stats {
+      text-align: center;
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+      margin-bottom: 2rem;
+      letter-spacing: 0.04em;
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .final-screen {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: var(--color-card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: 0 8px 25px var(--color-shadow);
+      user-select: text;
+    }
+    .final-screen h2 {
+      margin-bottom: 1.3rem;
+      color: var(--color-primary);
+      font-weight: 700;
+      font-size: 1.8rem;
+      letter-spacing: 0.06em;
+    }
+    .final-screen p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      color: var(--color-text);
+      font-weight: 600;
+    }
+    .final-screen button {
+      margin-top: 2.2rem;
+      padding: 0.9rem 2.6rem;
+      font-size: 1.15rem;
+      box-shadow: 0 5px 15px rgb(63 81 181 / 0.6);
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1.5rem 1rem;
+      }
+      .card {
+        padding: 1.6rem 2rem;
+      }
+      ul.options li {
+        font-size: 0.95rem;
+        padding: 0.8rem 1.2rem;
+      }
+      button {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        margin: 0 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>题库练习</h1>
+
+  <div class="navigation" role="navigation" aria-label="题目导航">
+    <button id="prevBtn" aria-label="上一题">上一题</button>
+    <button id="nextBtn" aria-label="下一题">下一题</button>
+    <button id="randomBtn" aria-label="随机题">随机题</button>
+  </div>
+
+  <div id="question-box" class="card" role="main" aria-live="polite"></div>
+
+  <div id="stats" aria-live="polite" aria-atomic="true"></div>
+
+  <script>
+    const quizUrl = 'quiz.json'; // 请根据你的题库文件路径修改
+
+    let questions = [];
+    let currentIndex = 0;
+    let correctCount = 0;
+    let answered = new Set();
+
+    function saveState() {
+      const state = {
+        currentIndex,
+        correctCount,
+        answered: Array.from(answered),
+      };
+      localStorage.setItem('quizState', JSON.stringify(state));
+    }
+    function loadState() {
+      const stateStr = localStorage.getItem('quizState');
+      if (stateStr) {
+        try {
+          const state = JSON.parse(stateStr);
+          currentIndex = state.currentIndex || 0;
+          correctCount = state.correctCount || 0;
+          answered = new Set(state.answered || []);
+        } catch {
+          currentIndex = 0;
+          correctCount = 0;
+          answered = new Set();
+        }
+      }
+    }
+
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = questions[index];
+      const box = document.getElementById('question-box');
+
+      if (!q) {
+        box.innerHTML = `<p>没有题目了。</p>`;
+        return;
+      }
+
+      if (answered.has(index) && answered.size === questions.length) {
+        renderFinal();
+        return;
+      }
+
+      box.innerHTML = `
+        <h2>${q.question}</h2>
+        <ul class="options" role="listbox" aria-label="答案选项" tabindex="0" aria-activedescendant="">
+          ${q.options.map(o => `<li role="option" tabindex="-1" aria-selected="false">${o}</li>`).join('')}
+        </ul>
+        <details>
+          <summary>答案解析</summary>
+          <div>答案：${q.answer}</div>
+          <div>${q.explanation}</div>
+        </details>
+      `;
+
+      updateStats();
+
+      const items = box.querySelectorAll('ul.options li');
+      items.forEach(item => {
+        item.onclick = () => selectAnswer(item, q);
+        item.onkeydown = (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            selectAnswer(item, q);
+          }
+        };
+      });
+
+      updateNavButtons();
+      saveState();
+    }
+
+    function selectAnswer(item, question) {
+      if (answered.has(currentIndex)) return;
+
+      // const userAnswer = item.textContent.trim().slice(0, 1); // 取A/B/C/D等首字母比较
+      // const correctAnswer = question.answer.trim();
+
+      // item.classList.add('selected');
+      // if (userAnswer === correctAnswer) {
+      //   item.classList.add('correct');
+      //   correctCount++;
+      // } else {
+      //   item.classList.add('incorrect');
+      //   const items = item.parentNode.querySelectorAll('li');
+      //   items.forEach(li => {
+      //     if (li.textContent.trim().startsWith(correctAnswer)) {
+      //       li.classList.add('selected', 'correct');
+      //     }
+      //   });
+      // }
+
+      answered.add(currentIndex);
+      updateStats();
+      updateNavButtons();
+      saveState();
+    }
+
+    function updateStats() {
+      const stats = document.getElementById('stats');
+      stats.textContent = `已答题：${answered.size} / ${questions.length}，答对：${correctCount}`;
+    }
+
+    function updateNavButtons() {
+      document.getElementById('prevBtn').disabled = currentIndex <= 0;
+      document.getElementById('nextBtn').disabled = currentIndex >= questions.length - 1;
+    }
+
+    function renderFinal() {
+      const box = document.getElementById('question-box');
+      box.innerHTML = `
+        <div class="final-screen" role="region" aria-live="polite" aria-label="答题完成">
+          <h2>全部题目完成 🎉</h2>
+          <p>共答题：${questions.length}</p>
+          <p>答对题数：${correctCount}</p>
+          <p>正确率：${((correctCount / questions.length) * 100).toFixed(1)}%</p>
+          <button id="restartBtn">重新开始</button>
+        </div>
+      `;
+      document.getElementById('stats').textContent = '';
+      document.getElementById('prevBtn').disabled = true;
+      document.getElementById('nextBtn').disabled = true;
+      document.getElementById('randomBtn').disabled = true;
+
+      document.getElementById('restartBtn').onclick = () => {
+        correctCount = 0;
+        answered.clear();
+        currentIndex = 0;
+        document.getElementById('randomBtn').disabled = false;
+        renderQuestion(currentIndex);
+      };
+
+      saveState();
+    }
+
+    document.getElementById('prevBtn').onclick = () => {
+      if (currentIndex > 0) renderQuestion(currentIndex - 1);
+    };
+    document.getElementById('nextBtn').onclick = () => {
+      if (currentIndex < questions.length - 1) renderQuestion(currentIndex + 1);
+    };
+    document.getElementById('randomBtn').onclick = () => {
+      const randomIdx = Math.floor(Math.random() * questions.length);
+      renderQuestion(randomIdx);
+    };
+
+    async function init() {
+      try {
+        const res = await fetch(quizUrl);
+        if (!res.ok) throw new Error(`加载失败: ${res.statusText}`);
+        questions = await res.json();
+        loadState();
+        if (currentIndex >= questions.length) currentIndex = 0;
+        renderQuestion(currentIndex);
+      } catch (e) {
+        document.getElementById('question-box').innerHTML = `<p style="color:red;">加载题目失败，请稍后重试。</p>`;
+        console.error(e);
+      }
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
