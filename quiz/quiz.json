@@ -10,7 +10,7 @@
       "E. 通过阿里云 ACK Serverless 集群部署业务，底层 Pod 资源全部使用 ECI 承载"
     ],
     "answer": "BDE",
-    "explanation": "A错，无需担心并发和容量；C错，提供云上的海量或者说无限计算能力\n! https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/n5dldtma0r8qvs.png"
+    "explanation": "A错，无需担心并发和容量；C错，提供云上的海量或者说无限计算能力"
   },
   {
     "id": "2",
@@ -47,7 +47,7 @@
       "E. ACID\n模式"
     ],
     "answer": "CD",
-    "explanation": "![image/png](https://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/at74egm1hoy5ns.png)"
+    "explanation": ""
   },
   {
     "id": "5",
@@ -61,7 +61,7 @@
       "F. 零信任原则"
     ],
     "answer": "ADEF",
-    "explanation": "![image/png](https://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/xcwdflm1h77glj.png)"
+    "explanation": ""
   },
   {
     "id": "6",
@@ -233,7 +233,7 @@
       "D. 采用全球加速后，SLB作为源站，采购50M带宽就够用了"
     ],
     "answer": "D",
-    "explanation": "详细解析进阿里官网\n![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/nidfedm7zw1d15.png)"
+    "explanation": "详细解析进阿里官网"
   },
   {
     "id": "20",
@@ -454,7 +454,7 @@
       "F. 自动化驱动"
     ],
     "answer": "ABCD",
-    "explanation": "![image/png](http://wechatapppro-1252524126.cos.ap-shanghai.myqcloud.com/appatJs2ciq4695/image/b_u_6048bc1f30483_7nv0VyKi/upq150lmhi3o2z.png)"
+    "explanation": ""
   },
   {
     "id": "38",
@@ -490,7 +490,7 @@
       "D. RAM"
     ],
     "answer": "AC",
-    "explanation": "![image/png](http://wechatapppro-1252524126.cos.ap-shanghai.myqcloud.com/appatJs2ciq4695/image/b_u_6048bc1f30483_7nv0VyKi/t8yl59lmhhzdhv.png)\n使用STS-Token可以临时生成一组临时凭证，用于访问云服务，避免使用长期有效的Access Key (AK)。这样可以降低AK泄露的风险，因为STS-Token有限的有效期。\nMFA（多因素身份验证）要求用户除了提供常规的用户名和密码外，还需要提供第二个身份验证因素（如手机短信验证码、硬件令牌等），增加了对AK的保护。\nRAM（基于角色的访问控制）可用于限制AK的权限，并按需分配给不同的人员，以确保每个人只能访问其所需的资源，从而减少泄露的影响范围。"
+    "explanation": "使用STS-Token可以临时生成一组临时凭证，用于访问云服务，避免使用长期有效的Access Key (AK)。这样可以降低AK泄露的风险，因为STS-Token有限的有效期。\nMFA（多因素身份验证）要求用户除了提供常规的用户名和密码外，还需要提供第二个身份验证因素（如手机短信验证码、硬件令牌等），增加了对AK的保护。\nRAM（基于角色的访问控制）可用于限制AK的权限，并按需分配给不同的人员，以确保每个人只能访问其所需的资源，从而减少泄露的影响范围。"
   },
   {
     "id": "41",
@@ -805,7 +805,7 @@
       "D. 读写分离型"
     ],
     "answer": "C",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/gquo8lm8ij0mox.png)"
+    "explanation": ""
   },
   {
     "id": "67",
@@ -817,7 +817,7 @@
       "D. data-X"
     ],
     "answer": "A",
-    "explanation": "![image/png](https://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/b_u_616ffe2c69e52_2PC2c8DU/q9eb6alr4kilo5.png)"
+    "explanation": ""
   },
   {
     "id": "68",
@@ -890,7 +890,7 @@
       "D. 数据同步复制和异步复制"
     ],
     "answer": "A",
-    "explanation": "答案:A文档原文\n![image/png](http://wechatapppro-1252524126.cos.ap-shanghai.myqcloud.com/appatJs2ciq4695/image/b_u_616ffe2c69e52_2PC2c8DU/mut78glm7crxu2.png)"
+    "explanation": "答案:A文档原文"
   },
   {
     "id": "74",
@@ -902,7 +902,7 @@
       "D. 并发较高时,建议将SSL证书托管到七层SLB上进行统一便捷的管理,相对于部署到后端ECS的方案,可以提高10%—20%的性能"
     ],
     "answer": "D",
-    "explanation": "答案：D\n官网原文，D说提高10-20%性能，官方说的是影响10-20%性能，答案说反了，所以选D：\nhttps://developer.aliyun.com/article/716324\n![image/png](http://wechatapppro-1252524126.cos.ap-shanghai.myqcloud.com/appatJs2ciq4695/image/b_u_616ffe2c69e52_2PC2c8DU/0lj3gdlm7dcy2b.png)"
+    "explanation": "答案：D\n官网原文，D说提高10-20%性能，官方说的是影响10-20%性能，答案说反了，所以选D：\nhttps://developer.aliyun.com/article/716324"
   },
   {
     "id": "75",
@@ -914,7 +914,7 @@
       "D. ECS"
     ],
     "answer": "C",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/rupnoom8ijacx6.png)"
+    "explanation": ""
   },
   {
     "id": "76",
@@ -962,7 +962,7 @@
       "D. 客户端>CDN>DDoS高防IP>Web应用防火墙>SLB>源站"
     ],
     "answer": "B",
-    "explanation": "官网原文，答案B\n![image/jpeg](https://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/b_u_616ffe2c69e52_2PC2c8DU/t8b7aeluhqzocs.jpg)"
+    "explanation": "官网原文，答案B"
   },
   {
     "id": "80",
@@ -974,7 +974,7 @@
       "D. 块存储"
     ],
     "answer": "A",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/x2ok7pm8ijnr0h.png)"
+    "explanation": ""
   },
   {
     "id": "81",
@@ -998,7 +998,7 @@
       "D. 单源最短距离"
     ],
     "answer": "C",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/qyem2om8ik6v09.png)"
+    "explanation": ""
   },
   {
     "id": "83",
@@ -1094,7 +1094,7 @@
       "D. 只读实例的规格不小于主实例，从而确保有足够高的性能来应用同步日志"
     ],
     "answer": "D",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/f5mo3zm8ikx492.png)"
+    "explanation": ""
   },
   {
     "id": "91",
@@ -1106,7 +1106,7 @@
       "D. 自建 Hadoop"
     ],
     "answer": "B",
-    "explanation": "![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/pd1ilem8il2pdl.png)"
+    "explanation": ""
   },
   {
     "id": "92",
@@ -1131,7 +1131,7 @@
       "D. 静态列（static column）"
     ],
     "answer": "D",
-    "explanation": "A：分区列用于确定数据在集群中的分布位置，但它不能解决重复存储的问题。\nB：主键列用于唯一标识一行数据，但它不能解决重复存储的问题。\nC：聚类列用于在分区内对数据进行排序，但它不能解决重复存储的问题。\n![image/png](https://wechatapppro-1252524126.cdn.xiaoeknow.com/appatJs2ciq4695/image/b_u_636c56bf45959_CNvkJPc0/mm8ekym8jkq8n1.png)"
+    "explanation": "A：分区列用于确定数据在集群中的分布位置，但它不能解决重复存储的问题。\nB：主键列用于唯一标识一行数据，但它不能解决重复存储的问题。\nC：聚类列用于在分区内对数据进行排序，但它不能解决重复存储的问题。"
   },
   {
     "id": "94",
