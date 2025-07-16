@@ -1,0 +1,2584 @@
+<!doctype html>
+<html
+  lang="zh-cn" 
+  data-theme-mode="auto"
+  >
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  阿里云 ACE 笔试题库 501-600 题 | yuntu
+</title>
+<meta
+  name="description"
+  content=""
+/><script>
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"http://localhost:1313/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="preload"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  /><link rel="stylesheet" href="/css/loader.css" />
+<meta property="og:type" content="website" />
+  <meta property="og:title" content="阿里云 ACE 笔试题库 501-600 题 | yuntu" />
+  <meta
+    property="og:description"
+    content=""
+  />
+  <meta property="og:url" content="http://localhost:1313/post/aliyun_501_600/" />
+  <meta
+    property="og:site_name"
+    content=""
+  />
+  <meta
+    property="og:image"
+    content="/"
+  />
+  <meta property="article:author" content="yuntu" />
+  <meta property="article:published_time" content="2025-06-23T22:40:53&#43;08:00" />
+  <meta property="article:modified_time" content="2025-06-23T22:46:15&#43;08:00" /><meta property="article:tag" content="ACE题库" /><meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="/" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.css" />
+<link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css"
+    integrity="sha384-5TcZemv2l/9On385z///&#43;d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css"
+    integrity="sha384-4NN3fZ5AokFyHuoihl7A9qWaCt&#43;HsAtOaUsXwJGRb4/SMBtFr2vcNSHR5E8dg0Wk" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg></div><div class="loading-word">少女祈祷中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script><div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+<div id="lang-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+本文章没有找到对应的语言版本
+</div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav"><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/">首页</a>
+      </span><a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav"></nav></div>
+<header id="header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="阿里云 ACE 笔试题库 501-600 题"><div id="header-outer">
+    <div id="header-title"><a href="/" id="logo">
+            <h1 data-aos="slide-up">阿里云 ACE 笔试题库 501-600 题</h1>
+          </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          
+          class="sidebar-right"  ><aside id="sidebar"><div class="sidebar-wrapper wrap-sticky">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#501-基于edas平台开发应用使用的java容器是___________">501. 基于EDAS平台开发应用,使用的java容器是___________?</a></li>
+        <li><a href="#502-edas容器部署的包的格式是__________">502. EDAS容器部署的包的格式是__________?</a></li>
+        <li><a href="#503-edas产品中eclipse安装tomcat4e插件的方式是__________">503. EDAS产品中Eclipse安装Tomcat4E插件的方式是__________?</a></li>
+        <li><a href="#504-edas应用基础信息界面显示有机器agent异常时如何处理___________">504. EDAS应用基础信息界面显示有机器Agent异常时,如何处理___________?</a></li>
+        <li><a href="#505-drds目前兼容的协议方式和语法是____________">505. DRDS目前兼容的协议方式和语法是____________.</a></li>
+        <li><a href="#506-通过oss加速域名配合函数计算和函数工作流可以快速打造低成本高效的跨境对象存储数据同步传输系统用于满足有跨境对象存储数据传输需求对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户以下对该系统优势描述不正确的是哪一项">506. 通过OSS加速域名,配合函数计算和函数工作流,可以快速打造低成本、高效的跨境对象存储数据同步传输系统,用于满足有跨境对象存储数据传输需求,对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户,以下对该系统优势描述不正确的是哪一项?</a></li>
+        <li><a href="#507-企业上云迁移的过程中非结构化数据的迁移往往占用比较多的时间不能用于非结构化数据的迁移">507. 企业上云迁移的过程中，非结构化数据的迁移往往占用比较多的时间。（）不能用于非结构化数据的迁移。</a></li>
+        <li><a href="#508-某公司利用阿里云的api网关开发一款社交类app会员之间可以信息发送与语音交流刚上线后即收到好评下载量剧增但是随后又很多用户反馈使用app后手机严重发热耗电同时流量消耗很快cto要求开发人员立刻排查故请问最可能是什么原因造成的">508. 某公司利用阿里云的API网关开发一款社交类APP,会员之间可以信息发送与语音交流,刚上线后即收到好评,下载量剧增,但是随后又很多用户反馈使用APP后手机严重发热耗电,同时流量消耗很快,CTO要求开发人员立刻排查故,请问最可能是什么原因造成的?()</a></li>
+        <li><a href="#509-某企业是一家运动健身公司主推一款个人健身应用app类似线上健身房完全个人化完全数字化该app提供世界级知名教练的音频训练包括用户身体跑步骑自行车运动数据精神瑜伽和灵魂冥想谈话的课程拥有在全活动水平上量身定制的品牌锻炼计划综合冥想计划平衡身体锻炼它融汇了达到健康目标所需的所有健身领域小强是该app的新晋安全工程师通过情报得知近期会有黑客计划攻击该app以达到勒索公司钱款的目的小强同时得知该app因为历史原因还存在部分重要接口是基于ip提供服务为了应对本次攻击以下产品是小强的最优选择">509. 某企业是一家运动健身公司，主推一款个人健身应用APP，类似线上健身房，完全个人化完全数字化。该APP提供世界级知名教练的音频训练。包括用户身体（跑步/骑自行车）运动数据，精神（瑜伽）和灵魂（冥想/谈话）的课程，拥有在全活动水平上量身定制的品牌锻炼计划，综合冥想计划，平衡身体锻炼。它融汇了达到健康目标所需的所有健身领域。小强是该APP的新晋安全工程师，通过情报得知近期会有黑客计划攻击该APP以达到勒索公司钱款的目的，小强同时得知该APP因为历史原因还存在部分重要接口是基于IP提供服务，为了应对本次攻击，以下（）产品是小强的最优选择。</a></li>
+        <li><a href="#510-某教育平台希望打造一套敏捷交付系统加速软件的开放测试与交付通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长人员效率低下软件质量无法保障等问题以下非敏捷交付系统必须的组件">510. 某教育平台希望打造一套敏捷交付系统，加速软件的开放、测试与交付。通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长，人员效率低下，软件质量无法保障等问题。以下（）非敏捷交付系统必须的组件</a></li>
+        <li><a href="#511-rds采用的贮备m-m的高可用架构其贮备之间的数据同步依靠日志的方式实现mysql数据和sql-server分别使用的日志是什么">511. RDS采用的贮备M-M的高可用架构,其贮备之间的数据同步依靠日志的方式实现,MySQL数据和SQL server分别使用的日志是什么?</a></li>
+        <li><a href="#512-在实际应用中那种性能指标表示rds实例磁盘空间的使用量">512. 在实际应用中,那种性能指标表示RDS实例磁盘空间的使用量?</a></li>
+        <li><a href="#513-通过dms管理后台或者数据库客户端连接rds数据库时提示错误信息max_user_connections代表什么含义">513. 通过DMS管理后台或者数据库客户端,连接RDS数据库时,提示错误信息“max_user_connections&quot;,代表什么含义?</a></li>
+        <li><a href="#514-哪个字符集是目前rds-for-mysql不支持的">514. 哪个字符集是目前RDS for MySQL不支持的</a></li>
+        <li><a href="#515-下面列出的参数中哪一个不属于rds-sql-server中用的大字段">515. 下面列出的参数中哪一个不属于RDS SQL SERVER中用的大字段?</a></li>
+        <li><a href="#516-以下哪些应用场景适合rds只读实例来完成">516. 以下哪些应用场景适合RDS只读实例来完成?</a></li>
+        <li><a href="#517-关于rds数据迁移错误的是">517. 关于RDS数据迁移,错误的是</a></li>
+        <li><a href="#518-闪电立方在帮助客户迁移数据上云时不仅关注数据本身的可靠性也关注数据的安全性以下关于高可靠说法不正确的是">518. 闪电立方在帮助客户迁移数据上云时,不仅关注数据本身的可靠性,也关注数据的安全性,以下关于高可靠说法不正确的是</a></li>
+        <li><a href="#519-小刘是某传媒公司的系统管理员随着公司业务的迅速发展公司每个月会产生1t的增量数据且数据存储周期最少不能低于180天考虑到公司自建机房的存储成本过高小刘了解到阿里云的oss可以有效降低存储的费用其本有8t的历史数据平时几乎是不调用的可做为归档类型的存储请问这8t的历史数据存放在oss类型的存储中可以达到成本最优化的目的">519. 小刘是某传媒公司的系统管理员，随着公司业务的迅速发展，公司每个月会产生1T的增量数据且数据存储周期最少不能低于180天，考虑到公司自建机房的存储成本过高，小刘了解到阿里云的OSS可以有效降低存储的费用，其本有8T的历史数据平时几乎是不调用的可做为归档类型的存储，请问这8T的历史数据存放在OSS（）类型的存储中可以达到成本最优化的目的。</a></li>
+        <li><a href="#520-在openstack中宿主机电源断电后云主机不能故障迁移出现这种问题的原因是">520. 在OpenStack中宿主机电源断电后，云主机不能故障迁移，出现这种问题的原因是（）</a></li>
+        <li><a href="#521-应用配置管理acmapplication-configuration-management是一款在分布式架构环境中对应用配置进行集中管理和推送的产品以下关于acm的特性说明中正确的是___">521. 应用配置管理ACM（Application Configuration Management）是一款在分布式架构环境中对应用配置进行集中管理和推送的产品。以下关于ACM的特性说明中，正确的是___.</a></li>
+        <li><a href="#522-在openstack的对称集群中所有节点都是活动的都参与请求处理可以将集群理解为类似于集群">522. 在OpenStack的对称集群中，所有节点都是活动的都参与请求处理，可以将集群理解为类似于（）集群</a></li>
+        <li><a href="#523-云效的客户画像中哪属性是不属于目标客户">523. 云效的客户画像中哪属性是不属于目标客户?</a></li>
+        <li><a href="#524-小童原先的drds和后端的rds实例俱在经典网络为了利用vpc的灵活和高隔离请问该如何操作才可顺利切换">524. 小童原先的DRDS和后端的RDS实例俱在经典网络,为了利用VPC的灵活和高隔离,请问该如何操作才可顺利切换</a></li>
+        <li><a href="#525-云效aui录制的脚本云端执行正常本机回放却一直打不开可能的原因是">525. 云效AUI录制的脚本,云端执行正常,本机回放却一直打不开,可能的原因是</a></li>
+        <li><a href="#526-如果用户本源站是共享存储nas-在迁移的过程总哪些说法是正确的">526. 如果用户本源站是共享存储NAS ,在迁移的过程总哪些说法是正确的</a></li>
+        <li><a href="#527-某个游戏初创公司发布了国际象棋对战游戏希望借助阿里云实现全球同服他主要的客户分布在欧洲部分用户分布在日本和中国综合考虑架构负责程度与性价比请问该推荐什么方案">527. 某个游戏初创公司,发布了国际象棋对战游戏,希望借助阿里云实现全球同服,他主要的客户分布在欧洲,部分用户分布在日本和中国,综合考虑架构负责程度与性价比,请问该推荐什么方案</a></li>
+        <li><a href="#528-某电商网站部署在一台ecs-上近期由于业务增长数据库cpu占用率较高经常导致服务器cpu使用率达100经过排查发现数据库大多为查询操作为解决此种场景以下哪些方案不合理的">528. 某电商网站部署在一台ECS 上,近期由于业务增长数据库CPU占用率较高,经常导致服务器CPU使用率达100%,经过排查发现数据库大多为查询操作,为解决此种场景以下哪些方案不合理的?</a></li>
+        <li><a href="#529-飞天系统提供分布式环境下所需要的协调服务远程过程调用安全管理和资源管理的服务这些底层服务为上层的分布式文件系统任务调度等模块提供支持以下描述中错误的是">529. 飞天系统提供分布式环境下所需要的协调服务、远程过程调用、安全管理和资源管理的服务。这些底层服务为上层的分布式文件系统、任务调度等模块提供支持。以下描述中,错误的是:</a></li>
+        <li><a href="#530-某集团公司旗下有三家子公司子公司的网络和集团公司网络是打通的子公司阿里云账号下各有一个vpc现在集团总部建好了到阿里云的专线各子公司需要利用该专线连接各自的vpc数据要相互隔离还要考虑未来的业务扩展以下选中哪一项是最佳方法">530. 某集团公司，旗下有三家子公司，子公司的网络和集团公司网络是打通的，子公司阿里云账号下各有一个VPC，现在，集团总部建好了到阿里云的专线，各子公司需要利用该专线连接各自的VPC，数据要相互隔离，还要考虑未来的业务扩展，以下选中哪一项是最佳方法？</a></li>
+        <li><a href="#531-某在线教育行业客户随着业务量的增大其录制和转码需求越来越多而阿里云基于serverless的容器基础设施通过事件触发提供高并发低成本的容器实例调度及事件处理能力以下对这种能力描述不正确">531. 某在线教育行业客户随着业务量的增大,其录制和转码需求越来越多,而阿里云基于Serverless的容器基础设施,通过事件触发,提供高并发、低成本的容器实例调度及事件处理能力,以下()对这种能力描述不正确。</a></li>
+        <li><a href="#532-某企业运营voip业务业务部署在idc中现在需要搬迁上云已经自行采购ecs部署在vpc中进行测试由于ecs的网卡ip和eip之间是nat无法较好的支持sip协议客户业务测试总是失败面对此情况你觉得以下哪个选项可以更好的解决问题">532. 某企业运营VOIP业务，业务部署在IDC中，现在需要搬迁上云，已经自行采购ECS部署在VPC中进行测试，由于ECS的网卡IP和EIP之间是NAT，无法较好的支持SIP协议，客户业务测试总是失败，面对此情况，你觉得以下哪个选项可以更好的解决问题？</a></li>
+        <li><a href="#533-某制鞋厂sap系统部署在idc机房因为部分应用系统感染了勒索病毒导致业务停摆公司领导决定sap生产系统即刻迁移上云并要求云上的主机设计全部采用地域高可用架构作为架构师的您除了要选择sap认证的机型之外在网络侧应该采用产品来实现高可用架构下的访问">533. 某制鞋厂SAP系统部署在IDC机房，因为部分应用系统感染了勒索病毒导致业务停摆，公司领导决定SAP生产系统即刻迁移上云，并要求云上的主机设计全部采用地域高可用架构，作为架构师的您，除了要选择SAP认证的机型之外，在网络侧应该采用（）产品来实现高可用架构下的访问。</a></li>
+        <li><a href="#534-某企业原来使用的阿里云服务都是位于经典网络中的由于专有网络vpc相比于经典网络更安全性能更高用户决定将所有经典网络中的服务迁移到专有网络vpc中为了实现业务能够平滑的迁移以下哪些建议是不可行的">534. 某企业原来使用的阿里云服务都是位于经典网络中的,由于专有网络VPC相比于经典网络更安全,性能更高,用户决定将所有经典网络中的服务迁移到专有网络VPC中。为了实现业务能够平滑的迁移,以下哪些建议是不可行的?</a></li>
+        <li><a href="#535-在一个典型的社交网络中常常会存在谁认识谁上过什么学校常住什么地方喜欢什么餐馆之类的查询传统关系型数据库对于超过3度的查询十分低效且难以胜任但__可轻松应对社交网络的各种复杂存储和查询场景">535. 在一个典型的社交网络中,常常会存在谁认识谁,上过什么学校,常住什么地方,喜欢什么餐馆之类的查询,传统关系型数据库对于超过3度的查询十分低效且难以胜任，但__可轻松应对社交网络的各种复杂存储和查询场景。</a></li>
+        <li><a href="#536-很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机vm使用在一个容器里放多个进程监控进程日志进程sshd进程甚至整个systemd这样操作存会存在____问题">536. 很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机（VM）使用，在一个容器里放多个进程：监控进程、日志进程、sshd进程、甚至整个Systemd。这样操作存会存在____问题。</a></li>
+        <li><a href="#537-某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时可利用混合云容灾服务支持业务的_____的容灾能力对整体的应用做容灾备份来应对单地区的故障满足业务的rtorpo核心指标">537. 某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时,可利用混合云容灾服务支持业务的_____的容灾能力,对整体的应用做容灾备份来应对单地区的故障,满足业务的RTO/RPO核心指标。</a></li>
+        <li><a href="#538-某游戏公司新上线一款游戏上线第三天即飙升至免费榜第3平均每日承载5万玩家为更清晰了解用户公司需要进行游戏运营数据分析该游戏运营分析系统分为三个阶段数据采集阶段数据归档阶段数据分析阶段对各个阶段说法不正确的是">538. 某游戏公司新上线一款游戏,上线第三天即飙升至免费榜第3。平均每日承载5万玩家。为更清晰了解用户,公司需要进行游戏运营数据分析。该游戏运营分析系统分为三个阶段:数据采集阶段,数据归档阶段,数据分析阶段。对各个阶段说法不正确的是?</a></li>
+        <li><a href="#539-由于rds只读实例的数据均由源数据库实例同步而来以下那些功能只读实例可以使用">539. 由于RDS只读实例的数据均由源数据库实例同步而来,以下那些功能只读实例可以使用?</a></li>
+        <li><a href="#540-关于rds数据转移功能描述最准确的是">540. 关于RDS数据转移功能,描述最准确的是</a></li>
+        <li><a href="#541-阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是">541. 阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是?</a></li>
+        <li><a href="#542-当出现消费者对某条消息重复消费的情况时重复消费的结果与消费一次的结果是相同的并且多次消费并未对业务系统产生任何负面影响那么这整个过程就可实现消息幂等以下关于消息幂等的描述错误的是___">542. 当出现消费者对某条消息重复消费的情况时，重复消费的结果与消费一次的结果是相同的，并且多次消费并未对业务系统产生任何负面影响，那么这整个过程就可实现消息幂等。以下关于消息幂等的描述，错误的是___。</a></li>
+        <li><a href="#543-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择产品或服务进行判断">543. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品,遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞,有哪些安全隐患时,可以选择()产品或服务进行判断。</a></li>
+        <li><a href="#544-阿里云操作系统叫作飞天云网络平台称为洛神作为飞天系统的核心组件洛神平台支撑超大规模租户超大规模虚拟机的高性能云网络洛神的负责云网络中数据包的处理它就如同物理世界中的网线和路由交换设备把数据包高效率低延时地从发送端送到目的地类似地这个平面包含各种不同角色的组件包括支持各种不同类型计算形态的虚拟交换机用于数据中心互联的dcn网关用于云网络连接的公网网关用于云上云下互联的混合云网关等">544. 阿里云操作系统叫作“飞天”，云网络平台称为”洛神“，作为飞天系统的核心组件，洛神平台支撑超大规模租户，超大规模虚拟机的高性能云网络，洛神的（）负责云网络中数据包的处理，它就如同物理世界中的网线和路由交换设备，把数据包高效率，低延时地从发送端送到目的地，类似地，这个平面包含各种不同角色的组件，包括支持各种不同类型计算形态的虚拟交换机、用于数据中心互联的DCN网关，用于云网络连接的公网网关，用于云上云下互联的混合云网关等。</a></li>
+        <li><a href="#545-企业通过数字化转型引导业务创新在混合云架构创造的与之间权衡利弊结合企业自身的混合云战略和建设思路建立和优化企业管理方式业务创新路径财务结算方式人力投入的it组织是企业能够发挥混合云建设成效的关键">545. 企业通过数字化转型，引导业务创新，在混合云架构创造的（）与（）之间权衡利弊，结合企业自身的混合云战略和建设思路，建立和优化企业管理方式，业务创新路径，财务结算方式，人力投入的IT组织，是企业能够发挥混合云建设成效的关键。</a></li>
+        <li><a href="#546-运维工程师小李将应用部署在阿里云容器服务上他希望将前端服务配置文件webconf挂载到pod中以下___是正确的挂载方式">546. 运维工程师小李将应用部署在阿里云容器服务上，他希望将前端服务配置文件web.conf挂载到pod中，以下___是正确的挂载方式。</a></li>
+        <li><a href="#547-某资讯类平台最近发现服务器资源使用率突然增高并且从访问日志发现有大量的爬虫程序在爬取站点信息导致用户正常浏览资讯信息非常慢用户体验很差如果你是cto可以通过_____方式来防止爬虫程序的爬取">547. 某资讯类平台，最近发现服务器资源使用率突然增高，并且从访问日志发现有大量的爬虫程序在爬取站点信息。导致用户正常浏览资讯信息非常慢，用户体验很差。如果你是CTO可以通过_____方式来防止爬虫程序的爬取。</a></li>
+        <li><a href="#548-比特币挖掘病毒与wannacry类似同样是利用ms17-010漏洞除了文件加密勒索外还会控制感染主机进行比特币挖掘该病毒是一个dll文件在感染前会检测运行环境如果是俄罗斯白俄罗斯哈萨科斯坦将不进行感染感染后会留下一个名为_decode_filestxt的文本里面是勒索信息同时将文件加密为_格式">548. 比特币挖掘病毒与WannaCry类似,同样是利用MS17-010漏洞,除了文件加密勒索外还会控制感染主机进行比特币挖掘。该病毒是一个dll文件,在感染前会检测运行环境,如果是俄罗斯,白俄罗斯、哈萨科斯坦将不进行感染,感染后会留下一个名为“_DECODE_FILES.txt”的文本,里面是勒索信息,同时将文件加密为_格式。</a></li>
+        <li><a href="#549-数据库是较大型的应用对于繁忙的数据库需要消耗大量的内存cpuio网络资源sql优化是数据库优化的手段之一而为了达到sql优化的最佳效果首先需要了解最消耗资源的sql-top-sql-例如io消耗最高的sql在rds-postgresql数据库中查询单次调用最耗io-sql的语句是______">549. 数据库是较大型的应用，对于繁忙的数据库,需要消耗大量的内存、CPU、IO、网络资源。SQL优化是数据库优化的手段之一，而为了达到SQL优化的最佳效果首先需要了解最消耗资源的SQL (Top SQL) ,例如IO消耗最高的SQL,在RDS PostgreSQL数据库中,查询单次调用最耗IO SQL的语句是______。</a></li>
+        <li><a href="#550-跨站攻击即cross-site-script-execution通常简写为xss因为css与层叠样式表同名故改为xss是指攻击者利用网站程序对用户输入过滤不足输入可以显示在页面上对其他用户造成影响的html代码从而盗取用户资料利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式很多人对于xss的利用大多停留在弹框的程度一些厂商对xss也是不以为然都认为安全级别很低甚至忽略不计作为公司网络安全工程师今天安排对公司官网进行手工验证网站漏洞工作时为了测试某个跨站攻击漏洞在修改跨站脚本攻击时以下做法错误的是______">550. 跨站攻击,即Cross Site Script Execution(通常简写为XSS,因为CSS与层叠样式表同名,故改为XSS)是指攻击者利用网站程序对用户输入过滤不足.输入可以显示在页面上对其他用户造成影响的HTML代码，从而盗取用户资料、利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式。很多人对于XSS的利用大多停留在弹框的程度，一些厂商对XSS也是不以为然，都认为安全级别很低，甚至忽略不计。作为公司网络安全工程师，今天安排对公司官网进行手工验证网站漏洞工作时，为了测试某个跨站攻击漏洞在修改跨站脚本攻击时，以下做法错误的是______</a></li>
+        <li><a href="#551-ctf是一种流行的信息安全竞赛形式其英文名可译为夺旗赛在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式ctf起源于1996年defcon全球黑客大会以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式发展至今已经成为全球范围网络安全圈流行的竞赛形式ctf的参赛团队成员通过相互合作使用逆向解密取证分析渗透利用等技术最终取得_______">551. CTF是一种流行的信息安全竞赛形式其英文名可译为“夺旗赛”,在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式。CTF起源于1996年DEFCON全球黑客大会，以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式，发展至今,已经成为全球范围网络安全圈流行的竞赛形式,CTF的参赛团队成员通过相互合作使用逆向、解密、取证分析、渗透利用等技术最终取得_______。</a></li>
+        <li><a href="#552-随着应用上云的普及单机架构向分布式架构演进系统之间的依赖关系调用链路变的十分复杂业务发展带来的服务端迭代越来越快在性能管理上很难有足够的投入经常会产生未知的隐患导致性能的大幅下-降借助于阿里巴巴内部多年高可用体系沉淀下来的经验结合使用应用高可用服务ahas和其他中间件产品可协助保障应用的稳定性以下关于ahas的实践描述错误的是">552. 随着应用上云的普及,单机架构向分布式架构演进,系统之间的依赖关系、调用链路变的十分复杂。业务发展带来的服务端迭代越来越快,在性能管理上很难有足够的投入,经常会产生未知的隐患导致性能的大幅下 降。借助于阿里巴巴内部多年高可用体系沉淀下来的经验,结合使用应用高可用服务AHAS和其他中间件产品,可协助保障应用的稳定性。以下关于AHAS的实践描述,错误的是</a></li>
+        <li><a href="#553-阿里云e-mapreduce-elastic-mapreduce是运行在阿里云平台上的一种大数据处理的系统解决方案用户希望使用e-mapreduce进行mysql-binlog日志准实时传输涉及到多种阿里云产品其中数据流向正确的是">553. 阿里云E-MapReduce (Elastic MapReduce)是运行在阿里云平台上的一种大数据处理的系统解决方案，用户希望使用E-MapReduce进行MySQL Binlog日志准实时传输，涉及到多种阿里云产品，其中数据流向正确的是</a></li>
+        <li><a href="#554-随着微服务架构的逐渐流行越来越多的应用选择使用容器服务ack来进行部署与管理容器服务提供了多种部署发布方式以下____发布方式不是容器服务可以提供的">554. 随着微服务架构的逐渐流行,越来越多的应用选择使用容器服务ACK来进行部署与管理。容器服务提供了多种部署发布方式,以下____发布方式不是容器服务可以提供的。</a></li>
+        <li><a href="#555-drds建库默认在一个rds节点上创建多少个分库_____________">555. DRDS建库默认在一个RDS节点上创建多少个分库_____________。</a></li>
+        <li><a href="#556-关于mq的消息类型以下描述错误的是">556. 关于MQ的消息类型,以下描述错误的是（）。</a></li>
+        <li><a href="#557-关于mq的事务消息概念以下描述正确的是____">557. 关于MQ的事务消息概念,以下描述正确的是:____。</a></li>
+        <li><a href="#558-以下哪个语句可以查询读写库流量">558. 以下哪个语句可以查询读写库流量?</a></li>
+        <li><a href="#559-mq精准定时功能最长定时时间为">559. MQ精准定时功能最长定时时间为（）</a></li>
+        <li><a href="#560-关于mq的消费过程以下描述错误的是">560. 关于MQ的消费过程,以下描述错误的是（）。</a></li>
+        <li><a href="#561-关于edas中的ecs资源以下描述错误的是____">561. 关于EDAS中的ECS资源,以下描述错误的是____?</a></li>
+        <li><a href="#562-云效代码模块管理是配置管理系统的重要功能组成以下描述中错误的是">562. 云效代码模块管理是配置管理系统的重要功能组成,以下描述中错误的是:</a></li>
+        <li><a href="#563-下面对云效描述错误的是">563. 下面对云效描述错误的是（）</a></li>
+        <li><a href="#564-云效单测集成系统项目中实时构建邮件会给哪些人发送">564. 云效单测集成系统,项目中实时构建邮件会给哪些人发送</a></li>
+        <li><a href="#565-rds-for-mysql-监听的端口是多少">565. RDS for Mysql 监听的端口是多少?</a></li>
+        <li><a href="#566-在rds只读实例变更配置过程中并且只读实例的对应源数据库实例状态为升降级中主实例可以进行下列哪种任务">566. 在RDS只读实例变更配置过程中,并且只读实例的对应源数据库实例状态为“升降级中”。主实例可以进行下列哪种任务?</a></li>
+        <li><a href="#567-rds和自建数据库相比以下哪个是错误的">567. RDS和自建数据库相比,以下哪个是错误的?</a></li>
+        <li><a href="#568-在利用rds管理控制台将数据迁移至rds-mysql中的时候使用的方法是mysql在线迁移可以不停服务就能够完成数据库的迁移工作以下哪个mysql版本不支持在线迁移">568. 在利用RDS管理控制台将数据迁移至RDS-MySQL中的时候,使用的方法是MySQL在线迁移,可以不停服务就能够完成数据库的迁移工作,以下哪个MySQL版本不支持在线迁移?</a></li>
+        <li><a href="#569-下列关于rds可用区的说法正确的是">569. 下列关于RDS可用区的说法正确的是:</a></li>
+        <li><a href="#570-下列关于rds性能的指标说法错误的是">570. 下列关于RDS性能的指标说法错误的是</a></li>
+        <li><a href="#571-已知客户承载业务的ecs存在大量商业数据目前遭受到ddos攻击导致业务中断同时发现ecs存在后门程序以及异常网络通信监测到ecs正在大量向外网传输数据面对这种情况最佳的处置方式是_">571. @已知客户承载业务的ECS存在大量商业数据，目前遭受到DDoS攻击导致业务中断，同时发现ECS存在后门程序以及异常网络通信，监测到ECS正在大量向外网传输数据，面对这种情况最佳的处置方式是_。</a></li>
+        <li><a href="#572-arms的实时计算引擎基于_________">572. ARMS的实时计算引擎基于_________。</a></li>
+        <li><a href="#573-关于arms底层架构正确的说法是__________">573. 关于ARMS底层架构正确的说法是__________?</a></li>
+        <li><a href="#574-相较于传统的分布式企业级互联网架构传统的企业架构都是中心化架构体系下面哪个服务不是整合相关的概念">574. 相较于传统的分布式企业级互联网架构,传统的企业架构都是中心化架构体系,下面哪个服务不是整合相关的概念?</a></li>
+        <li><a href="#575-edas可以设置的报警联系人为">575. EDAS可以设置的报警联系人为（）?</a></li>
+        <li><a href="#576-下面哪个特性属于多可用区rds的">576. 下面哪个特性属于多可用区RDS的?</a></li>
+        <li><a href="#577-rds-for-mysql不支持以下哪种引擎">577. RDS for MySQL不支持以下哪种引擎</a></li>
+        <li><a href="#578-在云服务总线csb上消费服务需要订阅但服务消费者首先需要找到想到订阅的服务关于搜索和查看服务以下描述不正确的是_______________">578. 在云服务总线CSB上消费服务需要订阅,但服务消费者首先需要找到想到订阅的服务,关于搜索和查看服务,以下描述不正确的是:_______________。</a></li>
+        <li><a href="#579-云服务总线csb进行服务订阅后一定需要对所做的服务订阅进行查看关于服务订阅查看以下描述正确的是______________">579. 云服务总线CSB进行服务订阅后,一定需要对所做的服务订阅进行查看,关于服务订阅查看,以下描述正确的是______________。</a></li>
+        <li><a href="#580-针对实时计算清洗回流场景用户通常会将流计算清洗结果数据回流至mysql等单机数据库作为报表库来查询使用当单机数据量或者单表数据量非常大时传统的关系型数据库会出现报表查询卡顿的问题下列能解决卡顿问题并支持实时计算单表数据数高达千亿条的解决方案是">580. 针对实时计算清洗回流场景,用户通常会将流计算清洗结果数据回流至MySQL等单机数据库.作为报表库来查询使用。当单机数据量或者单表数据量非常大时,传统的关系型数据库会出现报表查询卡顿的问题。下列能解决卡顿问题,并支持实时计算单表数据数高达千亿条的解决方案是</a></li>
+        <li><a href="#581-kubernetes的管理层服务包括kube-scheduler和kube-controller-managerkubernetes中实现了一套简单的选主逻辑依赖etcd实现scheduler和controller-manager的选主功能如果scheduler和controller-manager在启动的时候设置了_____参数在启动后会先尝试获取leader节点身份只有在获取leader节点身份后才可以执行具体的业务逻辑">581. Kubernetes的管理层服务包括kube-scheduler和kube-controller-manager，Kubernetes中实现了一套简单的选主逻辑，依赖Etcd实现scheduler和controller-manager的选主功能。如果scheduler和controller-manager在启动的时候设置了_____参数，在启动后会先尝试获取leader节点身份，只有在获取leader节点身份后才可以执行具体的业务逻辑。</a></li>
+        <li><a href="#582-某电商网站在618双11这种场景下需要高并发高可用为了提升系统性能系统需要减少非必要业务的资源消耗对非必要的业务功能进行主动降级可以使用ahas中的主动降级功能需要在代码中开启______">582. 某电商网站，在618,双11这种场景下需要高并发,高可用，为了提升系统性能，系统需要减少非必要业务的资源消耗，对非必要的业务功能进行主动降级.可以使用AHAS中的主动降级功能，需要在代码中开启______。</a></li>
+        <li><a href="#583-某集团使用了阿里云idaas用于统一身份管理和实现sso的应用访问效果其中在授权的环节考虑到财务部门的敏感性该集团的cfo要求可以在工作日上班时间并且在办公网络访问系统若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问请问该要求是基于idaas的授权模式来实现">583. 某集团使用了阿里云IDAAS用于统一身份管理和实现SSO的应用访问效果，其中在授权的环节考虑到财务部门的敏感性，该集团的CFO要求可以在工作日上班时间并且在办公网络访问系统，若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证，若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问。请问该要求是基于IDAAS的（）授权模式来实现。</a></li>
+        <li><a href="#584-一家国际公司在硅谷美国和上海中国设有两个办事处公司在美国硅谷地区创建了vpc1在中国上海地区创建了vpc2每个vpc中部署一个应用程序由于业务发展公司必须构建混合云环境将上海中国和硅谷美国的办公室连接到中国上海和美国硅谷区域的vpc在业务部署过程中必须遵循以下哪个流程">584. 一家国际公司在硅谷（美国）和上海（中国）设有两个办事处。公司在美国（硅谷）地区创建了VPC1，在中国（上海）地区创建了VPC2。每个VPC中部署一个应用程序。由于业务发展，公司必须构建混合云环境，将上海（中国）和硅谷（美国）的办公室连接到中国（上海）和美国（硅谷）区域的VPC。在业务部署过程中必须遵循以下哪个流程？</a></li>
+        <li><a href="#585-阿里云专有网络vpc包含vswitchoverlayvroutercontroller几部分将从虚拟机出来的l2包放在一个虚拟隧道中进行传输在隧道的两端看起来像是同一个l2从而使虚拟网络和物理网络解耦组成逻辑大二层网络">585. 阿里云专有网络VPC包含vSwitch、Overlay、vRouter、Controller几部分。（）将从虚拟机出来的L2包放在一个虚拟隧道中进行传输，在隧道的两端看起来像是同一个L2，从而使虚拟网络和物理网络解耦，组成逻辑大二层网络。</a></li>
+        <li><a href="#586-业务部署在ack集群上并在ack集群上运行常规业务当业务突发波动如秒杀活动时让突增的业务运行在实例上随着业务波动动态创建或释放该实例达到成本的最优控制同时业务方无需管理节点和容量规划全自动实现容器无限弹性扩容">586. 业务部署在ACK集群上并在ACK集群上运行常规业务，当业务突发波动（如秒杀活动）时，让突增的业务运行在（）实例上，随着业务波动动态，创建或释放该实例，达到成本的最优控制。同时，业务方无需管理节点和容量规划，全自动实现容器无限弹性扩容。</a></li>
+        <li><a href="#587-相比于为ecs实例创建安全组规则通过主机边界防火墙定义访问控制策略组具有的诸多优势以下关于优势的描述不正确的是哪一项">587. 相比于为ECS实例创建安全组规则，通过主机边界防火墙定义访问控制策略组具有的诸多优势，以下关于优势的描述不正确的是哪一项？</a></li>
+        <li><a href="#588-某用户购买云安全中心用于针对ecs系统漏洞进行修复可以通过以下哪种方式进行快速检查确认漏洞修复情况">588. 某用户购买云安全中心用于针对ECS系统漏洞进行修复，可以通过以下哪种方式进行快速检查，确认漏洞修复情况？</a></li>
+        <li><a href="#589-根据togaf的定义企业是具有一系列共同目标的组织的集合企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具这其中不包括">589. 根据TOGAF的定义，企业是具有一系列共同目标的组织的集合，企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具，这其中不包括（）。</a></li>
+        <li><a href="#590-阿里云容器服务kubernetes目前已经和四款监控云服务进行了打通它们分别是sls日志服务arms应用实时监控服务ahas应用高可用服务和cloud-monitor云监控sls主要负责日志的采集分析以下不属于sls可以采集的日志是">590. 阿里云容器服务Kubernetes目前已经和四款监控云服务进行了“打通”，它们分别是SLS（日志服务）、ARMS（应用实时监控服务）、AHAS（应用高可用服务）和Cloud Monitor（云监控）。SLS主要负责日志的采集、分析。以下不属于SLS可以采集的日志是（）。</a></li>
+        <li><a href="#591-某技术人员需要连接到阿里云rds-postgresql数据库上进行数据筛选但是通过工具远程登录时显示报错报错信息为fatalremaining-connection-slots-are-reserved-for-non-replication-superuser-connections技术人员排查时发现在dms上还有该实例剩余的会话窗口可以对数据库进行操作该人员可以执行命令来查看当前连接数的pid并结束可以断掉的连接来解决以上报错">591. 某技术人员需要连接到阿里云RDS PostgreSQL数据库上进行数据筛选，但是通过工具远程登录时显示报错，报错信息为“FATAL：remaining connection slots are reserved for non-replication superuser connections”，技术人员排查时，发现在DMS上还有该实例剩余的会话窗口，可以对数据库进行操作，该人员可以执行（）命令，来查看当前连接数的PID，并结束可以断掉的连接，来解决以上报错。</a></li>
+        <li><a href="#592-某公司的阿里云账号下有多个业务服务器现在需要进行权限划分技术人员自定义访问控制的权限策略来实现每个子账号能看到所有资源但是ecs只能查看到一台指定的服务器如i001以下关于策略规则符合需求的是">592. 某公司的阿里云账号下有多个业务服务器，现在需要进行权限划分，技术人员自定义访问控制的权限策略，来实现每个子账号能看到所有资源，但是ECS只能查看到一台指定的服务器（如：i—001），以下关于策略规则符合需求的是（）</a></li>
+        <li><a href="#593-某公司在香港有自己的asn网络现在正在将业务搬迁到阿里云该公司在中国大陆有很多用户因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验同时还要求希望搬迁上云后仍然使用自己的ip地址以下选项中哪一项是推荐的最优解决方法">593. 某公司在香港有自己的ASN网络，现在正在将业务搬迁到阿里云，该公司在中国大陆有很多用户，因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验，同时还要求，希望搬迁上云后，仍然使用自己的IP地址，以下选项中哪一项是推荐的最优解决方法？</a></li>
+        <li><a href="#594-某用户使用阿里云容器服务要求当某可用区挂掉后则不影响应用和集群的高可用阿里云容器服务kubernetes版配合______rds-mysql版云数据库redis版等产品实现跨可用区高可用">594. 某用户使用阿里云容器服务，要求当某可用区挂掉后，则不影响应用和集群的高可用，阿里云容器服务Kubernetes版配合______、RDS MySQL版、云数据库Redis版等产品，实现跨可用区高可用。</a></li>
+        <li><a href="#595-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择____产品或服务进行判断">595. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品，遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞，有哪些安全隐患时，可以选择____产品或服务进行判断。</a></li>
+        <li><a href="#596-小张调用阿里云对象存储oss的putobject接口上传一个大小为47gb的文件无法上传成功但是上传100m的文件是可用上传成功的这有可能是服务器的_____设置较大导致的">596. 小张调用阿里云对象存储OSS的PutObject接口上传一个大小为4.7GB的文件，无法上传成功，但是上传100M的文件是可用上传成功的，这有可能是服务器的_____设置较大导致的。</a></li>
+        <li><a href="#597-kubernetes是一个开源的用于管理云平台中多个主机的容器化应用kubernetes的目标是让部署容器化的应用简单并且高效kubernetes提供了应用部署规划更新维护的一种机制在kubernetes集群中的应用大致可分为_____这两种类型这两种应用对存储的需求不同">597. Kubernetes是一个开源的，用于管理云平台中多个主机的容器化应用，Kubernetes的目标是让部署容器化的应用简单并且高效，Kubernetes提供了应用部署，规划，更新，维护的一种机制。在Kubernetes集群中的应用大致可分为_____这两种类型。这两种应用对存储的需求不同。</a></li>
+        <li><a href="#598-某电子商务平台商品智能导购app作为社交电商平台拥有6000万注册用户平台总交易额达到420亿元双11期间流量瞬间上涨由于经验不足系统发生多起故障如无法分享商品搜索出问题业务高峰时后台不敢查询等等在解决上述问题的同时进行合理的提高it资源的利用率我们可用使用_____方案">598. 某电子商务平台商品智能导购APP，作为社交电商平台拥有6000万注册用户，平台总交易额达到420亿元，双11期间流量瞬间上涨，由于经验不足，系统发生多起故障，如无法分享商品、搜索出问题、业务高峰时后台不敢查询等等。在解决上述问题的同时，进行合理的提高IT资源的利用率，我们可用使用_____方案。</a></li>
+        <li><a href="#599-当我们进行架构设计时初始目标通常会设定弹性高性能高可靠通用的手段往往都是通过增加更多的服务器来满足设计目标这就意味着更高的成本tco下面关于成本方面的描述错误的是______">599. 当我们进行架构设计时，初始目标通常会设定：弹性、高性能、高可靠、通用的手段往往都是通过增加更多的服务器来满足设计目标，这就意味着更高的成本（TCO），下面关于成本方面的描述，错误的是______.</a></li>
+        <li><a href="#600-国内知名游戏厂商业务涵盖影视游戏和电竞三大板块是我国最大的影游综合体集团为了保证用户体验游戏需要极低时延对战服必须尽量本地部署因此在国内五大区域都有部署需求需要强大的基础设施保障基于上述业务需求最佳上云解决方案是_____">600. 国内知名游戏厂商，业务涵盖影视、游戏和电竞三大板块，是我国最大的影游综合体集团。为了保证用户体验，游戏需要极低时延，对战服必须尽量本地部署，因此在国内五大区域都有部署需求，需要强大的基础设施保障，基于上述业务需求，最佳上云解决方案是_____.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/erya.webp"
+    data-sizes="auto"
+    alt="yuntu"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">yuntu</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">10</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      1
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+</div>
+<div class="sidebar-social"></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">首页</div>
+    </div></div>
+</div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div>
+
+  <div class="sidebar-widget"></div></aside>
+<section id="main"><article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2025-06-23 22:40:53 &#43;0800 CST" itemprop="datePublished"
+      >2025-06-23</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2025-06-23</time
+    >
+  </span>
+</div>
+<div class="article-category"><a
+      class="article-category-link"
+      href="/categories/ace"
+      data-aos="zoom-in"
+      >ACE</a
+    ></div>
+</div>
+    <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h3 id="501-基于edas平台开发应用使用的java容器是___________">
+<a class="header-anchor" href="#501-%e5%9f%ba%e4%ba%8eedas%e5%b9%b3%e5%8f%b0%e5%bc%80%e5%8f%91%e5%ba%94%e7%94%a8%e4%bd%bf%e7%94%a8%e7%9a%84java%e5%ae%b9%e5%99%a8%e6%98%af___________"></a>
+501. 基于EDAS平台开发应用,使用的java容器是___________?
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. Jboss</li>
+<li>B. Ali-Tomcat</li>
+<li>C. Apache Tomcat</li>
+<li>D. Jetty</li>
+</ul>
+<h4 id="正确答案-b">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b"></a>
+正确答案: B
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><hr>
+<h3 id="502-edas容器部署的包的格式是__________">
+<a class="header-anchor" href="#502-edas%e5%ae%b9%e5%99%a8%e9%83%a8%e7%bd%b2%e7%9a%84%e5%8c%85%e7%9a%84%e6%a0%bc%e5%bc%8f%e6%98%af__________"></a>
+502. EDAS容器部署的包的格式是__________?
+</h3><h4 id="选项-1">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-1"></a>
+选项:
+</h4><ul>
+<li>A. war</li>
+<li>B. tar</li>
+<li>C. zip</li>
+<li>D. jar</li>
+</ul>
+<h4 id="正确答案-a">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a"></a>
+正确答案: A
+</h4><h4 id="解析-1">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-1"></a>
+解析:
+</h4><hr>
+<h3 id="503-edas产品中eclipse安装tomcat4e插件的方式是__________">
+<a class="header-anchor" href="#503-edas%e4%ba%a7%e5%93%81%e4%b8%adeclipse%e5%ae%89%e8%a3%85tomcat4e%e6%8f%92%e4%bb%b6%e7%9a%84%e6%96%b9%e5%bc%8f%e6%98%af__________"></a>
+503. EDAS产品中Eclipse安装Tomcat4E插件的方式是__________?
+</h3><h4 id="选项-2">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-2"></a>
+选项:
+</h4><ul>
+<li>A. 不用安装,eclipse自带</li>
+<li>B. 打开Help按钮,点击Install new software</li>
+<li>C. 打开Help按钮,点击check for updates</li>
+<li>D. 打开Windows按钮,点击preferences</li>
+</ul>
+<h4 id="正确答案-b-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-1"></a>
+正确答案: B
+</h4><h4 id="解析-2">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-2"></a>
+解析:
+</h4><hr>
+<h3 id="504-edas应用基础信息界面显示有机器agent异常时如何处理___________">
+<a class="header-anchor" href="#504-edas%e5%ba%94%e7%94%a8%e5%9f%ba%e7%a1%80%e4%bf%a1%e6%81%af%e7%95%8c%e9%9d%a2%e6%98%be%e7%a4%ba%e6%9c%89%e6%9c%ba%e5%99%a8agent%e5%bc%82%e5%b8%b8%e6%97%b6%e5%a6%82%e4%bd%95%e5%a4%84%e7%90%86___________"></a>
+504. EDAS应用基础信息界面显示有机器Agent异常时,如何处理___________?
+</h3><h4 id="选项-3">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-3"></a>
+选项:
+</h4><ul>
+<li>A. 需要登陆到对应的机器手动启动EDAS Agent</li>
+<li>B. 会自动恢复,不需要处理</li>
+<li>C. 继续进行正常的部署、启动、停止操作,不影响</li>
+<li>D. 重置可以解决该问题</li>
+</ul>
+<h4 id="正确答案-a-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-1"></a>
+正确答案: A
+</h4><h4 id="解析-3">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-3"></a>
+解析:
+</h4><hr>
+<h3 id="505-drds目前兼容的协议方式和语法是____________">
+<a class="header-anchor" href="#505-drds%e7%9b%ae%e5%89%8d%e5%85%bc%e5%ae%b9%e7%9a%84%e5%8d%8f%e8%ae%ae%e6%96%b9%e5%bc%8f%e5%92%8c%e8%af%ad%e6%b3%95%e6%98%af____________"></a>
+505. DRDS目前兼容的协议方式和语法是____________.
+</h3><h4 id="选项-4">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-4"></a>
+选项:
+</h4><ul>
+<li>A. SQLSERVER协议和语法</li>
+<li>B. MySQL协议和语法</li>
+<li>C. Redis</li>
+<li>D. Oracle协议和语法</li>
+</ul>
+<h4 id="正确答案-b-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-2"></a>
+正确答案: B
+</h4><h4 id="解析-4">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-4"></a>
+解析:
+</h4><hr>
+<h3 id="506-通过oss加速域名配合函数计算和函数工作流可以快速打造低成本高效的跨境对象存储数据同步传输系统用于满足有跨境对象存储数据传输需求对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户以下对该系统优势描述不正确的是哪一项">
+<a class="header-anchor" href="#506-%e9%80%9a%e8%bf%87oss%e5%8a%a0%e9%80%9f%e5%9f%9f%e5%90%8d%e9%85%8d%e5%90%88%e5%87%bd%e6%95%b0%e8%ae%a1%e7%ae%97%e5%92%8c%e5%87%bd%e6%95%b0%e5%b7%a5%e4%bd%9c%e6%b5%81%e5%8f%af%e4%bb%a5%e5%bf%ab%e9%80%9f%e6%89%93%e9%80%a0%e4%bd%8e%e6%88%90%e6%9c%ac%e9%ab%98%e6%95%88%e7%9a%84%e8%b7%a8%e5%a2%83%e5%af%b9%e8%b1%a1%e5%ad%98%e5%82%a8%e6%95%b0%e6%8d%ae%e5%90%8c%e6%ad%a5%e4%bc%a0%e8%be%93%e7%b3%bb%e7%bb%9f%e7%94%a8%e4%ba%8e%e6%bb%a1%e8%b6%b3%e6%9c%89%e8%b7%a8%e5%a2%83%e5%af%b9%e8%b1%a1%e5%ad%98%e5%82%a8%e6%95%b0%e6%8d%ae%e4%bc%a0%e8%be%93%e9%9c%80%e6%b1%82%e5%af%b9%e8%b7%a8%e5%a2%83%e4%bc%a0%e8%be%93%e6%88%90%e6%9c%ac%e6%8e%a7%e5%88%b6%e4%b8%a5%e8%8b%9b%e4%b8%94%e8%83%bd%e6%8e%a5%e5%8f%97%e4%b8%80%e5%ae%9a%e7%a8%8b%e5%ba%a6%e7%bd%91%e7%bb%9c%e6%8a%96%e5%8a%a8%e5%b8%a6%e6%9d%a5%e7%9a%84%e6%96%87%e4%bb%b6%e5%90%8c%e6%ad%a5%e5%bb%b6%e8%bf%9f%e7%9a%84%e7%94%a8%e6%88%b7%e4%bb%a5%e4%b8%8b%e5%af%b9%e8%af%a5%e7%b3%bb%e7%bb%9f%e4%bc%98%e5%8a%bf%e6%8f%8f%e8%bf%b0%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af%e5%93%aa%e4%b8%80%e9%a1%b9"></a>
+506. 通过OSS加速域名,配合函数计算和函数工作流,可以快速打造低成本、高效的跨境对象存储数据同步传输系统,用于满足有跨境对象存储数据传输需求,对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户,以下对该系统优势描述不正确的是哪一项?
+</h3><h4 id="选项-5">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-5"></a>
+选项:
+</h4><ul>
+<li>A. 无运维成本:开发人员只需关注代码逻辑即可。</li>
+<li>B. 网络成本低:相比云企业网高速通道的方式,网络成本降低。</li>
+<li>C. 同步服务部署成本低:文件上传OSS后即可触发函数计算调用Serverless工作流,按量触发,无需准备ECS资源。</li>
+<li>D. 弹性高效:一个文件同步触发一个Serverless工作流任务,充分利用资源,高效同步。</li>
+</ul>
+<h4 id="正确答案-a-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-2"></a>
+正确答案: A
+</h4><h4 id="解析-5">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-5"></a>
+解析:
+</h4><p>低运维成本,并非无运维成本；参考：https://help.aliyun.com/document_detail/197548.html</p>
+<hr>
+<h3 id="507-企业上云迁移的过程中非结构化数据的迁移往往占用比较多的时间不能用于非结构化数据的迁移">
+<a class="header-anchor" href="#507-%e4%bc%81%e4%b8%9a%e4%b8%8a%e4%ba%91%e8%bf%81%e7%a7%bb%e7%9a%84%e8%bf%87%e7%a8%8b%e4%b8%ad%e9%9d%9e%e7%bb%93%e6%9e%84%e5%8c%96%e6%95%b0%e6%8d%ae%e7%9a%84%e8%bf%81%e7%a7%bb%e5%be%80%e5%be%80%e5%8d%a0%e7%94%a8%e6%af%94%e8%be%83%e5%a4%9a%e7%9a%84%e6%97%b6%e9%97%b4%e4%b8%8d%e8%83%bd%e7%94%a8%e4%ba%8e%e9%9d%9e%e7%bb%93%e6%9e%84%e5%8c%96%e6%95%b0%e6%8d%ae%e7%9a%84%e8%bf%81%e7%a7%bb"></a>
+507. 企业上云迁移的过程中，非结构化数据的迁移往往占用比较多的时间。（）不能用于非结构化数据的迁移。
+</h3><h4 id="选项-6">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-6"></a>
+选项:
+</h4><ul>
+<li>A. 在线迁移服务</li>
+<li>B. Ossimport</li>
+<li>C. 闪电立方</li>
+<li>D. DTS</li>
+</ul>
+<h4 id="正确答案-d">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d"></a>
+正确答案: D
+</h4><h4 id="解析-6">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-6"></a>
+解析:
+</h4><p>DTS是迁移数据库的，也就是结构化数据</p>
+<hr>
+<h3 id="508-某公司利用阿里云的api网关开发一款社交类app会员之间可以信息发送与语音交流刚上线后即收到好评下载量剧增但是随后又很多用户反馈使用app后手机严重发热耗电同时流量消耗很快cto要求开发人员立刻排查故请问最可能是什么原因造成的">
+<a class="header-anchor" href="#508-%e6%9f%90%e5%85%ac%e5%8f%b8%e5%88%a9%e7%94%a8%e9%98%bf%e9%87%8c%e4%ba%91%e7%9a%84api%e7%bd%91%e5%85%b3%e5%bc%80%e5%8f%91%e4%b8%80%e6%ac%be%e7%a4%be%e4%ba%a4%e7%b1%bbapp%e4%bc%9a%e5%91%98%e4%b9%8b%e9%97%b4%e5%8f%af%e4%bb%a5%e4%bf%a1%e6%81%af%e5%8f%91%e9%80%81%e4%b8%8e%e8%af%ad%e9%9f%b3%e4%ba%a4%e6%b5%81%e5%88%9a%e4%b8%8a%e7%ba%bf%e5%90%8e%e5%8d%b3%e6%94%b6%e5%88%b0%e5%a5%bd%e8%af%84%e4%b8%8b%e8%bd%bd%e9%87%8f%e5%89%a7%e5%a2%9e%e4%bd%86%e6%98%af%e9%9a%8f%e5%90%8e%e5%8f%88%e5%be%88%e5%a4%9a%e7%94%a8%e6%88%b7%e5%8f%8d%e9%a6%88%e4%bd%bf%e7%94%a8app%e5%90%8e%e6%89%8b%e6%9c%ba%e4%b8%a5%e9%87%8d%e5%8f%91%e7%83%ad%e8%80%97%e7%94%b5%e5%90%8c%e6%97%b6%e6%b5%81%e9%87%8f%e6%b6%88%e8%80%97%e5%be%88%e5%bf%abcto%e8%a6%81%e6%b1%82%e5%bc%80%e5%8f%91%e4%ba%ba%e5%91%98%e7%ab%8b%e5%88%bb%e6%8e%92%e6%9f%a5%e6%95%85%e8%af%b7%e9%97%ae%e6%9c%80%e5%8f%af%e8%83%bd%e6%98%af%e4%bb%80%e4%b9%88%e5%8e%9f%e5%9b%a0%e9%80%a0%e6%88%90%e7%9a%84"></a>
+508. 某公司利用阿里云的API网关开发一款社交类APP,会员之间可以信息发送与语音交流,刚上线后即收到好评,下载量剧增,但是随后又很多用户反馈使用APP后手机严重发热耗电,同时流量消耗很快,CTO要求开发人员立刻排查故,请问最可能是什么原因造成的?()
+</h3><h4 id="选项-7">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-7"></a>
+选项:
+</h4><ul>
+<li>A. 用户的加数太快,导致后端API网关的请求繁忙增加了前端客服等待的时间,造成资源长期等待</li>
+<li>B. 采用了HTTP1.X,协议移动端支持不友好</li>
+<li>C. APP客户端采用了websocket协议,链接方式没有针对移动端优化</li>
+<li>D. 采用了HTTPS的协议,增加了本地和API端加密解密的任务量导致额外开销</li>
+</ul>
+<h4 id="正确答案-b-3">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-3"></a>
+正确答案: B
+</h4><h4 id="解析-7">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-7"></a>
+解析:
+</h4><p>答案：B   在HTTP/1.1中的队头阻塞问题，会导致请求响应缓慢，占用线程时间过长，进而导致网络消耗、发热等问题。而且该社交类 APP 是会员之间可以信息发送与语音交流，考虑到语音相关的数据量大，想必对网络通信也会有更高的要求，因此选项 B 的说法与实际情况相符合</p>
+<hr>
+<h3 id="509-某企业是一家运动健身公司主推一款个人健身应用app类似线上健身房完全个人化完全数字化该app提供世界级知名教练的音频训练包括用户身体跑步骑自行车运动数据精神瑜伽和灵魂冥想谈话的课程拥有在全活动水平上量身定制的品牌锻炼计划综合冥想计划平衡身体锻炼它融汇了达到健康目标所需的所有健身领域小强是该app的新晋安全工程师通过情报得知近期会有黑客计划攻击该app以达到勒索公司钱款的目的小强同时得知该app因为历史原因还存在部分重要接口是基于ip提供服务为了应对本次攻击以下产品是小强的最优选择">
+<a class="header-anchor" href="#509-%e6%9f%90%e4%bc%81%e4%b8%9a%e6%98%af%e4%b8%80%e5%ae%b6%e8%bf%90%e5%8a%a8%e5%81%a5%e8%ba%ab%e5%85%ac%e5%8f%b8%e4%b8%bb%e6%8e%a8%e4%b8%80%e6%ac%be%e4%b8%aa%e4%ba%ba%e5%81%a5%e8%ba%ab%e5%ba%94%e7%94%a8app%e7%b1%bb%e4%bc%bc%e7%ba%bf%e4%b8%8a%e5%81%a5%e8%ba%ab%e6%88%bf%e5%ae%8c%e5%85%a8%e4%b8%aa%e4%ba%ba%e5%8c%96%e5%ae%8c%e5%85%a8%e6%95%b0%e5%ad%97%e5%8c%96%e8%af%a5app%e6%8f%90%e4%be%9b%e4%b8%96%e7%95%8c%e7%ba%a7%e7%9f%a5%e5%90%8d%e6%95%99%e7%bb%83%e7%9a%84%e9%9f%b3%e9%a2%91%e8%ae%ad%e7%bb%83%e5%8c%85%e6%8b%ac%e7%94%a8%e6%88%b7%e8%ba%ab%e4%bd%93%e8%b7%91%e6%ad%a5%e9%aa%91%e8%87%aa%e8%a1%8c%e8%bd%a6%e8%bf%90%e5%8a%a8%e6%95%b0%e6%8d%ae%e7%b2%be%e7%a5%9e%e7%91%9c%e4%bc%bd%e5%92%8c%e7%81%b5%e9%ad%82%e5%86%a5%e6%83%b3%e8%b0%88%e8%af%9d%e7%9a%84%e8%af%be%e7%a8%8b%e6%8b%a5%e6%9c%89%e5%9c%a8%e5%85%a8%e6%b4%bb%e5%8a%a8%e6%b0%b4%e5%b9%b3%e4%b8%8a%e9%87%8f%e8%ba%ab%e5%ae%9a%e5%88%b6%e7%9a%84%e5%93%81%e7%89%8c%e9%94%bb%e7%82%bc%e8%ae%a1%e5%88%92%e7%bb%bc%e5%90%88%e5%86%a5%e6%83%b3%e8%ae%a1%e5%88%92%e5%b9%b3%e8%a1%a1%e8%ba%ab%e4%bd%93%e9%94%bb%e7%82%bc%e5%ae%83%e8%9e%8d%e6%b1%87%e4%ba%86%e8%be%be%e5%88%b0%e5%81%a5%e5%ba%b7%e7%9b%ae%e6%a0%87%e6%89%80%e9%9c%80%e7%9a%84%e6%89%80%e6%9c%89%e5%81%a5%e8%ba%ab%e9%a2%86%e5%9f%9f%e5%b0%8f%e5%bc%ba%e6%98%af%e8%af%a5app%e7%9a%84%e6%96%b0%e6%99%8b%e5%ae%89%e5%85%a8%e5%b7%a5%e7%a8%8b%e5%b8%88%e9%80%9a%e8%bf%87%e6%83%85%e6%8a%a5%e5%be%97%e7%9f%a5%e8%bf%91%e6%9c%9f%e4%bc%9a%e6%9c%89%e9%bb%91%e5%ae%a2%e8%ae%a1%e5%88%92%e6%94%bb%e5%87%bb%e8%af%a5app%e4%bb%a5%e8%be%be%e5%88%b0%e5%8b%92%e7%b4%a2%e5%85%ac%e5%8f%b8%e9%92%b1%e6%ac%be%e7%9a%84%e7%9b%ae%e7%9a%84%e5%b0%8f%e5%bc%ba%e5%90%8c%e6%97%b6%e5%be%97%e7%9f%a5%e8%af%a5app%e5%9b%a0%e4%b8%ba%e5%8e%86%e5%8f%b2%e5%8e%9f%e5%9b%a0%e8%bf%98%e5%ad%98%e5%9c%a8%e9%83%a8%e5%88%86%e9%87%8d%e8%a6%81%e6%8e%a5%e5%8f%a3%e6%98%af%e5%9f%ba%e4%ba%8eip%e6%8f%90%e4%be%9b%e6%9c%8d%e5%8a%a1%e4%b8%ba%e4%ba%86%e5%ba%94%e5%af%b9%e6%9c%ac%e6%ac%a1%e6%94%bb%e5%87%bb%e4%bb%a5%e4%b8%8b%e4%ba%a7%e5%93%81%e6%98%af%e5%b0%8f%e5%bc%ba%e7%9a%84%e6%9c%80%e4%bc%98%e9%80%89%e6%8b%a9"></a>
+509. 某企业是一家运动健身公司，主推一款个人健身应用APP，类似线上健身房，完全个人化完全数字化。该APP提供世界级知名教练的音频训练。包括用户身体（跑步/骑自行车）运动数据，精神（瑜伽）和灵魂（冥想/谈话）的课程，拥有在全活动水平上量身定制的品牌锻炼计划，综合冥想计划，平衡身体锻炼。它融汇了达到健康目标所需的所有健身领域。小强是该APP的新晋安全工程师，通过情报得知近期会有黑客计划攻击该APP以达到勒索公司钱款的目的，小强同时得知该APP因为历史原因还存在部分重要接口是基于IP提供服务，为了应对本次攻击，以下（）产品是小强的最优选择。
+</h3><h4 id="选项-8">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-8"></a>
+选项:
+</h4><ul>
+<li>A. DDoS高防标准功能</li>
+<li>B. DDoS高防增强功能</li>
+<li>C. DDoS原生防护</li>
+<li>D. 游戏盾</li>
+</ul>
+<h4 id="正确答案-c">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c"></a>
+正确答案: C
+</h4><h4 id="解析-8">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-8"></a>
+解析:
+</h4><hr>
+<h3 id="510-某教育平台希望打造一套敏捷交付系统加速软件的开放测试与交付通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长人员效率低下软件质量无法保障等问题以下非敏捷交付系统必须的组件">
+<a class="header-anchor" href="#510-%e6%9f%90%e6%95%99%e8%82%b2%e5%b9%b3%e5%8f%b0%e5%b8%8c%e6%9c%9b%e6%89%93%e9%80%a0%e4%b8%80%e5%a5%97%e6%95%8f%e6%8d%b7%e4%ba%a4%e4%bb%98%e7%b3%bb%e7%bb%9f%e5%8a%a0%e9%80%9f%e8%bd%af%e4%bb%b6%e7%9a%84%e5%bc%80%e6%94%be%e6%b5%8b%e8%af%95%e4%b8%8e%e4%ba%a4%e4%bb%98%e9%80%9a%e8%bf%87%e8%87%aa%e5%8a%a8%e5%8c%96%e7%9a%84%e6%96%b9%e5%bc%8f%e5%87%8f%e5%b0%91%e4%bb%8e%e5%89%8d%e7%94%b1%e4%ba%8e%e6%b5%81%e7%a8%8b%e6%88%96%e8%80%85%e8%ae%a4%e4%b8%ba%e5%9b%a0%e7%b4%a0%e5%b9%b2%e6%89%b0%e8%80%8c%e9%80%a0%e6%88%90%e7%9a%84%e5%bc%80%e5%8f%91%e5%91%a8%e6%9c%9f%e5%86%97%e9%95%bf%e4%ba%ba%e5%91%98%e6%95%88%e7%8e%87%e4%bd%8e%e4%b8%8b%e8%bd%af%e4%bb%b6%e8%b4%a8%e9%87%8f%e6%97%a0%e6%b3%95%e4%bf%9d%e9%9a%9c%e7%ad%89%e9%97%ae%e9%a2%98%e4%bb%a5%e4%b8%8b%e9%9d%9e%e6%95%8f%e6%8d%b7%e4%ba%a4%e4%bb%98%e7%b3%bb%e7%bb%9f%e5%bf%85%e9%a1%bb%e7%9a%84%e7%bb%84%e4%bb%b6"></a>
+510. 某教育平台希望打造一套敏捷交付系统，加速软件的开放、测试与交付。通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长，人员效率低下，软件质量无法保障等问题。以下（）非敏捷交付系统必须的组件
+</h3><h4 id="选项-9">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-9"></a>
+选项:
+</h4><ul>
+<li>A. 使用阿里云容器镜像服务存储docker镜像</li>
+<li>B. 适应Jenkins持续集成自动化部署</li>
+<li>C. 使用ACM作为配置管理</li>
+<li>D. pts性能测试</li>
+</ul>
+<h4 id="正确答案-d-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-1"></a>
+正确答案: D
+</h4><h4 id="解析-9">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-9"></a>
+解析:
+</h4><hr>
+<h3 id="511-rds采用的贮备m-m的高可用架构其贮备之间的数据同步依靠日志的方式实现mysql数据和sql-server分别使用的日志是什么">
+<a class="header-anchor" href="#511-rds%e9%87%87%e7%94%a8%e7%9a%84%e8%b4%ae%e5%a4%87m-m%e7%9a%84%e9%ab%98%e5%8f%af%e7%94%a8%e6%9e%b6%e6%9e%84%e5%85%b6%e8%b4%ae%e5%a4%87%e4%b9%8b%e9%97%b4%e7%9a%84%e6%95%b0%e6%8d%ae%e5%90%8c%e6%ad%a5%e4%be%9d%e9%9d%a0%e6%97%a5%e5%bf%97%e7%9a%84%e6%96%b9%e5%bc%8f%e5%ae%9e%e7%8e%b0mysql%e6%95%b0%e6%8d%ae%e5%92%8csql-server%e5%88%86%e5%88%ab%e4%bd%bf%e7%94%a8%e7%9a%84%e6%97%a5%e5%bf%97%e6%98%af%e4%bb%80%e4%b9%88"></a>
+511. RDS采用的贮备M-M的高可用架构,其贮备之间的数据同步依靠日志的方式实现,MySQL数据和SQL server分别使用的日志是什么?
+</h3><h4 id="选项-10">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-10"></a>
+选项:
+</h4><ul>
+<li>A. 均为实物日志</li>
+<li>B. MySQL为事务日志,SQL server为Binlog日志</li>
+<li>C. 均为Binlog日志</li>
+<li>D. MySQL为Binlog日志,SQL server为事务日志</li>
+</ul>
+<h4 id="正确答案-d-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-2"></a>
+正确答案: D
+</h4><h4 id="解析-10">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-10"></a>
+解析:
+</h4><hr>
+<h3 id="512-在实际应用中那种性能指标表示rds实例磁盘空间的使用量">
+<a class="header-anchor" href="#512-%e5%9c%a8%e5%ae%9e%e9%99%85%e5%ba%94%e7%94%a8%e4%b8%ad%e9%82%a3%e7%a7%8d%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87%e8%a1%a8%e7%a4%bards%e5%ae%9e%e4%be%8b%e7%a3%81%e7%9b%98%e7%a9%ba%e9%97%b4%e7%9a%84%e4%bd%bf%e7%94%a8%e9%87%8f"></a>
+512. 在实际应用中,那种性能指标表示RDS实例磁盘空间的使用量?
+</h3><h4 id="选项-11">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-11"></a>
+选项:
+</h4><ul>
+<li>A. 磁盘空间</li>
+<li>B. 连接数</li>
+<li>C. CPU利用率</li>
+<li>D. IOPS</li>
+</ul>
+<h4 id="正确答案-a-3">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-3"></a>
+正确答案: A
+</h4><h4 id="解析-11">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-11"></a>
+解析:
+</h4><hr>
+<h3 id="513-通过dms管理后台或者数据库客户端连接rds数据库时提示错误信息max_user_connections代表什么含义">
+<a class="header-anchor" href="#513-%e9%80%9a%e8%bf%87dms%e7%ae%a1%e7%90%86%e5%90%8e%e5%8f%b0%e6%88%96%e8%80%85%e6%95%b0%e6%8d%ae%e5%ba%93%e5%ae%a2%e6%88%b7%e7%ab%af%e8%bf%9e%e6%8e%a5rds%e6%95%b0%e6%8d%ae%e5%ba%93%e6%97%b6%e6%8f%90%e7%a4%ba%e9%94%99%e8%af%af%e4%bf%a1%e6%81%afmax_user_connections%e4%bb%a3%e8%a1%a8%e4%bb%80%e4%b9%88%e5%90%ab%e4%b9%89"></a>
+513. 通过DMS管理后台或者数据库客户端,连接RDS数据库时,提示错误信息“max_user_connections&quot;,代表什么含义?
+</h3><h4 id="选项-12">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-12"></a>
+选项:
+</h4><ul>
+<li>A. IOPS超出极限</li>
+<li>B. RDS空间满了</li>
+<li>C. 网络中断</li>
+<li>D. RDS数据库的连接数满了</li>
+</ul>
+<h4 id="正确答案-d-3">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-3"></a>
+正确答案: D
+</h4><h4 id="解析-12">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-12"></a>
+解析:
+</h4><hr>
+<h3 id="514-哪个字符集是目前rds-for-mysql不支持的">
+<a class="header-anchor" href="#514-%e5%93%aa%e4%b8%aa%e5%ad%97%e7%ac%a6%e9%9b%86%e6%98%af%e7%9b%ae%e5%89%8drds-for-mysql%e4%b8%8d%e6%94%af%e6%8c%81%e7%9a%84"></a>
+514. 哪个字符集是目前RDS for MySQL不支持的
+</h3><h4 id="选项-13">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-13"></a>
+选项:
+</h4><ul>
+<li>A. gbk</li>
+<li>B. big5</li>
+<li>C. latin1</li>
+<li>D. utf8</li>
+</ul>
+<h4 id="正确答案-b-4">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-4"></a>
+正确答案: B
+</h4><h4 id="解析-13">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-13"></a>
+解析:
+</h4><hr>
+<h3 id="515-下面列出的参数中哪一个不属于rds-sql-server中用的大字段">
+<a class="header-anchor" href="#515-%e4%b8%8b%e9%9d%a2%e5%88%97%e5%87%ba%e7%9a%84%e5%8f%82%e6%95%b0%e4%b8%ad%e5%93%aa%e4%b8%80%e4%b8%aa%e4%b8%8d%e5%b1%9e%e4%ba%8erds-sql-server%e4%b8%ad%e7%94%a8%e7%9a%84%e5%a4%a7%e5%ad%97%e6%ae%b5"></a>
+515. 下面列出的参数中哪一个不属于RDS SQL SERVER中用的大字段?
+</h3><h4 id="选项-14">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-14"></a>
+选项:
+</h4><ul>
+<li>A. image</li>
+<li>B. varchar</li>
+<li>C. int</li>
+<li>D. text</li>
+</ul>
+<h4 id="正确答案-c-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-1"></a>
+正确答案: C
+</h4><h4 id="解析-14">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-14"></a>
+解析:
+</h4><p>int：整数类型，占4字节，显然不属于大字段</p>
+<hr>
+<h3 id="516-以下哪些应用场景适合rds只读实例来完成">
+<a class="header-anchor" href="#516-%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%ba%9b%e5%ba%94%e7%94%a8%e5%9c%ba%e6%99%af%e9%80%82%e5%90%88rds%e5%8f%aa%e8%af%bb%e5%ae%9e%e4%be%8b%e6%9d%a5%e5%ae%8c%e6%88%90"></a>
+516. 以下哪些应用场景适合RDS只读实例来完成?
+</h3><h4 id="选项-15">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-15"></a>
+选项:
+</h4><ul>
+<li>A. 扩大RDS的存储能力</li>
+<li>B. 分担RDS主实例的读压力</li>
+<li>C. 缓解RDS主实例的写压力</li>
+<li>D. 实现两天前的数据回溯</li>
+</ul>
+<h4 id="正确答案-b-5">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-5"></a>
+正确答案: B
+</h4><h4 id="解析-15">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-15"></a>
+解析:
+</h4><hr>
+<h3 id="517-关于rds数据迁移错误的是">
+<a class="header-anchor" href="#517-%e5%85%b3%e4%ba%8erds%e6%95%b0%e6%8d%ae%e8%bf%81%e7%a7%bb%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+517. 关于RDS数据迁移,错误的是
+</h3><h4 id="选项-16">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-16"></a>
+选项:
+</h4><ul>
+<li>A. ECS上自建的MySQL可以导入至RDS</li>
+<li>B. 用户可以通过mysqldump进行分批导入</li>
+<li>C. 用在其他IDC的MySQL数据库也可以导入至RDS</li>
+<li>D. 保存在OSS里的图片文件也可以直接导入RDS</li>
+</ul>
+<h4 id="正确答案-d-4">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-4"></a>
+正确答案: D
+</h4><h4 id="解析-16">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-16"></a>
+解析:
+</h4><hr>
+<h3 id="518-闪电立方在帮助客户迁移数据上云时不仅关注数据本身的可靠性也关注数据的安全性以下关于高可靠说法不正确的是">
+<a class="header-anchor" href="#518-%e9%97%aa%e7%94%b5%e7%ab%8b%e6%96%b9%e5%9c%a8%e5%b8%ae%e5%8a%a9%e5%ae%a2%e6%88%b7%e8%bf%81%e7%a7%bb%e6%95%b0%e6%8d%ae%e4%b8%8a%e4%ba%91%e6%97%b6%e4%b8%8d%e4%bb%85%e5%85%b3%e6%b3%a8%e6%95%b0%e6%8d%ae%e6%9c%ac%e8%ba%ab%e7%9a%84%e5%8f%af%e9%9d%a0%e6%80%a7%e4%b9%9f%e5%85%b3%e6%b3%a8%e6%95%b0%e6%8d%ae%e7%9a%84%e5%ae%89%e5%85%a8%e6%80%a7%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8e%e9%ab%98%e5%8f%af%e9%9d%a0%e8%af%b4%e6%b3%95%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af"></a>
+518. 闪电立方在帮助客户迁移数据上云时,不仅关注数据本身的可靠性,也关注数据的安全性,以下关于高可靠说法不正确的是
+</h3><h4 id="选项-17">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-17"></a>
+选项:
+</h4><ul>
+<li>A. 采用双控制器与双电源</li>
+<li>B. 采用RAID方式保护数据,最多容忍同时一块磁盘损坏</li>
+<li>C. 采用军工级别的物流包装箱,提供密码锁</li>
+<li>D. 可采用AES256对称加密,客户保管密码</li>
+</ul>
+<h4 id="正确答案-b-6">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-6"></a>
+正确答案: B
+</h4><h4 id="解析-17">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-17"></a>
+解析:
+</h4><p>题目要求错误答案，B是错误的。B. 采用RAID方式保护数据,最多容忍同时一块磁盘损坏。这个说法不正确。在实际应用中，RAID（独立磁盘冗余阵列）技术有多种级别，每种级别提供不同的冗余和性能特性。例如，RAID 5能够在一块硬盘故障时仍能继续运行，因为它能够容忍同时一块磁盘损坏，并使用奇偶校验信息重建丢失的数据。而RAID 6则可以容忍同时两块硬盘损坏。因此，说闪电立方采用的RAID方式最多只能容忍同时一块磁盘损坏，并不准确，具体取决于它实际采用的RAID级别。其他选项关于高可靠性的描述是合理的。</p>
+<hr>
+<h3 id="519-小刘是某传媒公司的系统管理员随着公司业务的迅速发展公司每个月会产生1t的增量数据且数据存储周期最少不能低于180天考虑到公司自建机房的存储成本过高小刘了解到阿里云的oss可以有效降低存储的费用其本有8t的历史数据平时几乎是不调用的可做为归档类型的存储请问这8t的历史数据存放在oss类型的存储中可以达到成本最优化的目的">
+<a class="header-anchor" href="#519-%e5%b0%8f%e5%88%98%e6%98%af%e6%9f%90%e4%bc%a0%e5%aa%92%e5%85%ac%e5%8f%b8%e7%9a%84%e7%b3%bb%e7%bb%9f%e7%ae%a1%e7%90%86%e5%91%98%e9%9a%8f%e7%9d%80%e5%85%ac%e5%8f%b8%e4%b8%9a%e5%8a%a1%e7%9a%84%e8%bf%85%e9%80%9f%e5%8f%91%e5%b1%95%e5%85%ac%e5%8f%b8%e6%af%8f%e4%b8%aa%e6%9c%88%e4%bc%9a%e4%ba%a7%e7%94%9f1t%e7%9a%84%e5%a2%9e%e9%87%8f%e6%95%b0%e6%8d%ae%e4%b8%94%e6%95%b0%e6%8d%ae%e5%ad%98%e5%82%a8%e5%91%a8%e6%9c%9f%e6%9c%80%e5%b0%91%e4%b8%8d%e8%83%bd%e4%bd%8e%e4%ba%8e180%e5%a4%a9%e8%80%83%e8%99%91%e5%88%b0%e5%85%ac%e5%8f%b8%e8%87%aa%e5%bb%ba%e6%9c%ba%e6%88%bf%e7%9a%84%e5%ad%98%e5%82%a8%e6%88%90%e6%9c%ac%e8%bf%87%e9%ab%98%e5%b0%8f%e5%88%98%e4%ba%86%e8%a7%a3%e5%88%b0%e9%98%bf%e9%87%8c%e4%ba%91%e7%9a%84oss%e5%8f%af%e4%bb%a5%e6%9c%89%e6%95%88%e9%99%8d%e4%bd%8e%e5%ad%98%e5%82%a8%e7%9a%84%e8%b4%b9%e7%94%a8%e5%85%b6%e6%9c%ac%e6%9c%898t%e7%9a%84%e5%8e%86%e5%8f%b2%e6%95%b0%e6%8d%ae%e5%b9%b3%e6%97%b6%e5%87%a0%e4%b9%8e%e6%98%af%e4%b8%8d%e8%b0%83%e7%94%a8%e7%9a%84%e5%8f%af%e5%81%9a%e4%b8%ba%e5%bd%92%e6%a1%a3%e7%b1%bb%e5%9e%8b%e7%9a%84%e5%ad%98%e5%82%a8%e8%af%b7%e9%97%ae%e8%bf%998t%e7%9a%84%e5%8e%86%e5%8f%b2%e6%95%b0%e6%8d%ae%e5%ad%98%e6%94%be%e5%9c%a8oss%e7%b1%bb%e5%9e%8b%e7%9a%84%e5%ad%98%e5%82%a8%e4%b8%ad%e5%8f%af%e4%bb%a5%e8%be%be%e5%88%b0%e6%88%90%e6%9c%ac%e6%9c%80%e4%bc%98%e5%8c%96%e7%9a%84%e7%9b%ae%e7%9a%84"></a>
+519. 小刘是某传媒公司的系统管理员，随着公司业务的迅速发展，公司每个月会产生1T的增量数据且数据存储周期最少不能低于180天，考虑到公司自建机房的存储成本过高，小刘了解到阿里云的OSS可以有效降低存储的费用，其本有8T的历史数据平时几乎是不调用的可做为归档类型的存储，请问这8T的历史数据存放在OSS（）类型的存储中可以达到成本最优化的目的。
+</h3><h4 id="选项-18">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-18"></a>
+选项:
+</h4><ul>
+<li>A. 冷归档型</li>
+<li>B. 低频访问型</li>
+<li>C. 归档型</li>
+<li>D. 标准型</li>
+</ul>
+<h4 id="正确答案-a-4">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-4"></a>
+正确答案: A
+</h4><h4 id="解析-18">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-18"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/51374.html</p>
+<hr>
+<h3 id="520-在openstack中宿主机电源断电后云主机不能故障迁移出现这种问题的原因是">
+<a class="header-anchor" href="#520-%e5%9c%a8openstack%e4%b8%ad%e5%ae%bf%e4%b8%bb%e6%9c%ba%e7%94%b5%e6%ba%90%e6%96%ad%e7%94%b5%e5%90%8e%e4%ba%91%e4%b8%bb%e6%9c%ba%e4%b8%8d%e8%83%bd%e6%95%85%e9%9a%9c%e8%bf%81%e7%a7%bb%e5%87%ba%e7%8e%b0%e8%bf%99%e7%a7%8d%e9%97%ae%e9%a2%98%e7%9a%84%e5%8e%9f%e5%9b%a0%e6%98%af"></a>
+520. 在OpenStack中宿主机电源断电后，云主机不能故障迁移，出现这种问题的原因是（）
+</h3><h4 id="选项-19">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-19"></a>
+选项:
+</h4><ul>
+<li>A. glance版本兼容问题</li>
+<li>B. 触发ipmi-Fence关机</li>
+<li>C. 部分cpu特性没有设置引起</li>
+<li>D. /var/log／consul/tenant.log日志满了</li>
+</ul>
+<h4 id="正确答案-b-7">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-7"></a>
+正确答案: B
+</h4><h4 id="解析-19">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-19"></a>
+解析:
+</h4><p>宿主机断电的这种场景有一定的几率会触发ipmi-Fence关机，另一种情况是consul检测到host已经powe-off，pass了fence，Fence host需要通过ipmi，而这个操作需要Dell r740 ipmi硬件支持lan接口，</p>
+<hr>
+<h3 id="521-应用配置管理acmapplication-configuration-management是一款在分布式架构环境中对应用配置进行集中管理和推送的产品以下关于acm的特性说明中正确的是___">
+<a class="header-anchor" href="#521-%e5%ba%94%e7%94%a8%e9%85%8d%e7%bd%ae%e7%ae%a1%e7%90%86acmapplication-configuration-management%e6%98%af%e4%b8%80%e6%ac%be%e5%9c%a8%e5%88%86%e5%b8%83%e5%bc%8f%e6%9e%b6%e6%9e%84%e7%8e%af%e5%a2%83%e4%b8%ad%e5%af%b9%e5%ba%94%e7%94%a8%e9%85%8d%e7%bd%ae%e8%bf%9b%e8%a1%8c%e9%9b%86%e4%b8%ad%e7%ae%a1%e7%90%86%e5%92%8c%e6%8e%a8%e9%80%81%e7%9a%84%e4%ba%a7%e5%93%81%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8eacm%e7%9a%84%e7%89%b9%e6%80%a7%e8%af%b4%e6%98%8e%e4%b8%ad%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af___"></a>
+521. 应用配置管理ACM（Application Configuration Management）是一款在分布式架构环境中对应用配置进行集中管理和推送的产品。以下关于ACM的特性说明中，正确的是___.
+</h3><h4 id="选项-20">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-20"></a>
+选项:
+</h4><ul>
+<li>A. 在ACM的配置管理场景下，只需要在ACM控制台上更改配置，配置信息就会自动被推送到各个服务器中，并在数分钟内生效</li>
+<li>B. Sentinel是ACM的开源产品，致力于打造一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台</li>
+<li>C. 使用加解密配置功能后，配置只会在内存中解密成明文，最大限度保证了配置安全，大幅降低了敏感配置的泄露风险</li>
+<li>D. 通过接入ACM配置监听接口，各应用中的客户端的配置可重启后即可生效。所有配置监听、更改和版本信息自动记录在案，增强了审计、版本管理和诊断等方面的能力</li>
+</ul>
+<h4 id="正确答案-c-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-2"></a>
+正确答案: C
+</h4><h4 id="解析-20">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-20"></a>
+解析:
+</h4><p>参考：Https://help.aliyun.com/document_detail/59953.html</p>
+<hr>
+<h3 id="522-在openstack的对称集群中所有节点都是活动的都参与请求处理可以将集群理解为类似于集群">
+<a class="header-anchor" href="#522-%e5%9c%a8openstack%e7%9a%84%e5%af%b9%e7%a7%b0%e9%9b%86%e7%be%a4%e4%b8%ad%e6%89%80%e6%9c%89%e8%8a%82%e7%82%b9%e9%83%bd%e6%98%af%e6%b4%bb%e5%8a%a8%e7%9a%84%e9%83%bd%e5%8f%82%e4%b8%8e%e8%af%b7%e6%b1%82%e5%a4%84%e7%90%86%e5%8f%af%e4%bb%a5%e5%b0%86%e9%9b%86%e7%be%a4%e7%90%86%e8%a7%a3%e4%b8%ba%e7%b1%bb%e4%bc%bc%e4%ba%8e%e9%9b%86%e7%be%a4"></a>
+522. 在OpenStack的对称集群中，所有节点都是活动的都参与请求处理，可以将集群理解为类似于（）集群
+</h3><h4 id="选项-21">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-21"></a>
+选项:
+</h4><ul>
+<li>A. 虚拟网络</li>
+<li>B. 负载均衡</li>
+<li>C. 容灾</li>
+<li>D. 服务</li>
+</ul>
+<h4 id="正确答案-b-8">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-8"></a>
+正确答案: B
+</h4><h4 id="解析-21">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-21"></a>
+解析:
+</h4><p><img src="https://up.zaixiankaoshi.com/2115829/7417735/image/png/1664157224065.png" alt="1664157224065.png"><img src="https://up.zaixiankaoshi.com/2115829/7417735/image/png/1664157403441.png" alt="1664157403441.png">参考链接：https://www.sohu.com/a/222390390_552439</p>
+<hr>
+<h3 id="523-云效的客户画像中哪属性是不属于目标客户">
+<a class="header-anchor" href="#523-%e4%ba%91%e6%95%88%e7%9a%84%e5%ae%a2%e6%88%b7%e7%94%bb%e5%83%8f%e4%b8%ad%e5%93%aa%e5%b1%9e%e6%80%a7%e6%98%af%e4%b8%8d%e5%b1%9e%e4%ba%8e%e7%9b%ae%e6%a0%87%e5%ae%a2%e6%88%b7"></a>
+523. 云效的客户画像中哪属性是不属于目标客户?
+</h3><h4 id="选项-22">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-22"></a>
+选项:
+</h4><ul>
+<li>A. 数据库优化</li>
+<li>B. 研发模式转变</li>
+<li>C. 提升研发效率</li>
+<li>D. 微服务进程改造</li>
+</ul>
+<h4 id="正确答案-a-5">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-5"></a>
+正确答案: A
+</h4><h4 id="解析-22">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-22"></a>
+解析:
+</h4><hr>
+<h3 id="524-小童原先的drds和后端的rds实例俱在经典网络为了利用vpc的灵活和高隔离请问该如何操作才可顺利切换">
+<a class="header-anchor" href="#524-%e5%b0%8f%e7%ab%a5%e5%8e%9f%e5%85%88%e7%9a%84drds%e5%92%8c%e5%90%8e%e7%ab%af%e7%9a%84rds%e5%ae%9e%e4%be%8b%e4%bf%b1%e5%9c%a8%e7%bb%8f%e5%85%b8%e7%bd%91%e7%bb%9c%e4%b8%ba%e4%ba%86%e5%88%a9%e7%94%a8vpc%e7%9a%84%e7%81%b5%e6%b4%bb%e5%92%8c%e9%ab%98%e9%9a%94%e7%a6%bb%e8%af%b7%e9%97%ae%e8%af%a5%e5%a6%82%e4%bd%95%e6%93%8d%e4%bd%9c%e6%89%8d%e5%8f%af%e9%a1%ba%e5%88%a9%e5%88%87%e6%8d%a2"></a>
+524. 小童原先的DRDS和后端的RDS实例俱在经典网络,为了利用VPC的灵活和高隔离,请问该如何操作才可顺利切换
+</h3><h4 id="选项-23">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-23"></a>
+选项:
+</h4><ul>
+<li>A. DRDS完成VPC的切换,接着自助修复与RDS的分库连接池,登陆RDS控制台完成切换RDS到VPC</li>
+<li>B. 完成RDS实例网络到VPC的切换,接着登陆DRDS控制台,修复分库连接池,然后切换DRDS到VPC</li>
+<li>C. DRDS完成VPC的切换,接着自助修复与RDS的分库连接池即可</li>
+<li>D. 完成RDS实例网络到VPC的切换,接着登陆DRDS控制台完成切换DRDS到VPC</li>
+</ul>
+<h4 id="正确答案-b-9">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-9"></a>
+正确答案: B
+</h4><h4 id="解析-23">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-23"></a>
+解析:
+</h4><hr>
+<h3 id="525-云效aui录制的脚本云端执行正常本机回放却一直打不开可能的原因是">
+<a class="header-anchor" href="#525-%e4%ba%91%e6%95%88aui%e5%bd%95%e5%88%b6%e7%9a%84%e8%84%9a%e6%9c%ac%e4%ba%91%e7%ab%af%e6%89%a7%e8%a1%8c%e6%ad%a3%e5%b8%b8%e6%9c%ac%e6%9c%ba%e5%9b%9e%e6%94%be%e5%8d%b4%e4%b8%80%e7%9b%b4%e6%89%93%e4%b8%8d%e5%bc%80%e5%8f%af%e8%83%bd%e7%9a%84%e5%8e%9f%e5%9b%a0%e6%98%af"></a>
+525. 云效AUI录制的脚本,云端执行正常,本机回放却一直打不开,可能的原因是
+</h3><h4 id="选项-24">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-24"></a>
+选项:
+</h4><ul>
+<li>A. 浏览器版本不是最新版本;</li>
+<li>B. 本机浏览器版本和本机的chromedriver驱动不匹配:</li>
+<li>C. 下载的回放执行软件没有安装到桌面;</li>
+<li>D. 需要关掉其它所有浏览器,才可回放;</li>
+</ul>
+<h4 id="正确答案-b-10">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-10"></a>
+正确答案: B
+</h4><h4 id="解析-24">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-24"></a>
+解析:
+</h4><hr>
+<h3 id="526-如果用户本源站是共享存储nas-在迁移的过程总哪些说法是正确的">
+<a class="header-anchor" href="#526-%e5%a6%82%e6%9e%9c%e7%94%a8%e6%88%b7%e6%9c%ac%e6%ba%90%e7%ab%99%e6%98%af%e5%85%b1%e4%ba%ab%e5%ad%98%e5%82%a8nas-%e5%9c%a8%e8%bf%81%e7%a7%bb%e7%9a%84%e8%bf%87%e7%a8%8b%e6%80%bb%e5%93%aa%e4%ba%9b%e8%af%b4%e6%b3%95%e6%98%af%e6%ad%a3%e7%a1%ae%e7%9a%84"></a>
+526. 如果用户本源站是共享存储NAS ,在迁移的过程总哪些说法是正确的
+</h3><h4 id="选项-25">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-25"></a>
+选项:
+</h4><ul>
+<li>A. 将闪电Agent安装在NAS存储上,直接将数据通过万兆网络传到闪电立方</li>
+<li>B. 将Agent安装在本地服务器上,通过给NAS做快照和增量的方式迁移到闪电立方上</li>
+<li>C. 为了提升传输速度,可通过将闪电Agent安装在多台mount NAS的本地服务器上,并行加速</li>
+<li>D. 以上都不对</li>
+</ul>
+<h4 id="正确答案-c-3">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-3"></a>
+正确答案: C
+</h4><h4 id="解析-25">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-25"></a>
+解析:
+</h4><hr>
+<h3 id="527-某个游戏初创公司发布了国际象棋对战游戏希望借助阿里云实现全球同服他主要的客户分布在欧洲部分用户分布在日本和中国综合考虑架构负责程度与性价比请问该推荐什么方案">
+<a class="header-anchor" href="#527-%e6%9f%90%e4%b8%aa%e6%b8%b8%e6%88%8f%e5%88%9d%e5%88%9b%e5%85%ac%e5%8f%b8%e5%8f%91%e5%b8%83%e4%ba%86%e5%9b%bd%e9%99%85%e8%b1%a1%e6%a3%8b%e5%af%b9%e6%88%98%e6%b8%b8%e6%88%8f%e5%b8%8c%e6%9c%9b%e5%80%9f%e5%8a%a9%e9%98%bf%e9%87%8c%e4%ba%91%e5%ae%9e%e7%8e%b0%e5%85%a8%e7%90%83%e5%90%8c%e6%9c%8d%e4%bb%96%e4%b8%bb%e8%a6%81%e7%9a%84%e5%ae%a2%e6%88%b7%e5%88%86%e5%b8%83%e5%9c%a8%e6%ac%a7%e6%b4%b2%e9%83%a8%e5%88%86%e7%94%a8%e6%88%b7%e5%88%86%e5%b8%83%e5%9c%a8%e6%97%a5%e6%9c%ac%e5%92%8c%e4%b8%ad%e5%9b%bd%e7%bb%bc%e5%90%88%e8%80%83%e8%99%91%e6%9e%b6%e6%9e%84%e8%b4%9f%e8%b4%a3%e7%a8%8b%e5%ba%a6%e4%b8%8e%e6%80%a7%e4%bb%b7%e6%af%94%e8%af%b7%e9%97%ae%e8%af%a5%e6%8e%a8%e8%8d%90%e4%bb%80%e4%b9%88%e6%96%b9%e6%a1%88"></a>
+527. 某个游戏初创公司,发布了国际象棋对战游戏,希望借助阿里云实现全球同服,他主要的客户分布在欧洲,部分用户分布在日本和中国,综合考虑架构负责程度与性价比,请问该推荐什么方案
+</h3><h4 id="选项-26">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-26"></a>
+选项:
+</h4><ul>
+<li>A. 将所有资源都集中部署在法兰克福,中国日本的玩家采用公网的方式连入</li>
+<li>B. 在法兰克福,杭州,东京分别部署一套系统,然后底层数据库通过DTS同步机制实现</li>
+<li>C. 将所有资源集中部署在杭州,采用CDN的方式加入日本与欧洲的玩家</li>
+<li>D. 将所有资源都集中部署在法兰克福,中国日本的玩家采用高速通道的方式连入</li>
+</ul>
+<h4 id="正确答案-a-6">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-6"></a>
+正确答案: A
+</h4><h4 id="解析-26">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-26"></a>
+解析:
+</h4><hr>
+<h3 id="528-某电商网站部署在一台ecs-上近期由于业务增长数据库cpu占用率较高经常导致服务器cpu使用率达100经过排查发现数据库大多为查询操作为解决此种场景以下哪些方案不合理的">
+<a class="header-anchor" href="#528-%e6%9f%90%e7%94%b5%e5%95%86%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2%e5%9c%a8%e4%b8%80%e5%8f%b0ecs-%e4%b8%8a%e8%bf%91%e6%9c%9f%e7%94%b1%e4%ba%8e%e4%b8%9a%e5%8a%a1%e5%a2%9e%e9%95%bf%e6%95%b0%e6%8d%ae%e5%ba%93cpu%e5%8d%a0%e7%94%a8%e7%8e%87%e8%be%83%e9%ab%98%e7%bb%8f%e5%b8%b8%e5%af%bc%e8%87%b4%e6%9c%8d%e5%8a%a1%e5%99%a8cpu%e4%bd%bf%e7%94%a8%e7%8e%87%e8%be%be100%e7%bb%8f%e8%bf%87%e6%8e%92%e6%9f%a5%e5%8f%91%e7%8e%b0%e6%95%b0%e6%8d%ae%e5%ba%93%e5%a4%a7%e5%a4%9a%e4%b8%ba%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c%e4%b8%ba%e8%a7%a3%e5%86%b3%e6%ad%a4%e7%a7%8d%e5%9c%ba%e6%99%af%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%ba%9b%e6%96%b9%e6%a1%88%e4%b8%8d%e5%90%88%e7%90%86%e7%9a%84"></a>
+528. 某电商网站部署在一台ECS 上,近期由于业务增长数据库CPU占用率较高,经常导致服务器CPU使用率达100%,经过排查发现数据库大多为查询操作,为解决此种场景以下哪些方案不合理的?
+</h3><h4 id="选项-27">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-27"></a>
+选项:
+</h4><ul>
+<li>A. 为ECS升级更高的配置并增加两倍的带宽,以降低服务器压力</li>
+<li>B. 将数据库迁移至RDS,并创建只读实例,以降低数据库读请求压力</li>
+<li>C. 将数据库迁移至RDS,并使用memcache作为数据库缓存, 以降低数据库读请求压力</li>
+<li>D. 将数据库迁移至RDS,并使用redis作为数据库缓存,以降低数据库读请求压力</li>
+</ul>
+<h4 id="正确答案-a-7">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-7"></a>
+正确答案: A
+</h4><h4 id="解析-27">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-27"></a>
+解析:
+</h4><hr>
+<h3 id="529-飞天系统提供分布式环境下所需要的协调服务远程过程调用安全管理和资源管理的服务这些底层服务为上层的分布式文件系统任务调度等模块提供支持以下描述中错误的是">
+<a class="header-anchor" href="#529-%e9%a3%9e%e5%a4%a9%e7%b3%bb%e7%bb%9f%e6%8f%90%e4%be%9b%e5%88%86%e5%b8%83%e5%bc%8f%e7%8e%af%e5%a2%83%e4%b8%8b%e6%89%80%e9%9c%80%e8%a6%81%e7%9a%84%e5%8d%8f%e8%b0%83%e6%9c%8d%e5%8a%a1%e8%bf%9c%e7%a8%8b%e8%bf%87%e7%a8%8b%e8%b0%83%e7%94%a8%e5%ae%89%e5%85%a8%e7%ae%a1%e7%90%86%e5%92%8c%e8%b5%84%e6%ba%90%e7%ae%a1%e7%90%86%e7%9a%84%e6%9c%8d%e5%8a%a1%e8%bf%99%e4%ba%9b%e5%ba%95%e5%b1%82%e6%9c%8d%e5%8a%a1%e4%b8%ba%e4%b8%8a%e5%b1%82%e7%9a%84%e5%88%86%e5%b8%83%e5%bc%8f%e6%96%87%e4%bb%b6%e7%b3%bb%e7%bb%9f%e4%bb%bb%e5%8a%a1%e8%b0%83%e5%ba%a6%e7%ad%89%e6%a8%a1%e5%9d%97%e6%8f%90%e4%be%9b%e6%94%af%e6%8c%81%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e4%b8%ad%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+529. 飞天系统提供分布式环境下所需要的协调服务、远程过程调用、安全管理和资源管理的服务。这些底层服务为上层的分布式文件系统、任务调度等模块提供支持。以下描述中,错误的是:
+</h3><h4 id="选项-28">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-28"></a>
+选项:
+</h4><ul>
+<li>A. 只支持x86,不支持ARM</li>
+<li>B. 提供一个海量的、可靠的、可扩展的数据存储服务,将集群中各个节点的存储能力聚集起来,并能够自动屏蔽软硬件故障,为用户提供不间断的数据访问服务</li>
+<li>C. 为集群系统中的任务提供调度服务,同时支持强调响应速度的在线服务和强调处理数据吞吐量的离线任务</li>
+<li>D. 为不同的Region提供统一量度,统一管理,统一部署。</li>
+</ul>
+<h4 id="正确答案-a-8">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-8"></a>
+正确答案: A
+</h4><h4 id="解析-28">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-28"></a>
+解析:
+</h4><hr>
+<h3 id="530-某集团公司旗下有三家子公司子公司的网络和集团公司网络是打通的子公司阿里云账号下各有一个vpc现在集团总部建好了到阿里云的专线各子公司需要利用该专线连接各自的vpc数据要相互隔离还要考虑未来的业务扩展以下选中哪一项是最佳方法">
+<a class="header-anchor" href="#530-%e6%9f%90%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e6%97%97%e4%b8%8b%e6%9c%89%e4%b8%89%e5%ae%b6%e5%ad%90%e5%85%ac%e5%8f%b8%e5%ad%90%e5%85%ac%e5%8f%b8%e7%9a%84%e7%bd%91%e7%bb%9c%e5%92%8c%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e7%bd%91%e7%bb%9c%e6%98%af%e6%89%93%e9%80%9a%e7%9a%84%e5%ad%90%e5%85%ac%e5%8f%b8%e9%98%bf%e9%87%8c%e4%ba%91%e8%b4%a6%e5%8f%b7%e4%b8%8b%e5%90%84%e6%9c%89%e4%b8%80%e4%b8%aavpc%e7%8e%b0%e5%9c%a8%e9%9b%86%e5%9b%a2%e6%80%bb%e9%83%a8%e5%bb%ba%e5%a5%bd%e4%ba%86%e5%88%b0%e9%98%bf%e9%87%8c%e4%ba%91%e7%9a%84%e4%b8%93%e7%ba%bf%e5%90%84%e5%ad%90%e5%85%ac%e5%8f%b8%e9%9c%80%e8%a6%81%e5%88%a9%e7%94%a8%e8%af%a5%e4%b8%93%e7%ba%bf%e8%bf%9e%e6%8e%a5%e5%90%84%e8%87%aa%e7%9a%84vpc%e6%95%b0%e6%8d%ae%e8%a6%81%e7%9b%b8%e4%ba%92%e9%9a%94%e7%a6%bb%e8%bf%98%e8%a6%81%e8%80%83%e8%99%91%e6%9c%aa%e6%9d%a5%e7%9a%84%e4%b8%9a%e5%8a%a1%e6%89%a9%e5%b1%95%e4%bb%a5%e4%b8%8b%e9%80%89%e4%b8%ad%e5%93%aa%e4%b8%80%e9%a1%b9%e6%98%af%e6%9c%80%e4%bd%b3%e6%96%b9%e6%b3%95"></a>
+530. 某集团公司，旗下有三家子公司，子公司的网络和集团公司网络是打通的，子公司阿里云账号下各有一个VPC，现在，集团总部建好了到阿里云的专线，各子公司需要利用该专线连接各自的VPC，数据要相互隔离，还要考虑未来的业务扩展，以下选中哪一项是最佳方法？
+</h3><h4 id="选项-29">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-29"></a>
+选项:
+</h4><ul>
+<li>A. 可为每个子公司创建VBR，并通过VLAN进行隔离，各子公司分别创建CEN，并加载各自的VBR和VPC</li>
+<li>B. 可由集团总部创建CEN和VBR，并将VBR和各子公司VPC加载到CEN</li>
+<li>C. 可为每个子公司创建VBR，并通过VLAN进行隔高，VBR和各子公司的VPC对等连接。</li>
+<li>D. 因各子公司账号不相同，因此无法共用此专线</li>
+</ul>
+<h4 id="正确答案-a-9">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-9"></a>
+正确答案: A
+</h4><h4 id="解析-29">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-29"></a>
+解析:
+</h4><p>答案A:解析：答案B将子公司的VPC加载到CEN，子公司之间的网络就互通，无法满足隔离需求；答案C满足各类需求，但是VBR不能直接和VPC对接。</p>
+<hr>
+<h3 id="531-某在线教育行业客户随着业务量的增大其录制和转码需求越来越多而阿里云基于serverless的容器基础设施通过事件触发提供高并发低成本的容器实例调度及事件处理能力以下对这种能力描述不正确">
+<a class="header-anchor" href="#531-%e6%9f%90%e5%9c%a8%e7%ba%bf%e6%95%99%e8%82%b2%e8%a1%8c%e4%b8%9a%e5%ae%a2%e6%88%b7%e9%9a%8f%e7%9d%80%e4%b8%9a%e5%8a%a1%e9%87%8f%e7%9a%84%e5%a2%9e%e5%a4%a7%e5%85%b6%e5%bd%95%e5%88%b6%e5%92%8c%e8%bd%ac%e7%a0%81%e9%9c%80%e6%b1%82%e8%b6%8a%e6%9d%a5%e8%b6%8a%e5%a4%9a%e8%80%8c%e9%98%bf%e9%87%8c%e4%ba%91%e5%9f%ba%e4%ba%8eserverless%e7%9a%84%e5%ae%b9%e5%99%a8%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e9%80%9a%e8%bf%87%e4%ba%8b%e4%bb%b6%e8%a7%a6%e5%8f%91%e6%8f%90%e4%be%9b%e9%ab%98%e5%b9%b6%e5%8f%91%e4%bd%8e%e6%88%90%e6%9c%ac%e7%9a%84%e5%ae%b9%e5%99%a8%e5%ae%9e%e4%be%8b%e8%b0%83%e5%ba%a6%e5%8f%8a%e4%ba%8b%e4%bb%b6%e5%a4%84%e7%90%86%e8%83%bd%e5%8a%9b%e4%bb%a5%e4%b8%8b%e5%af%b9%e8%bf%99%e7%a7%8d%e8%83%bd%e5%8a%9b%e6%8f%8f%e8%bf%b0%e4%b8%8d%e6%ad%a3%e7%a1%ae"></a>
+531. 某在线教育行业客户随着业务量的增大,其录制和转码需求越来越多,而阿里云基于Serverless的容器基础设施,通过事件触发,提供高并发、低成本的容器实例调度及事件处理能力,以下()对这种能力描述不正确。
+</h3><h4 id="选项-30">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-30"></a>
+选项:
+</h4><ul>
+<li>A. 高并发:提供大规模的资源供应能力</li>
+<li>B. 弹性扩展:秒级启动和弹性伸缩,提供高并发事件和任务处理能力</li>
+<li>C. 低成本:容器实例根据资源规格及使用时长付费,事件和任务处理结束停止收费</li>
+<li>D. 全自动:整个过程无需人工干预,可自动执行</li>
+</ul>
+<h4 id="正确答案-d-5">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-5"></a>
+正确答案: D
+</h4><h4 id="解析-30">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-30"></a>
+解析:
+</h4><p>Https://help.aliyun.com/document_detail/89132.html文档中原话</p>
+<hr>
+<h3 id="532-某企业运营voip业务业务部署在idc中现在需要搬迁上云已经自行采购ecs部署在vpc中进行测试由于ecs的网卡ip和eip之间是nat无法较好的支持sip协议客户业务测试总是失败面对此情况你觉得以下哪个选项可以更好的解决问题">
+<a class="header-anchor" href="#532-%e6%9f%90%e4%bc%81%e4%b8%9a%e8%bf%90%e8%90%a5voip%e4%b8%9a%e5%8a%a1%e4%b8%9a%e5%8a%a1%e9%83%a8%e7%bd%b2%e5%9c%a8idc%e4%b8%ad%e7%8e%b0%e5%9c%a8%e9%9c%80%e8%a6%81%e6%90%ac%e8%bf%81%e4%b8%8a%e4%ba%91%e5%b7%b2%e7%bb%8f%e8%87%aa%e8%a1%8c%e9%87%87%e8%b4%adecs%e9%83%a8%e7%bd%b2%e5%9c%a8vpc%e4%b8%ad%e8%bf%9b%e8%a1%8c%e6%b5%8b%e8%af%95%e7%94%b1%e4%ba%8eecs%e7%9a%84%e7%bd%91%e5%8d%a1ip%e5%92%8ceip%e4%b9%8b%e9%97%b4%e6%98%afnat%e6%97%a0%e6%b3%95%e8%be%83%e5%a5%bd%e7%9a%84%e6%94%af%e6%8c%81sip%e5%8d%8f%e8%ae%ae%e5%ae%a2%e6%88%b7%e4%b8%9a%e5%8a%a1%e6%b5%8b%e8%af%95%e6%80%bb%e6%98%af%e5%a4%b1%e8%b4%a5%e9%9d%a2%e5%af%b9%e6%ad%a4%e6%83%85%e5%86%b5%e4%bd%a0%e8%a7%89%e5%be%97%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aa%e9%80%89%e9%a1%b9%e5%8f%af%e4%bb%a5%e6%9b%b4%e5%a5%bd%e7%9a%84%e8%a7%a3%e5%86%b3%e9%97%ae%e9%a2%98"></a>
+532. 某企业运营VOIP业务，业务部署在IDC中，现在需要搬迁上云，已经自行采购ECS部署在VPC中进行测试，由于ECS的网卡IP和EIP之间是NAT，无法较好的支持SIP协议，客户业务测试总是失败，面对此情况，你觉得以下哪个选项可以更好的解决问题？
+</h3><h4 id="选项-31">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-31"></a>
+选项:
+</h4><ul>
+<li>A. 阿里云的ECS网卡只能配置私网IP，因此客户需要调整业务</li>
+<li>B. 在将EIP和ECS绑定之后，可以将EIP再手工绑定到ECS的网卡上</li>
+<li>C. 阿里云的ECS网卡上，可以直接配置公同IP，因此客户的要求可以实现</li>
+<li>D. 建议可以和SIP协议开发开发者沟通，尝试让SIP支持此种场景</li>
+</ul>
+<h4 id="正确答案-c-4">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-4"></a>
+正确答案: C
+</h4><h4 id="解析-31">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-31"></a>
+解析:
+</h4><hr>
+<h3 id="533-某制鞋厂sap系统部署在idc机房因为部分应用系统感染了勒索病毒导致业务停摆公司领导决定sap生产系统即刻迁移上云并要求云上的主机设计全部采用地域高可用架构作为架构师的您除了要选择sap认证的机型之外在网络侧应该采用产品来实现高可用架构下的访问">
+<a class="header-anchor" href="#533-%e6%9f%90%e5%88%b6%e9%9e%8b%e5%8e%82sap%e7%b3%bb%e7%bb%9f%e9%83%a8%e7%bd%b2%e5%9c%a8idc%e6%9c%ba%e6%88%bf%e5%9b%a0%e4%b8%ba%e9%83%a8%e5%88%86%e5%ba%94%e7%94%a8%e7%b3%bb%e7%bb%9f%e6%84%9f%e6%9f%93%e4%ba%86%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e5%af%bc%e8%87%b4%e4%b8%9a%e5%8a%a1%e5%81%9c%e6%91%86%e5%85%ac%e5%8f%b8%e9%a2%86%e5%af%bc%e5%86%b3%e5%ae%9asap%e7%94%9f%e4%ba%a7%e7%b3%bb%e7%bb%9f%e5%8d%b3%e5%88%bb%e8%bf%81%e7%a7%bb%e4%b8%8a%e4%ba%91%e5%b9%b6%e8%a6%81%e6%b1%82%e4%ba%91%e4%b8%8a%e7%9a%84%e4%b8%bb%e6%9c%ba%e8%ae%be%e8%ae%a1%e5%85%a8%e9%83%a8%e9%87%87%e7%94%a8%e5%9c%b0%e5%9f%9f%e9%ab%98%e5%8f%af%e7%94%a8%e6%9e%b6%e6%9e%84%e4%bd%9c%e4%b8%ba%e6%9e%b6%e6%9e%84%e5%b8%88%e7%9a%84%e6%82%a8%e9%99%a4%e4%ba%86%e8%a6%81%e9%80%89%e6%8b%a9sap%e8%ae%a4%e8%af%81%e7%9a%84%e6%9c%ba%e5%9e%8b%e4%b9%8b%e5%a4%96%e5%9c%a8%e7%bd%91%e7%bb%9c%e4%be%a7%e5%ba%94%e8%af%a5%e9%87%87%e7%94%a8%e4%ba%a7%e5%93%81%e6%9d%a5%e5%ae%9e%e7%8e%b0%e9%ab%98%e5%8f%af%e7%94%a8%e6%9e%b6%e6%9e%84%e4%b8%8b%e7%9a%84%e8%ae%bf%e9%97%ae"></a>
+533. 某制鞋厂SAP系统部署在IDC机房，因为部分应用系统感染了勒索病毒导致业务停摆，公司领导决定SAP生产系统即刻迁移上云，并要求云上的主机设计全部采用地域高可用架构，作为架构师的您，除了要选择SAP认证的机型之外，在网络侧应该采用（）产品来实现高可用架构下的访问。
+</h3><h4 id="选项-32">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-32"></a>
+选项:
+</h4><ul>
+<li>A. 高可用虚拟IP HAVIP</li>
+<li>B. 弹性公网IP</li>
+<li>C. ALB负载均衡</li>
+<li>D. CLB负载均衡</li>
+</ul>
+<h4 id="正确答案-a-10">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-10"></a>
+正确答案: A
+</h4><h4 id="解析-32">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-32"></a>
+解析:
+</h4><p>参考：https://blog.csdn.net/bdsh818/article/details/121278667</p>
+<hr>
+<h3 id="534-某企业原来使用的阿里云服务都是位于经典网络中的由于专有网络vpc相比于经典网络更安全性能更高用户决定将所有经典网络中的服务迁移到专有网络vpc中为了实现业务能够平滑的迁移以下哪些建议是不可行的">
+<a class="header-anchor" href="#534-%e6%9f%90%e4%bc%81%e4%b8%9a%e5%8e%9f%e6%9d%a5%e4%bd%bf%e7%94%a8%e7%9a%84%e9%98%bf%e9%87%8c%e4%ba%91%e6%9c%8d%e5%8a%a1%e9%83%bd%e6%98%af%e4%bd%8d%e4%ba%8e%e7%bb%8f%e5%85%b8%e7%bd%91%e7%bb%9c%e4%b8%ad%e7%9a%84%e7%94%b1%e4%ba%8e%e4%b8%93%e6%9c%89%e7%bd%91%e7%bb%9cvpc%e7%9b%b8%e6%af%94%e4%ba%8e%e7%bb%8f%e5%85%b8%e7%bd%91%e7%bb%9c%e6%9b%b4%e5%ae%89%e5%85%a8%e6%80%a7%e8%83%bd%e6%9b%b4%e9%ab%98%e7%94%a8%e6%88%b7%e5%86%b3%e5%ae%9a%e5%b0%86%e6%89%80%e6%9c%89%e7%bb%8f%e5%85%b8%e7%bd%91%e7%bb%9c%e4%b8%ad%e7%9a%84%e6%9c%8d%e5%8a%a1%e8%bf%81%e7%a7%bb%e5%88%b0%e4%b8%93%e6%9c%89%e7%bd%91%e7%bb%9cvpc%e4%b8%ad%e4%b8%ba%e4%ba%86%e5%ae%9e%e7%8e%b0%e4%b8%9a%e5%8a%a1%e8%83%bd%e5%a4%9f%e5%b9%b3%e6%bb%91%e7%9a%84%e8%bf%81%e7%a7%bb%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%ba%9b%e5%bb%ba%e8%ae%ae%e6%98%af%e4%b8%8d%e5%8f%af%e8%a1%8c%e7%9a%84"></a>
+534. 某企业原来使用的阿里云服务都是位于经典网络中的,由于专有网络VPC相比于经典网络更安全,性能更高,用户决定将所有经典网络中的服务迁移到专有网络VPC中。为了实现业务能够平滑的迁移,以下哪些建议是不可行的?
+</h3><h4 id="选项-33">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-33"></a>
+选项:
+</h4><ul>
+<li>A. 如果服务依赖RDS、SLB等云产品,建议选择混访混挂的迁移方案,即通过在VPC中新建ECS等云产品实例,然后将系统平滑迁移到VPC。当所有系统都迁移到VPC后,再将经典网络内的资源释放,从而完成经典网络到VPC的迁移</li>
+<li>B. 如果应用部署在了ECS实例上,且ECS实例重启对系统没有影响,可以选择单ECS迁移方案,访案的迁移工作可通过提交工单的方式由阿里云来完成</li>
+<li>C. 如果应用部署在经典网络的ECS实例上,暂时无法进行迁移,可以通过ClassicLink方案访问VPC中的云资源,即通过将一台经典网络ECS链接到一个VPC,实现经典网络和VPC私网互通</li>
+<li>D. 如果服务是通过APP的方式提供的,并在APP中设置了ECS实例的IP地址,可以在迁移的时候连同ECS的IP地址一起迁移,即当ECS实例从经典网络迁移到VPC后,其公网访问的IP地址保持不变</li>
+</ul>
+<h4 id="正确答案-d-6">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-6"></a>
+正确答案: D
+</h4><h4 id="解析-33">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-33"></a>
+解析:
+</h4><p>根据D选项描述，APP依赖IP，那么在进行经典网络迁移到VPC的时候需要谨慎评估，具体参考：https://help.aliyun.com/document_detail/55051.html</p>
+<hr>
+<h3 id="535-在一个典型的社交网络中常常会存在谁认识谁上过什么学校常住什么地方喜欢什么餐馆之类的查询传统关系型数据库对于超过3度的查询十分低效且难以胜任但__可轻松应对社交网络的各种复杂存储和查询场景">
+<a class="header-anchor" href="#535-%e5%9c%a8%e4%b8%80%e4%b8%aa%e5%85%b8%e5%9e%8b%e7%9a%84%e7%a4%be%e4%ba%a4%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%b8%b8%e5%b8%b8%e4%bc%9a%e5%ad%98%e5%9c%a8%e8%b0%81%e8%ae%a4%e8%af%86%e8%b0%81%e4%b8%8a%e8%bf%87%e4%bb%80%e4%b9%88%e5%ad%a6%e6%a0%a1%e5%b8%b8%e4%bd%8f%e4%bb%80%e4%b9%88%e5%9c%b0%e6%96%b9%e5%96%9c%e6%ac%a2%e4%bb%80%e4%b9%88%e9%a4%90%e9%a6%86%e4%b9%8b%e7%b1%bb%e7%9a%84%e6%9f%a5%e8%af%a2%e4%bc%a0%e7%bb%9f%e5%85%b3%e7%b3%bb%e5%9e%8b%e6%95%b0%e6%8d%ae%e5%ba%93%e5%af%b9%e4%ba%8e%e8%b6%85%e8%bf%873%e5%ba%a6%e7%9a%84%e6%9f%a5%e8%af%a2%e5%8d%81%e5%88%86%e4%bd%8e%e6%95%88%e4%b8%94%e9%9a%be%e4%bb%a5%e8%83%9c%e4%bb%bb%e4%bd%86__%e5%8f%af%e8%bd%bb%e6%9d%be%e5%ba%94%e5%af%b9%e7%a4%be%e4%ba%a4%e7%bd%91%e7%bb%9c%e7%9a%84%e5%90%84%e7%a7%8d%e5%a4%8d%e6%9d%82%e5%ad%98%e5%82%a8%e5%92%8c%e6%9f%a5%e8%af%a2%e5%9c%ba%e6%99%af"></a>
+535. 在一个典型的社交网络中,常常会存在谁认识谁,上过什么学校,常住什么地方,喜欢什么餐馆之类的查询,传统关系型数据库对于超过3度的查询十分低效且难以胜任，但__可轻松应对社交网络的各种复杂存储和查询场景。
+</h3><h4 id="选项-34">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-34"></a>
+选项:
+</h4><ul>
+<li>A. 图数据库</li>
+<li>B. 列存储数据库</li>
+<li>C. NoSQL数据库</li>
+<li>D. OceanBase数据库</li>
+</ul>
+<h4 id="正确答案-a-11">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-11"></a>
+正确答案: A
+</h4><h4 id="解析-34">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-34"></a>
+解析:
+</h4><p>图数据库GDB非常适合社交网络、欺诈检测、推荐引擎、实时图谱、网络/IT运营这类高度互连数据集的场景。例如，在一个典型的社交网络中，常常会存在“谁认识谁，上过什么学校，常住什么地方，喜欢什么餐馆之类”的查询，传统关系型数据库对于超过3张表关联的查询十分低效难以胜任，但图数据库可轻松应对社交网络的各种复杂存储和查询场景。</p>
+<hr>
+<h3 id="536-很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机vm使用在一个容器里放多个进程监控进程日志进程sshd进程甚至整个systemd这样操作存会存在____问题">
+<a class="header-anchor" href="#536-%e5%be%88%e5%a4%9a%e5%88%9a%e5%88%9a%e6%8e%a5%e8%a7%a6%e5%ae%b9%e5%99%a8%e7%9a%84%e4%ba%ba%e5%96%9c%e6%ac%a2%e6%8c%89%e7%85%a7%e6%97%a7%e4%b9%a0%e6%83%af%e6%8a%8a%e5%ae%b9%e5%99%a8%e5%bd%93%e4%bd%9c%e8%99%9a%e6%8b%9f%e6%9c%bavm%e4%bd%bf%e7%94%a8%e5%9c%a8%e4%b8%80%e4%b8%aa%e5%ae%b9%e5%99%a8%e9%87%8c%e6%94%be%e5%a4%9a%e4%b8%aa%e8%bf%9b%e7%a8%8b%e7%9b%91%e6%8e%a7%e8%bf%9b%e7%a8%8b%e6%97%a5%e5%bf%97%e8%bf%9b%e7%a8%8bsshd%e8%bf%9b%e7%a8%8b%e7%94%9a%e8%87%b3%e6%95%b4%e4%b8%aasystemd%e8%bf%99%e6%a0%b7%e6%93%8d%e4%bd%9c%e5%ad%98%e4%bc%9a%e5%ad%98%e5%9c%a8____%e9%97%ae%e9%a2%98"></a>
+536. 很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机（VM）使用，在一个容器里放多个进程：监控进程、日志进程、sshd进程、甚至整个Systemd。这样操作存会存在____问题。
+</h3><h4 id="选项-35">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-35"></a>
+选项:
+</h4><ul>
+<li>A. 不方便实施resource limit</li>
+<li>B. 外面的容器引擎可以清楚的感知到进程状态</li>
+<li>C. 容器内有多个进程，某个进程挂了容器会受影响</li>
+<li>D. 外部的容器引擎感知到容器内有进程退出，会对容器做一些不可控的操作</li>
+</ul>
+<h4 id="正确答案-a-12">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-12"></a>
+正确答案: A
+</h4><h4 id="解析-35">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-35"></a>
+解析:
+</h4><p>每个进程一个容器很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机（VM）使用，在一个容器里放多个进程：监控进程、日志进程、sshd进程、甚至整个Systemd。这样操作存在两个问题：判断Pod整体的资源占用会变复杂，不方便实施前面提到resource limit。容器内只有一个进程的情况，进程挂了，外面的容器引擎可以清楚的感知到，然后重启容器。如果容器内有多个进程，某个进程挂了，容器未必受影响，外部的容器引擎感知不到容器内有进程退出，也不会对容器做任何操作，但是实际上容器已经不能正常工作了。如果有几个进程需要协同工作，在Kubernetes里也可以实现，例如：nginx和php-fpm，通过Unix domain socket通信，我们可以用一个包含两个容器的Pod，unix socket放在两个容器的共享volume中。根据官网解析，B、C、D都有错误。</p>
+<hr>
+<h3 id="537-某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时可利用混合云容灾服务支持业务的_____的容灾能力对整体的应用做容灾备份来应对单地区的故障满足业务的rtorpo核心指标">
+<a class="header-anchor" href="#537-%e6%9f%90%e4%bc%81%e4%b8%9a%e5%bd%93%e7%94%9f%e4%ba%a7%e7%ab%99%e7%82%b9%e5%9b%a0%e4%b8%ba%e4%b8%8d%e5%8f%af%e6%8a%97%e5%8a%9b%e5%9b%a0%e7%b4%a0%e5%af%bc%e8%87%b4%e5%ba%94%e7%94%a8%e5%9c%a8%e7%9f%ad%e6%97%b6%e9%97%b4%e5%86%85%e6%97%a0%e6%b3%95%e6%81%a2%e5%a4%8d%e6%97%b6%e5%8f%af%e5%88%a9%e7%94%a8%e6%b7%b7%e5%90%88%e4%ba%91%e5%ae%b9%e7%81%be%e6%9c%8d%e5%8a%a1%e6%94%af%e6%8c%81%e4%b8%9a%e5%8a%a1%e7%9a%84_____%e7%9a%84%e5%ae%b9%e7%81%be%e8%83%bd%e5%8a%9b%e5%af%b9%e6%95%b4%e4%bd%93%e7%9a%84%e5%ba%94%e7%94%a8%e5%81%9a%e5%ae%b9%e7%81%be%e5%a4%87%e4%bb%bd%e6%9d%a5%e5%ba%94%e5%af%b9%e5%8d%95%e5%9c%b0%e5%8c%ba%e7%9a%84%e6%95%85%e9%9a%9c%e6%bb%a1%e8%b6%b3%e4%b8%9a%e5%8a%a1%e7%9a%84rtorpo%e6%a0%b8%e5%bf%83%e6%8c%87%e6%a0%87"></a>
+537. 某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时,可利用混合云容灾服务支持业务的_____的容灾能力,对整体的应用做容灾备份来应对单地区的故障,满足业务的RTO/RPO核心指标。
+</h3><h4 id="选项-36">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-36"></a>
+选项:
+</h4><ul>
+<li>A. 跨地域</li>
+<li>B. 跨可用区</li>
+<li>C. 跨数据中心</li>
+<li>D. 跨机房</li>
+</ul>
+<h4 id="正确答案-b-11">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-11"></a>
+正确答案: B
+</h4><h4 id="解析-36">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-36"></a>
+解析:
+</h4><hr>
+<h3 id="538-某游戏公司新上线一款游戏上线第三天即飙升至免费榜第3平均每日承载5万玩家为更清晰了解用户公司需要进行游戏运营数据分析该游戏运营分析系统分为三个阶段数据采集阶段数据归档阶段数据分析阶段对各个阶段说法不正确的是">
+<a class="header-anchor" href="#538-%e6%9f%90%e6%b8%b8%e6%88%8f%e5%85%ac%e5%8f%b8%e6%96%b0%e4%b8%8a%e7%ba%bf%e4%b8%80%e6%ac%be%e6%b8%b8%e6%88%8f%e4%b8%8a%e7%ba%bf%e7%ac%ac%e4%b8%89%e5%a4%a9%e5%8d%b3%e9%a3%99%e5%8d%87%e8%87%b3%e5%85%8d%e8%b4%b9%e6%a6%9c%e7%ac%ac3%e5%b9%b3%e5%9d%87%e6%af%8f%e6%97%a5%e6%89%bf%e8%bd%bd5%e4%b8%87%e7%8e%a9%e5%ae%b6%e4%b8%ba%e6%9b%b4%e6%b8%85%e6%99%b0%e4%ba%86%e8%a7%a3%e7%94%a8%e6%88%b7%e5%85%ac%e5%8f%b8%e9%9c%80%e8%a6%81%e8%bf%9b%e8%a1%8c%e6%b8%b8%e6%88%8f%e8%bf%90%e8%90%a5%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90%e8%af%a5%e6%b8%b8%e6%88%8f%e8%bf%90%e8%90%a5%e5%88%86%e6%9e%90%e7%b3%bb%e7%bb%9f%e5%88%86%e4%b8%ba%e4%b8%89%e4%b8%aa%e9%98%b6%e6%ae%b5%e6%95%b0%e6%8d%ae%e9%87%87%e9%9b%86%e9%98%b6%e6%ae%b5%e6%95%b0%e6%8d%ae%e5%bd%92%e6%a1%a3%e9%98%b6%e6%ae%b5%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90%e9%98%b6%e6%ae%b5%e5%af%b9%e5%90%84%e4%b8%aa%e9%98%b6%e6%ae%b5%e8%af%b4%e6%b3%95%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af"></a>
+538. 某游戏公司新上线一款游戏,上线第三天即飙升至免费榜第3。平均每日承载5万玩家。为更清晰了解用户,公司需要进行游戏运营数据分析。该游戏运营分析系统分为三个阶段:数据采集阶段,数据归档阶段,数据分析阶段。对各个阶段说法不正确的是?
+</h3><h4 id="选项-37">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-37"></a>
+选项:
+</h4><ul>
+<li>A. 数据采集阶段可以使用大数据计算服务MaxCompute,使用工具将多种数据源的数据同步至MaxCompute</li>
+<li>B. 数据采集阶段,游戏客户端的数据可以通过SDK方式上报至数据仓库服务器,服务器端的玩家游戏行为日志可通过日志服务LogService收集</li>
+<li>C. 数据归档阶段可以将得到的数据永久存储在LogService和大数据计算服务MaxCompute中</li>
+<li>D. 数据分析阶段可以使用数据工场DataWorks进行数据工作流的开发和测试,分析的最终结果可以保存在表格存储中</li>
+</ul>
+<h4 id="正确答案-c-5">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-5"></a>
+正确答案: C
+</h4><h4 id="解析-37">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-37"></a>
+解析:
+</h4><p>归档数据应该存储在OSS里面，选C</p>
+<hr>
+<h3 id="539-由于rds只读实例的数据均由源数据库实例同步而来以下那些功能只读实例可以使用">
+<a class="header-anchor" href="#539-%e7%94%b1%e4%ba%8erds%e5%8f%aa%e8%af%bb%e5%ae%9e%e4%be%8b%e7%9a%84%e6%95%b0%e6%8d%ae%e5%9d%87%e7%94%b1%e6%ba%90%e6%95%b0%e6%8d%ae%e5%ba%93%e5%ae%9e%e4%be%8b%e5%90%8c%e6%ad%a5%e8%80%8c%e6%9d%a5%e4%bb%a5%e4%b8%8b%e9%82%a3%e4%ba%9b%e5%8a%9f%e8%83%bd%e5%8f%aa%e8%af%bb%e5%ae%9e%e4%be%8b%e5%8f%af%e4%bb%a5%e4%bd%bf%e7%94%a8"></a>
+539. 由于RDS只读实例的数据均由源数据库实例同步而来,以下那些功能只读实例可以使用?
+</h3><h4 id="选项-38">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-38"></a>
+选项:
+</h4><ul>
+<li>A. 独立的白名单配置</li>
+<li>B. 备份设置以及临时备份功能</li>
+<li>C. 创建、删除数据库</li>
+<li>D. 账号授权以及修改账号密码</li>
+</ul>
+<h4 id="正确答案-a-13">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-13"></a>
+正确答案: A
+</h4><h4 id="解析-38">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-38"></a>
+解析:
+</h4><hr>
+<h3 id="540-关于rds数据转移功能描述最准确的是">
+<a class="header-anchor" href="#540-%e5%85%b3%e4%ba%8erds%e6%95%b0%e6%8d%ae%e8%bd%ac%e7%a7%bb%e5%8a%9f%e8%83%bd%e6%8f%8f%e8%bf%b0%e6%9c%80%e5%87%86%e7%a1%ae%e7%9a%84%e6%98%af"></a>
+540. 关于RDS数据转移功能,描述最准确的是
+</h3><h4 id="选项-39">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-39"></a>
+选项:
+</h4><ul>
+<li>A. 支持实例间复制数据库</li>
+<li>B. 数据备份文件可以从控制台下载</li>
+<li>C. 支持云外mysql数据库的迁入</li>
+<li>D. 以上功能都支持</li>
+</ul>
+<h4 id="正确答案-d-7">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-7"></a>
+正确答案: D
+</h4><h4 id="解析-39">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-39"></a>
+解析:
+</h4><hr>
+<h3 id="541-阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是">
+<a class="header-anchor" href="#541-%e9%98%bf%e9%87%8c%e4%ba%91%e4%bc%81%e4%b8%9a%e7%ba%a7%e4%ba%92%e8%81%94%e7%bd%91%e6%9e%b6%e6%9e%84%e4%b8%ad%e4%bf%9d%e9%9a%9c%e4%b8%9a%e5%8a%a1%e7%b3%bb%e7%bb%9f%e5%9c%a8%e5%a4%a7%e4%bf%83%e7%a7%92%e6%9d%80%e5%9c%ba%e6%99%af%e4%b8%8b%e5%b9%b3%e7%a8%b3%e8%bf%90%e8%a1%8c%e7%9a%84%e6%a0%b8%e5%bf%83%e6%96%b9%e6%a1%88%e6%98%af"></a>
+541. 阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是?
+</h3><h4 id="选项-40">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-40"></a>
+选项:
+</h4><ul>
+<li>A. 两地三中心</li>
+<li>B. 限流降级</li>
+<li>C. 容量规划</li>
+<li>D. 弹性伸缩</li>
+</ul>
+<h4 id="正确答案-b-12">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-12"></a>
+正确答案: B
+</h4><h4 id="解析-40">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-40"></a>
+解析:
+</h4><p>题干描述的是保障系统在大促秒杀场景下平稳运行，限流通过调节流量阈值来控制通过系统的最大流量值，保证系统安全可靠运行；降级对下游出现超时的非核心服务提供者进行低优先级调用，确保上游核心应用（服务消费者）不被影响。选B；参考：https://help.aliyun.com/document_detail/155907.html</p>
+<hr>
+<h3 id="542-当出现消费者对某条消息重复消费的情况时重复消费的结果与消费一次的结果是相同的并且多次消费并未对业务系统产生任何负面影响那么这整个过程就可实现消息幂等以下关于消息幂等的描述错误的是___">
+<a class="header-anchor" href="#542-%e5%bd%93%e5%87%ba%e7%8e%b0%e6%b6%88%e8%b4%b9%e8%80%85%e5%af%b9%e6%9f%90%e6%9d%a1%e6%b6%88%e6%81%af%e9%87%8d%e5%a4%8d%e6%b6%88%e8%b4%b9%e7%9a%84%e6%83%85%e5%86%b5%e6%97%b6%e9%87%8d%e5%a4%8d%e6%b6%88%e8%b4%b9%e7%9a%84%e7%bb%93%e6%9e%9c%e4%b8%8e%e6%b6%88%e8%b4%b9%e4%b8%80%e6%ac%a1%e7%9a%84%e7%bb%93%e6%9e%9c%e6%98%af%e7%9b%b8%e5%90%8c%e7%9a%84%e5%b9%b6%e4%b8%94%e5%a4%9a%e6%ac%a1%e6%b6%88%e8%b4%b9%e5%b9%b6%e6%9c%aa%e5%af%b9%e4%b8%9a%e5%8a%a1%e7%b3%bb%e7%bb%9f%e4%ba%a7%e7%94%9f%e4%bb%bb%e4%bd%95%e8%b4%9f%e9%9d%a2%e5%bd%b1%e5%93%8d%e9%82%a3%e4%b9%88%e8%bf%99%e6%95%b4%e4%b8%aa%e8%bf%87%e7%a8%8b%e5%b0%b1%e5%8f%af%e5%ae%9e%e7%8e%b0%e6%b6%88%e6%81%af%e5%b9%82%e7%ad%89%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8e%e6%b6%88%e6%81%af%e5%b9%82%e7%ad%89%e7%9a%84%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af___"></a>
+542. 当出现消费者对某条消息重复消费的情况时，重复消费的结果与消费一次的结果是相同的，并且多次消费并未对业务系统产生任何负面影响，那么这整个过程就可实现消息幂等。以下关于消息幂等的描述，错误的是___。
+</h3><h4 id="选项-41">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-41"></a>
+选项:
+</h4><ul>
+<li>A. 当消息队列RocketMQ版的Broker或客户端重启、扩容或缩容时，会触发Rebalance，此时消费者可能会收到重复消息。由于这种场景发生在MQ的服务端，MQ会进行拦截处理，因此不需要对消息做幂等处理</li>
+<li>B. 因为Message ID有可能出现冲突（重复）的情况，所以真正安全的幂等处理，不建议以Message ID作为处理依据。最好的方式是以业务唯一标识作为幂等处理的关键依据，而业务的唯一标识可以通过消息Key设置</li>
+<li>C. 在支付场景下，消费者消费扣款消息，对一笔订单执行扣款操作，扣款金额为100元。如果因网络不稳定等原因导致扣款消息重复投递，消费者重复消费了该扣款消息，但最终的业务结果是只扣款一次，扣费100元，且用户的扣款记录中对应的订单只有一条扣款流水，不会多次扣除费用。那么这次扣款操作是符合要求的，整个消费过程实现了消费幂等</li>
+<li>D. 当一条消息已被成功发送到服务端并完成持久化，此时出现了网络闪断或者客户端宕机，导致服务端对客户端应答失败。如果此时生产者意识到消良发送失败并尝试再次发送消息消费者后续会收到两条内容相同并且Message ID也相同的消息，这种场景下，就需要对消息做幂等处理</li>
+</ul>
+<h4 id="正确答案-a-14">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-14"></a>
+正确答案: A
+</h4><h4 id="解析-41">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-41"></a>
+解析:
+</h4><p>A错误，需要对消息做幂等处理https://help.aliyun.com/document_detail/44397.html</p>
+<hr>
+<h3 id="543-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择产品或服务进行判断">
+<a class="header-anchor" href="#543-%e9%98%bf%e9%87%8c%e4%ba%91%e6%8f%90%e4%be%9b%e7%9a%84%e5%ae%89%e5%85%a8%e4%ba%a7%e5%93%81%e4%ba%91%e7%9b%be%e6%b6%b5%e7%9b%96%e4%bb%8e%e7%bd%91%e7%bb%9c%e4%b8%bb%e6%9c%ba%e5%ba%94%e7%94%a8%e6%95%b0%e6%8d%ae%e5%9b%be%e7%89%87%e8%af%86%e5%88%ab%e6%b7%b7%e5%90%88%e4%ba%91%e5%88%b0%e6%95%b0%e5%ad%97%e8%af%81%e4%b9%a6%e5%92%8c%e4%b8%9a%e5%8a%a1%e9%a3%8e%e6%8e%a7%e4%bf%9d%e9%99%a9%e7%ad%89%e5%a4%9a%e4%b8%aa%e5%ad%90%e4%ba%a7%e5%93%81%e9%81%87%e5%88%b0%e4%b8%8d%e5%90%8c%e7%9a%84%e9%a3%8e%e9%99%a9%e6%97%b6%e9%80%89%e6%8b%a9%e5%90%88%e9%80%82%e7%9a%84%e4%ba%a7%e5%93%81%e5%8f%af%e4%bb%a5%e5%81%9a%e5%88%b0%e4%ba%8b%e5%8d%8a%e5%8a%9f%e5%80%8d%e5%bd%93%e5%ae%a2%e6%88%b7%e4%b8%8d%e6%b8%85%e6%a5%9a%e8%87%aa%e5%b7%b1%e5%9c%a8%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8a%e6%8f%90%e4%be%9b%e6%9c%8d%e5%8a%a1%e7%9a%84%e7%b3%bb%e7%bb%9f%e6%98%af%e5%90%a6%e5%af%b9%e5%a4%96%e5%ad%98%e5%9c%a8%e5%ae%89%e5%85%a8%e6%bc%8f%e6%b4%9e%e6%9c%89%e5%93%aa%e4%ba%9b%e5%ae%89%e5%85%a8%e9%9a%90%e6%82%a3%e6%97%b6%e5%8f%af%e4%bb%a5%e9%80%89%e6%8b%a9%e4%ba%a7%e5%93%81%e6%88%96%e6%9c%8d%e5%8a%a1%e8%bf%9b%e8%a1%8c%e5%88%a4%e6%96%ad"></a>
+543. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品,遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞,有哪些安全隐患时,可以选择()产品或服务进行判断。
+</h3><h4 id="选项-42">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-42"></a>
+选项:
+</h4><ul>
+<li>A. 安骑士</li>
+<li>B. WEB应用防火墙(WAF)</li>
+<li>C. DDoS高防IP</li>
+<li>D. 安全管家服务</li>
+<li>E. 先知</li>
+</ul>
+<h4 id="正确答案-a-15">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-15"></a>
+正确答案: A
+</h4><h4 id="解析-42">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-42"></a>
+解析:
+</h4><p>题目问的是不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞,所以需要用云安全中心(原名:安骑士)来确定系统是否有安全漏洞。注意选项中新老题目云产品名称的区分。</p>
+<hr>
+<h3 id="544-阿里云操作系统叫作飞天云网络平台称为洛神作为飞天系统的核心组件洛神平台支撑超大规模租户超大规模虚拟机的高性能云网络洛神的负责云网络中数据包的处理它就如同物理世界中的网线和路由交换设备把数据包高效率低延时地从发送端送到目的地类似地这个平面包含各种不同角色的组件包括支持各种不同类型计算形态的虚拟交换机用于数据中心互联的dcn网关用于云网络连接的公网网关用于云上云下互联的混合云网关等">
+<a class="header-anchor" href="#544-%e9%98%bf%e9%87%8c%e4%ba%91%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e5%8f%ab%e4%bd%9c%e9%a3%9e%e5%a4%a9%e4%ba%91%e7%bd%91%e7%bb%9c%e5%b9%b3%e5%8f%b0%e7%a7%b0%e4%b8%ba%e6%b4%9b%e7%a5%9e%e4%bd%9c%e4%b8%ba%e9%a3%9e%e5%a4%a9%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%a0%b8%e5%bf%83%e7%bb%84%e4%bb%b6%e6%b4%9b%e7%a5%9e%e5%b9%b3%e5%8f%b0%e6%94%af%e6%92%91%e8%b6%85%e5%a4%a7%e8%a7%84%e6%a8%a1%e7%a7%9f%e6%88%b7%e8%b6%85%e5%a4%a7%e8%a7%84%e6%a8%a1%e8%99%9a%e6%8b%9f%e6%9c%ba%e7%9a%84%e9%ab%98%e6%80%a7%e8%83%bd%e4%ba%91%e7%bd%91%e7%bb%9c%e6%b4%9b%e7%a5%9e%e7%9a%84%e8%b4%9f%e8%b4%a3%e4%ba%91%e7%bd%91%e7%bb%9c%e4%b8%ad%e6%95%b0%e6%8d%ae%e5%8c%85%e7%9a%84%e5%a4%84%e7%90%86%e5%ae%83%e5%b0%b1%e5%a6%82%e5%90%8c%e7%89%a9%e7%90%86%e4%b8%96%e7%95%8c%e4%b8%ad%e7%9a%84%e7%bd%91%e7%ba%bf%e5%92%8c%e8%b7%af%e7%94%b1%e4%ba%a4%e6%8d%a2%e8%ae%be%e5%a4%87%e6%8a%8a%e6%95%b0%e6%8d%ae%e5%8c%85%e9%ab%98%e6%95%88%e7%8e%87%e4%bd%8e%e5%bb%b6%e6%97%b6%e5%9c%b0%e4%bb%8e%e5%8f%91%e9%80%81%e7%ab%af%e9%80%81%e5%88%b0%e7%9b%ae%e7%9a%84%e5%9c%b0%e7%b1%bb%e4%bc%bc%e5%9c%b0%e8%bf%99%e4%b8%aa%e5%b9%b3%e9%9d%a2%e5%8c%85%e5%90%ab%e5%90%84%e7%a7%8d%e4%b8%8d%e5%90%8c%e8%a7%92%e8%89%b2%e7%9a%84%e7%bb%84%e4%bb%b6%e5%8c%85%e6%8b%ac%e6%94%af%e6%8c%81%e5%90%84%e7%a7%8d%e4%b8%8d%e5%90%8c%e7%b1%bb%e5%9e%8b%e8%ae%a1%e7%ae%97%e5%bd%a2%e6%80%81%e7%9a%84%e8%99%9a%e6%8b%9f%e4%ba%a4%e6%8d%a2%e6%9c%ba%e7%94%a8%e4%ba%8e%e6%95%b0%e6%8d%ae%e4%b8%ad%e5%bf%83%e4%ba%92%e8%81%94%e7%9a%84dcn%e7%bd%91%e5%85%b3%e7%94%a8%e4%ba%8e%e4%ba%91%e7%bd%91%e7%bb%9c%e8%bf%9e%e6%8e%a5%e7%9a%84%e5%85%ac%e7%bd%91%e7%bd%91%e5%85%b3%e7%94%a8%e4%ba%8e%e4%ba%91%e4%b8%8a%e4%ba%91%e4%b8%8b%e4%ba%92%e8%81%94%e7%9a%84%e6%b7%b7%e5%90%88%e4%ba%91%e7%bd%91%e5%85%b3%e7%ad%89"></a>
+544. 阿里云操作系统叫作“飞天”，云网络平台称为”洛神“，作为飞天系统的核心组件，洛神平台支撑超大规模租户，超大规模虚拟机的高性能云网络，洛神的（）负责云网络中数据包的处理，它就如同物理世界中的网线和路由交换设备，把数据包高效率，低延时地从发送端送到目的地，类似地，这个平面包含各种不同角色的组件，包括支持各种不同类型计算形态的虚拟交换机、用于数据中心互联的DCN网关，用于云网络连接的公网网关，用于云上云下互联的混合云网关等。
+</h3><h4 id="选项-43">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-43"></a>
+选项:
+</h4><ul>
+<li>A. 调度平面</li>
+<li>B. 拉制平面</li>
+<li>C. 管理平面</li>
+<li>D. 数据平面</li>
+</ul>
+<h4 id="正确答案-d-8">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-8"></a>
+正确答案: D
+</h4><h4 id="解析-43">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-43"></a>
+解析:
+</h4><p>洛神云网络的技术架构，可以被认为由三部分组成， 分别是数据平面，控制平面和管理平面。其中数据平面主要负责云网络中数据包的处理，简单说就是帮助数据包以高频率低延迟的方式从发送端口到目的地</p>
+<hr>
+<h3 id="545-企业通过数字化转型引导业务创新在混合云架构创造的与之间权衡利弊结合企业自身的混合云战略和建设思路建立和优化企业管理方式业务创新路径财务结算方式人力投入的it组织是企业能够发挥混合云建设成效的关键">
+<a class="header-anchor" href="#545-%e4%bc%81%e4%b8%9a%e9%80%9a%e8%bf%87%e6%95%b0%e5%ad%97%e5%8c%96%e8%bd%ac%e5%9e%8b%e5%bc%95%e5%af%bc%e4%b8%9a%e5%8a%a1%e5%88%9b%e6%96%b0%e5%9c%a8%e6%b7%b7%e5%90%88%e4%ba%91%e6%9e%b6%e6%9e%84%e5%88%9b%e9%80%a0%e7%9a%84%e4%b8%8e%e4%b9%8b%e9%97%b4%e6%9d%83%e8%a1%a1%e5%88%a9%e5%bc%8a%e7%bb%93%e5%90%88%e4%bc%81%e4%b8%9a%e8%87%aa%e8%ba%ab%e7%9a%84%e6%b7%b7%e5%90%88%e4%ba%91%e6%88%98%e7%95%a5%e5%92%8c%e5%bb%ba%e8%ae%be%e6%80%9d%e8%b7%af%e5%bb%ba%e7%ab%8b%e5%92%8c%e4%bc%98%e5%8c%96%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86%e6%96%b9%e5%bc%8f%e4%b8%9a%e5%8a%a1%e5%88%9b%e6%96%b0%e8%b7%af%e5%be%84%e8%b4%a2%e5%8a%a1%e7%bb%93%e7%ae%97%e6%96%b9%e5%bc%8f%e4%ba%ba%e5%8a%9b%e6%8a%95%e5%85%a5%e7%9a%84it%e7%bb%84%e7%bb%87%e6%98%af%e4%bc%81%e4%b8%9a%e8%83%bd%e5%a4%9f%e5%8f%91%e6%8c%a5%e6%b7%b7%e5%90%88%e4%ba%91%e5%bb%ba%e8%ae%be%e6%88%90%e6%95%88%e7%9a%84%e5%85%b3%e9%94%ae"></a>
+545. 企业通过数字化转型，引导业务创新，在混合云架构创造的（）与（）之间权衡利弊，结合企业自身的混合云战略和建设思路，建立和优化企业管理方式，业务创新路径，财务结算方式，人力投入的IT组织，是企业能够发挥混合云建设成效的关键。
+</h3><h4 id="选项-44">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-44"></a>
+选项:
+</h4><ul>
+<li>A. 业务价值，面临的风险挑战</li>
+<li>B. 可扩展性，安全合规</li>
+<li>C. 需求、成本</li>
+<li>D. 开放性，兼容性</li>
+</ul>
+<h4 id="正确答案-a-16">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-16"></a>
+正确答案: A
+</h4><h4 id="解析-44">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-44"></a>
+解析:
+</h4><p>A.业务价值，面临的风险挑战。企业在数字化转型中引导业务创新，需要考虑业务的价值和面临的风险挑战，寻找利益最大化的平衡点。在混合云架构创造中同样需要权衡利弊，找到满足业务需求并能够保证安全的方案。因此，企业建立和优化管理方式、业务创新路径、IT组织等方面时需要结合业务价值和面临的风险挑战考虑。</p>
+<hr>
+<h3 id="546-运维工程师小李将应用部署在阿里云容器服务上他希望将前端服务配置文件webconf挂载到pod中以下___是正确的挂载方式">
+<a class="header-anchor" href="#546-%e8%bf%90%e7%bb%b4%e5%b7%a5%e7%a8%8b%e5%b8%88%e5%b0%8f%e6%9d%8e%e5%b0%86%e5%ba%94%e7%94%a8%e9%83%a8%e7%bd%b2%e5%9c%a8%e9%98%bf%e9%87%8c%e4%ba%91%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1%e4%b8%8a%e4%bb%96%e5%b8%8c%e6%9c%9b%e5%b0%86%e5%89%8d%e7%ab%af%e6%9c%8d%e5%8a%a1%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6webconf%e6%8c%82%e8%bd%bd%e5%88%b0pod%e4%b8%ad%e4%bb%a5%e4%b8%8b___%e6%98%af%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%8c%82%e8%bd%bd%e6%96%b9%e5%bc%8f"></a>
+546. 运维工程师小李将应用部署在阿里云容器服务上，他希望将前端服务配置文件web.conf挂载到pod中，以下___是正确的挂载方式。
+</h3><h4 id="选项-45">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-45"></a>
+选项:
+</h4><ul>
+<li>A. -mountPath:/etc/nginx/conf.dname:volume</li>
+<li>B. -mountPath:/etc/nginx/conf.d/web.confname:volumesubPath:web.conf</li>
+<li>C. -mountPath:/etc/nginx/conf.d/web.confname:volume</li>
+<li>D. -mountPath:/etc/nginx/conf.dname:volumesubPath:web.conf</li>
+</ul>
+<h4 id="正确答案-b-13">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-13"></a>
+正确答案: B
+</h4><h4 id="解析-45">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-45"></a>
+解析:
+</h4><p>单文件挂载用subpath</p>
+<hr>
+<h3 id="547-某资讯类平台最近发现服务器资源使用率突然增高并且从访问日志发现有大量的爬虫程序在爬取站点信息导致用户正常浏览资讯信息非常慢用户体验很差如果你是cto可以通过_____方式来防止爬虫程序的爬取">
+<a class="header-anchor" href="#547-%e6%9f%90%e8%b5%84%e8%ae%af%e7%b1%bb%e5%b9%b3%e5%8f%b0%e6%9c%80%e8%bf%91%e5%8f%91%e7%8e%b0%e6%9c%8d%e5%8a%a1%e5%99%a8%e8%b5%84%e6%ba%90%e4%bd%bf%e7%94%a8%e7%8e%87%e7%aa%81%e7%84%b6%e5%a2%9e%e9%ab%98%e5%b9%b6%e4%b8%94%e4%bb%8e%e8%ae%bf%e9%97%ae%e6%97%a5%e5%bf%97%e5%8f%91%e7%8e%b0%e6%9c%89%e5%a4%a7%e9%87%8f%e7%9a%84%e7%88%ac%e8%99%ab%e7%a8%8b%e5%ba%8f%e5%9c%a8%e7%88%ac%e5%8f%96%e7%ab%99%e7%82%b9%e4%bf%a1%e6%81%af%e5%af%bc%e8%87%b4%e7%94%a8%e6%88%b7%e6%ad%a3%e5%b8%b8%e6%b5%8f%e8%a7%88%e8%b5%84%e8%ae%af%e4%bf%a1%e6%81%af%e9%9d%9e%e5%b8%b8%e6%85%a2%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c%e5%be%88%e5%b7%ae%e5%a6%82%e6%9e%9c%e4%bd%a0%e6%98%afcto%e5%8f%af%e4%bb%a5%e9%80%9a%e8%bf%87_____%e6%96%b9%e5%bc%8f%e6%9d%a5%e9%98%b2%e6%ad%a2%e7%88%ac%e8%99%ab%e7%a8%8b%e5%ba%8f%e7%9a%84%e7%88%ac%e5%8f%96"></a>
+547. 某资讯类平台，最近发现服务器资源使用率突然增高，并且从访问日志发现有大量的爬虫程序在爬取站点信息。导致用户正常浏览资讯信息非常慢，用户体验很差。如果你是CTO可以通过_____方式来防止爬虫程序的爬取。
+</h3><h4 id="选项-46">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-46"></a>
+选项:
+</h4><ul>
+<li>A. 内容安全</li>
+<li>B. 云安全中心</li>
+<li>C. 堡垒机</li>
+<li>D. web应用防火墙</li>
+</ul>
+<h4 id="正确答案-d-9">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-9"></a>
+正确答案: D
+</h4><h4 id="解析-46">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-46"></a>
+解析:
+</h4><p>参考：Https://help.aliyun.com/document_detail/159910.html</p>
+<hr>
+<h3 id="548-比特币挖掘病毒与wannacry类似同样是利用ms17-010漏洞除了文件加密勒索外还会控制感染主机进行比特币挖掘该病毒是一个dll文件在感染前会检测运行环境如果是俄罗斯白俄罗斯哈萨科斯坦将不进行感染感染后会留下一个名为_decode_filestxt的文本里面是勒索信息同时将文件加密为_格式">
+<a class="header-anchor" href="#548-%e6%af%94%e7%89%b9%e5%b8%81%e6%8c%96%e6%8e%98%e7%97%85%e6%af%92%e4%b8%8ewannacry%e7%b1%bb%e4%bc%bc%e5%90%8c%e6%a0%b7%e6%98%af%e5%88%a9%e7%94%a8ms17-010%e6%bc%8f%e6%b4%9e%e9%99%a4%e4%ba%86%e6%96%87%e4%bb%b6%e5%8a%a0%e5%af%86%e5%8b%92%e7%b4%a2%e5%a4%96%e8%bf%98%e4%bc%9a%e6%8e%a7%e5%88%b6%e6%84%9f%e6%9f%93%e4%b8%bb%e6%9c%ba%e8%bf%9b%e8%a1%8c%e6%af%94%e7%89%b9%e5%b8%81%e6%8c%96%e6%8e%98%e8%af%a5%e7%97%85%e6%af%92%e6%98%af%e4%b8%80%e4%b8%aadll%e6%96%87%e4%bb%b6%e5%9c%a8%e6%84%9f%e6%9f%93%e5%89%8d%e4%bc%9a%e6%a3%80%e6%b5%8b%e8%bf%90%e8%a1%8c%e7%8e%af%e5%a2%83%e5%a6%82%e6%9e%9c%e6%98%af%e4%bf%84%e7%bd%97%e6%96%af%e7%99%bd%e4%bf%84%e7%bd%97%e6%96%af%e5%93%88%e8%90%a8%e7%a7%91%e6%96%af%e5%9d%a6%e5%b0%86%e4%b8%8d%e8%bf%9b%e8%a1%8c%e6%84%9f%e6%9f%93%e6%84%9f%e6%9f%93%e5%90%8e%e4%bc%9a%e7%95%99%e4%b8%8b%e4%b8%80%e4%b8%aa%e5%90%8d%e4%b8%ba_decode_filestxt%e7%9a%84%e6%96%87%e6%9c%ac%e9%87%8c%e9%9d%a2%e6%98%af%e5%8b%92%e7%b4%a2%e4%bf%a1%e6%81%af%e5%90%8c%e6%97%b6%e5%b0%86%e6%96%87%e4%bb%b6%e5%8a%a0%e5%af%86%e4%b8%ba_%e6%a0%bc%e5%bc%8f"></a>
+548. 比特币挖掘病毒与WannaCry类似,同样是利用MS17-010漏洞,除了文件加密勒索外还会控制感染主机进行比特币挖掘。该病毒是一个dll文件,在感染前会检测运行环境,如果是俄罗斯,白俄罗斯、哈萨科斯坦将不进行感染,感染后会留下一个名为“_DECODE_FILES.txt”的文本,里面是勒索信息,同时将文件加密为_格式。
+</h3><h4 id="选项-47">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-47"></a>
+选项:
+</h4><ul>
+<li>A. UIWIX</li>
+<li>B. DLL</li>
+<li>C. EXE</li>
+<li>D. DCODE</li>
+</ul>
+<h4 id="正确答案-a-17">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-17"></a>
+正确答案: A
+</h4><h4 id="解析-47">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-47"></a>
+解析:
+</h4><hr>
+<h3 id="549-数据库是较大型的应用对于繁忙的数据库需要消耗大量的内存cpuio网络资源sql优化是数据库优化的手段之一而为了达到sql优化的最佳效果首先需要了解最消耗资源的sql-top-sql-例如io消耗最高的sql在rds-postgresql数据库中查询单次调用最耗io-sql的语句是______">
+<a class="header-anchor" href="#549-%e6%95%b0%e6%8d%ae%e5%ba%93%e6%98%af%e8%be%83%e5%a4%a7%e5%9e%8b%e7%9a%84%e5%ba%94%e7%94%a8%e5%af%b9%e4%ba%8e%e7%b9%81%e5%bf%99%e7%9a%84%e6%95%b0%e6%8d%ae%e5%ba%93%e9%9c%80%e8%a6%81%e6%b6%88%e8%80%97%e5%a4%a7%e9%87%8f%e7%9a%84%e5%86%85%e5%ad%98cpuio%e7%bd%91%e7%bb%9c%e8%b5%84%e6%ba%90sql%e4%bc%98%e5%8c%96%e6%98%af%e6%95%b0%e6%8d%ae%e5%ba%93%e4%bc%98%e5%8c%96%e7%9a%84%e6%89%8b%e6%ae%b5%e4%b9%8b%e4%b8%80%e8%80%8c%e4%b8%ba%e4%ba%86%e8%be%be%e5%88%b0sql%e4%bc%98%e5%8c%96%e7%9a%84%e6%9c%80%e4%bd%b3%e6%95%88%e6%9e%9c%e9%a6%96%e5%85%88%e9%9c%80%e8%a6%81%e4%ba%86%e8%a7%a3%e6%9c%80%e6%b6%88%e8%80%97%e8%b5%84%e6%ba%90%e7%9a%84sql-top-sql-%e4%be%8b%e5%a6%82io%e6%b6%88%e8%80%97%e6%9c%80%e9%ab%98%e7%9a%84sql%e5%9c%a8rds-postgresql%e6%95%b0%e6%8d%ae%e5%ba%93%e4%b8%ad%e6%9f%a5%e8%af%a2%e5%8d%95%e6%ac%a1%e8%b0%83%e7%94%a8%e6%9c%80%e8%80%97io-sql%e7%9a%84%e8%af%ad%e5%8f%a5%e6%98%af______"></a>
+549. 数据库是较大型的应用，对于繁忙的数据库,需要消耗大量的内存、CPU、IO、网络资源。SQL优化是数据库优化的手段之一，而为了达到SQL优化的最佳效果首先需要了解最消耗资源的SQL (Top SQL) ,例如IO消耗最高的SQL,在RDS PostgreSQL数据库中,查询单次调用最耗IO SQL的语句是______。
+</h3><h4 id="选项-48">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-48"></a>
+选项:
+</h4><ul>
+<li>A. select userid::regrole, dbid, query from pg_stat_statements order by stddev_time</li>
+<li>B. select userid::regrole, dbid, query from pg_stat_statements order by mean_time</li>
+<li>C. select userid::regrole, dbid, query from pg_stat_statements order by (blk_read_time+blk_write_time)/calls</li>
+<li>D. select userid::regrole, dbid, query from pg_stat_statements order by (shared_blks_hit+shared_bIks_dirtied)</li>
+</ul>
+<h4 id="正确答案-c-6">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-6"></a>
+正确答案: C
+</h4><h4 id="解析-48">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-48"></a>
+解析:
+</h4><hr>
+<h3 id="550-跨站攻击即cross-site-script-execution通常简写为xss因为css与层叠样式表同名故改为xss是指攻击者利用网站程序对用户输入过滤不足输入可以显示在页面上对其他用户造成影响的html代码从而盗取用户资料利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式很多人对于xss的利用大多停留在弹框的程度一些厂商对xss也是不以为然都认为安全级别很低甚至忽略不计作为公司网络安全工程师今天安排对公司官网进行手工验证网站漏洞工作时为了测试某个跨站攻击漏洞在修改跨站脚本攻击时以下做法错误的是______">
+<a class="header-anchor" href="#550-%e8%b7%a8%e7%ab%99%e6%94%bb%e5%87%bb%e5%8d%b3cross-site-script-execution%e9%80%9a%e5%b8%b8%e7%ae%80%e5%86%99%e4%b8%baxss%e5%9b%a0%e4%b8%bacss%e4%b8%8e%e5%b1%82%e5%8f%a0%e6%a0%b7%e5%bc%8f%e8%a1%a8%e5%90%8c%e5%90%8d%e6%95%85%e6%94%b9%e4%b8%baxss%e6%98%af%e6%8c%87%e6%94%bb%e5%87%bb%e8%80%85%e5%88%a9%e7%94%a8%e7%bd%91%e7%ab%99%e7%a8%8b%e5%ba%8f%e5%af%b9%e7%94%a8%e6%88%b7%e8%be%93%e5%85%a5%e8%bf%87%e6%bb%a4%e4%b8%8d%e8%b6%b3%e8%be%93%e5%85%a5%e5%8f%af%e4%bb%a5%e6%98%be%e7%a4%ba%e5%9c%a8%e9%a1%b5%e9%9d%a2%e4%b8%8a%e5%af%b9%e5%85%b6%e4%bb%96%e7%94%a8%e6%88%b7%e9%80%a0%e6%88%90%e5%bd%b1%e5%93%8d%e7%9a%84html%e4%bb%a3%e7%a0%81%e4%bb%8e%e8%80%8c%e7%9b%97%e5%8f%96%e7%94%a8%e6%88%b7%e8%b5%84%e6%96%99%e5%88%a9%e7%94%a8%e7%94%a8%e6%88%b7%e8%ba%ab%e4%bb%bd%e8%bf%9b%e8%a1%8c%e6%9f%90%e7%a7%8d%e5%8a%a8%e4%bd%9c%e6%88%96%e8%80%85%e5%af%b9%e8%ae%bf%e9%97%ae%e8%80%85%e8%bf%9b%e8%a1%8c%e7%97%85%e6%af%92%e4%be%b5%e5%ae%b3%e7%9a%84%e4%b8%80%e7%a7%8d%e6%94%bb%e5%87%bb%e6%96%b9%e5%bc%8f%e5%be%88%e5%a4%9a%e4%ba%ba%e5%af%b9%e4%ba%8exss%e7%9a%84%e5%88%a9%e7%94%a8%e5%a4%a7%e5%a4%9a%e5%81%9c%e7%95%99%e5%9c%a8%e5%bc%b9%e6%a1%86%e7%9a%84%e7%a8%8b%e5%ba%a6%e4%b8%80%e4%ba%9b%e5%8e%82%e5%95%86%e5%af%b9xss%e4%b9%9f%e6%98%af%e4%b8%8d%e4%bb%a5%e4%b8%ba%e7%84%b6%e9%83%bd%e8%ae%a4%e4%b8%ba%e5%ae%89%e5%85%a8%e7%ba%a7%e5%88%ab%e5%be%88%e4%bd%8e%e7%94%9a%e8%87%b3%e5%bf%bd%e7%95%a5%e4%b8%8d%e8%ae%a1%e4%bd%9c%e4%b8%ba%e5%85%ac%e5%8f%b8%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e5%b7%a5%e7%a8%8b%e5%b8%88%e4%bb%8a%e5%a4%a9%e5%ae%89%e6%8e%92%e5%af%b9%e5%85%ac%e5%8f%b8%e5%ae%98%e7%bd%91%e8%bf%9b%e8%a1%8c%e6%89%8b%e5%b7%a5%e9%aa%8c%e8%af%81%e7%bd%91%e7%ab%99%e6%bc%8f%e6%b4%9e%e5%b7%a5%e4%bd%9c%e6%97%b6%e4%b8%ba%e4%ba%86%e6%b5%8b%e8%af%95%e6%9f%90%e4%b8%aa%e8%b7%a8%e7%ab%99%e6%94%bb%e5%87%bb%e6%bc%8f%e6%b4%9e%e5%9c%a8%e4%bf%ae%e6%94%b9%e8%b7%a8%e7%ab%99%e8%84%9a%e6%9c%ac%e6%94%bb%e5%87%bb%e6%97%b6%e4%bb%a5%e4%b8%8b%e5%81%9a%e6%b3%95%e9%94%99%e8%af%af%e7%9a%84%e6%98%af______"></a>
+550. 跨站攻击,即Cross Site Script Execution(通常简写为XSS,因为CSS与层叠样式表同名,故改为XSS)是指攻击者利用网站程序对用户输入过滤不足.输入可以显示在页面上对其他用户造成影响的HTML代码，从而盗取用户资料、利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式。很多人对于XSS的利用大多停留在弹框的程度，一些厂商对XSS也是不以为然，都认为安全级别很低，甚至忽略不计。作为公司网络安全工程师，今天安排对公司官网进行手工验证网站漏洞工作时，为了测试某个跨站攻击漏洞在修改跨站脚本攻击时，以下做法错误的是______
+</h3><h4 id="选项-49">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-49"></a>
+选项:
+</h4><ul>
+<li>A. 使用白名单对输入进行验证</li>
+<li>B. 使用黑名单对输入进行过滤</li>
+<li>C. 对输出进行转义</li>
+<li>D. 对输入参数进行加密</li>
+</ul>
+<h4 id="正确答案-d-10">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-10"></a>
+正确答案: D
+</h4><h4 id="解析-49">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-49"></a>
+解析:
+</h4><hr>
+<h3 id="551-ctf是一种流行的信息安全竞赛形式其英文名可译为夺旗赛在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式ctf起源于1996年defcon全球黑客大会以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式发展至今已经成为全球范围网络安全圈流行的竞赛形式ctf的参赛团队成员通过相互合作使用逆向解密取证分析渗透利用等技术最终取得_______">
+<a class="header-anchor" href="#551-ctf%e6%98%af%e4%b8%80%e7%a7%8d%e6%b5%81%e8%a1%8c%e7%9a%84%e4%bf%a1%e6%81%af%e5%ae%89%e5%85%a8%e7%ab%9e%e8%b5%9b%e5%bd%a2%e5%bc%8f%e5%85%b6%e8%8b%b1%e6%96%87%e5%90%8d%e5%8f%af%e8%af%91%e4%b8%ba%e5%a4%ba%e6%97%97%e8%b5%9b%e5%9c%a8%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e9%a2%86%e5%9f%9f%e4%b8%ad%e6%8c%87%e7%9a%84%e6%98%af%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%8a%80%e6%9c%af%e4%ba%ba%e5%91%98%e4%b9%8b%e9%97%b4%e8%bf%9b%e8%a1%8c%e6%8a%80%e6%9c%af%e7%ab%9e%e6%8a%80%e7%9a%84%e4%b8%80%e7%a7%8d%e6%af%94%e8%b5%9b%e5%bd%a2%e5%bc%8fctf%e8%b5%b7%e6%ba%90%e4%ba%8e1996%e5%b9%b4defcon%e5%85%a8%e7%90%83%e9%bb%91%e5%ae%a2%e5%a4%a7%e4%bc%9a%e4%bb%a5%e4%bb%a3%e6%9b%bf%e4%b9%8b%e5%89%8d%e9%bb%91%e5%ae%a2%e4%bb%ac%e9%80%9a%e8%bf%87%e4%ba%92%e7%9b%b8%e5%8f%91%e8%b5%b7%e7%9c%9f%e5%ae%9e%e6%94%bb%e5%87%bb%e8%bf%9b%e8%a1%8c%e6%8a%80%e6%9c%af%e6%af%94%e6%8b%bc%e7%9a%84%e6%96%b9%e5%bc%8f%e5%8f%91%e5%b1%95%e8%87%b3%e4%bb%8a%e5%b7%b2%e7%bb%8f%e6%88%90%e4%b8%ba%e5%85%a8%e7%90%83%e8%8c%83%e5%9b%b4%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e5%9c%88%e6%b5%81%e8%a1%8c%e7%9a%84%e7%ab%9e%e8%b5%9b%e5%bd%a2%e5%bc%8fctf%e7%9a%84%e5%8f%82%e8%b5%9b%e5%9b%a2%e9%98%9f%e6%88%90%e5%91%98%e9%80%9a%e8%bf%87%e7%9b%b8%e4%ba%92%e5%90%88%e4%bd%9c%e4%bd%bf%e7%94%a8%e9%80%86%e5%90%91%e8%a7%a3%e5%af%86%e5%8f%96%e8%af%81%e5%88%86%e6%9e%90%e6%b8%97%e9%80%8f%e5%88%a9%e7%94%a8%e7%ad%89%e6%8a%80%e6%9c%af%e6%9c%80%e7%bb%88%e5%8f%96%e5%be%97_______"></a>
+551. CTF是一种流行的信息安全竞赛形式其英文名可译为“夺旗赛”,在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式。CTF起源于1996年DEFCON全球黑客大会，以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式，发展至今,已经成为全球范围网络安全圈流行的竞赛形式,CTF的参赛团队成员通过相互合作使用逆向、解密、取证分析、渗透利用等技术最终取得_______。
+</h3><h4 id="选项-50">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-50"></a>
+选项:
+</h4><ul>
+<li>A. ProcessHeap</li>
+<li>B. flag</li>
+<li>C. ForceFlags</li>
+<li>D. PEB</li>
+</ul>
+<h4 id="正确答案-b-14">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-14"></a>
+正确答案: B
+</h4><h4 id="解析-50">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-50"></a>
+解析:
+</h4><p>通过团队之间的相互合作使用逆向、解密、取证分析、渗透利用等技术最终取得flag</p>
+<hr>
+<h3 id="552-随着应用上云的普及单机架构向分布式架构演进系统之间的依赖关系调用链路变的十分复杂业务发展带来的服务端迭代越来越快在性能管理上很难有足够的投入经常会产生未知的隐患导致性能的大幅下-降借助于阿里巴巴内部多年高可用体系沉淀下来的经验结合使用应用高可用服务ahas和其他中间件产品可协助保障应用的稳定性以下关于ahas的实践描述错误的是">
+<a class="header-anchor" href="#552-%e9%9a%8f%e7%9d%80%e5%ba%94%e7%94%a8%e4%b8%8a%e4%ba%91%e7%9a%84%e6%99%ae%e5%8f%8a%e5%8d%95%e6%9c%ba%e6%9e%b6%e6%9e%84%e5%90%91%e5%88%86%e5%b8%83%e5%bc%8f%e6%9e%b6%e6%9e%84%e6%bc%94%e8%bf%9b%e7%b3%bb%e7%bb%9f%e4%b9%8b%e9%97%b4%e7%9a%84%e4%be%9d%e8%b5%96%e5%85%b3%e7%b3%bb%e8%b0%83%e7%94%a8%e9%93%be%e8%b7%af%e5%8f%98%e7%9a%84%e5%8d%81%e5%88%86%e5%a4%8d%e6%9d%82%e4%b8%9a%e5%8a%a1%e5%8f%91%e5%b1%95%e5%b8%a6%e6%9d%a5%e7%9a%84%e6%9c%8d%e5%8a%a1%e7%ab%af%e8%bf%ad%e4%bb%a3%e8%b6%8a%e6%9d%a5%e8%b6%8a%e5%bf%ab%e5%9c%a8%e6%80%a7%e8%83%bd%e7%ae%a1%e7%90%86%e4%b8%8a%e5%be%88%e9%9a%be%e6%9c%89%e8%b6%b3%e5%a4%9f%e7%9a%84%e6%8a%95%e5%85%a5%e7%bb%8f%e5%b8%b8%e4%bc%9a%e4%ba%a7%e7%94%9f%e6%9c%aa%e7%9f%a5%e7%9a%84%e9%9a%90%e6%82%a3%e5%af%bc%e8%87%b4%e6%80%a7%e8%83%bd%e7%9a%84%e5%a4%a7%e5%b9%85%e4%b8%8b-%e9%99%8d%e5%80%9f%e5%8a%a9%e4%ba%8e%e9%98%bf%e9%87%8c%e5%b7%b4%e5%b7%b4%e5%86%85%e9%83%a8%e5%a4%9a%e5%b9%b4%e9%ab%98%e5%8f%af%e7%94%a8%e4%bd%93%e7%b3%bb%e6%b2%89%e6%b7%80%e4%b8%8b%e6%9d%a5%e7%9a%84%e7%bb%8f%e9%aa%8c%e7%bb%93%e5%90%88%e4%bd%bf%e7%94%a8%e5%ba%94%e7%94%a8%e9%ab%98%e5%8f%af%e7%94%a8%e6%9c%8d%e5%8a%a1ahas%e5%92%8c%e5%85%b6%e4%bb%96%e4%b8%ad%e9%97%b4%e4%bb%b6%e4%ba%a7%e5%93%81%e5%8f%af%e5%8d%8f%e5%8a%a9%e4%bf%9d%e9%9a%9c%e5%ba%94%e7%94%a8%e7%9a%84%e7%a8%b3%e5%ae%9a%e6%80%a7%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8eahas%e7%9a%84%e5%ae%9e%e8%b7%b5%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+552. 随着应用上云的普及,单机架构向分布式架构演进,系统之间的依赖关系、调用链路变的十分复杂。业务发展带来的服务端迭代越来越快,在性能管理上很难有足够的投入,经常会产生未知的隐患导致性能的大幅下 降。借助于阿里巴巴内部多年高可用体系沉淀下来的经验,结合使用应用高可用服务AHAS和其他中间件产品,可协助保障应用的稳定性。以下关于AHAS的实践描述,错误的是
+</h3><h4 id="选项-51">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-51"></a>
+选项:
+</h4><ul>
+<li>A. 在新冠疫情防护中.ARMS和AHAS一体化的压测和防护为全国各地区的健康码提供了强有力的支撑。通过ARMS平台对支付宝健康码服务进行实时监 控,测出系统对外核心接口的服务能力以及相应的系统水位。同时使用AHAS根据压测结果中不同接口和系统指标配置限流、隔离以及系统保护等规则在最短的时问内接入应用并持续提供防护,保障系统稳定性</li>
+<li>B. AHAS应用防护功能与消息队列RocketMQ组合,可以让MQ消费嫔负载保持在消息处理水位之下,同时尽可能处理更多消息,达到削峰填谷的效果</li>
+<li>C. 慢SQL是比较孜命的影响系统稳定性的因素之一。针对此类场景AHAS应用防护提供了SQL级别的识别与防护,可以根据监控详情为慢SQL配置流控 睦级规则保障系统的稳定性</li>
+<li>D. 针对基于SpringCloud,Dubbo或K8S的微服务应用,AHAS提供一键快速接入高可用能力,无需改造代码,无需运维后台服务</li>
+</ul>
+<h4 id="正确答案-a-18">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-18"></a>
+正确答案: A
+</h4><h4 id="解析-51">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-51"></a>
+解析:
+</h4><p>针对基于SpringCloud，Dubbo或K8s的微服务应用，可一键快速接入高可用能力，无需改造代码，无需运维后台服务。在新冠疫情防护中，PTS和AHAS一体化的压测和防护为全国各地区的健康码提供了强有力的支撑。通过PTS平台对支付宝健康码服务进行压测，测出系统对外核心接口的服务能力以及相应的系统水位。同时使用AHAS根据压测结果中不同接口和系统指标配置限流、隔离以及系统保护等规则，在最短的时间内接入应用并持续提供防护，保障系统稳定性。</p>
+<hr>
+<h3 id="553-阿里云e-mapreduce-elastic-mapreduce是运行在阿里云平台上的一种大数据处理的系统解决方案用户希望使用e-mapreduce进行mysql-binlog日志准实时传输涉及到多种阿里云产品其中数据流向正确的是">
+<a class="header-anchor" href="#553-%e9%98%bf%e9%87%8c%e4%ba%91e-mapreduce-elastic-mapreduce%e6%98%af%e8%bf%90%e8%a1%8c%e5%9c%a8%e9%98%bf%e9%87%8c%e4%ba%91%e5%b9%b3%e5%8f%b0%e4%b8%8a%e7%9a%84%e4%b8%80%e7%a7%8d%e5%a4%a7%e6%95%b0%e6%8d%ae%e5%a4%84%e7%90%86%e7%9a%84%e7%b3%bb%e7%bb%9f%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e7%94%a8%e6%88%b7%e5%b8%8c%e6%9c%9b%e4%bd%bf%e7%94%a8e-mapreduce%e8%bf%9b%e8%a1%8cmysql-binlog%e6%97%a5%e5%bf%97%e5%87%86%e5%ae%9e%e6%97%b6%e4%bc%a0%e8%be%93%e6%b6%89%e5%8f%8a%e5%88%b0%e5%a4%9a%e7%a7%8d%e9%98%bf%e9%87%8c%e4%ba%91%e4%ba%a7%e5%93%81%e5%85%b6%e4%b8%ad%e6%95%b0%e6%8d%ae%e6%b5%81%e5%90%91%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af"></a>
+553. 阿里云E-MapReduce (Elastic MapReduce)是运行在阿里云平台上的一种大数据处理的系统解决方案，用户希望使用E-MapReduce进行MySQL Binlog日志准实时传输，涉及到多种阿里云产品，其中数据流向正确的是
+</h3><h4 id="选项-52">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-52"></a>
+选项:
+</h4><ul>
+<li>A. RDS-&gt;Spark Streaming-&gt;SLS-&gt;Spark HDFS</li>
+<li>B. RDS-&gt; SLS-&gt; Spark Streaming-&gt;Spark HDFS</li>
+<li>C. RDS-&gt;SLS-&gt;Spark HDFS-&gt;Spark Streaming</li>
+<li>D. SLS-&gt;RDS-&gt;Spark Streaming -&gt;Spark HDFS</li>
+</ul>
+<h4 id="正确答案-b-15">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-15"></a>
+正确答案: B
+</h4><h4 id="解析-52">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-52"></a>
+解析:
+</h4><p><a href="https://help.aliyun.com/document_detail/71539.html">https://help.aliyun.com/document_detail/71539.html</a></p>
+<hr>
+<h3 id="554-随着微服务架构的逐渐流行越来越多的应用选择使用容器服务ack来进行部署与管理容器服务提供了多种部署发布方式以下____发布方式不是容器服务可以提供的">
+<a class="header-anchor" href="#554-%e9%9a%8f%e7%9d%80%e5%be%ae%e6%9c%8d%e5%8a%a1%e6%9e%b6%e6%9e%84%e7%9a%84%e9%80%90%e6%b8%90%e6%b5%81%e8%a1%8c%e8%b6%8a%e6%9d%a5%e8%b6%8a%e5%a4%9a%e7%9a%84%e5%ba%94%e7%94%a8%e9%80%89%e6%8b%a9%e4%bd%bf%e7%94%a8%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1ack%e6%9d%a5%e8%bf%9b%e8%a1%8c%e9%83%a8%e7%bd%b2%e4%b8%8e%e7%ae%a1%e7%90%86%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1%e6%8f%90%e4%be%9b%e4%ba%86%e5%a4%9a%e7%a7%8d%e9%83%a8%e7%bd%b2%e5%8f%91%e5%b8%83%e6%96%b9%e5%bc%8f%e4%bb%a5%e4%b8%8b____%e5%8f%91%e5%b8%83%e6%96%b9%e5%bc%8f%e4%b8%8d%e6%98%af%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1%e5%8f%af%e4%bb%a5%e6%8f%90%e4%be%9b%e7%9a%84"></a>
+554. 随着微服务架构的逐渐流行,越来越多的应用选择使用容器服务ACK来进行部署与管理。容器服务提供了多种部署发布方式,以下____发布方式不是容器服务可以提供的。
+</h3><h4 id="选项-53">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-53"></a>
+选项:
+</h4><ul>
+<li>A. 通过Igress实现灰度发布</li>
+<li>B. 通过Ingress实现蓝绿发布</li>
+<li>C. 使用阿里云SLB实现四层金丝雀发布</li>
+<li>D. 通过Ingress实现滚动部署</li>
+</ul>
+<h4 id="正确答案-d-11">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-11"></a>
+正确答案: D
+</h4><h4 id="解析-53">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-53"></a>
+解析:
+</h4><p>ACK是支持使用SLB进行金丝雀发布的<img src="http://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/default/ctIGju61723089563BV.jpg" alt="image"></p>
+<hr>
+<h3 id="555-drds建库默认在一个rds节点上创建多少个分库_____________">
+<a class="header-anchor" href="#555-drds%e5%bb%ba%e5%ba%93%e9%bb%98%e8%ae%a4%e5%9c%a8%e4%b8%80%e4%b8%aards%e8%8a%82%e7%82%b9%e4%b8%8a%e5%88%9b%e5%bb%ba%e5%a4%9a%e5%b0%91%e4%b8%aa%e5%88%86%e5%ba%93_____________"></a>
+555. DRDS建库默认在一个RDS节点上创建多少个分库_____________。
+</h3><h4 id="选项-54">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-54"></a>
+选项:
+</h4><ul>
+<li>A. 32个</li>
+<li>B. 16个</li>
+<li>C. 4个</li>
+<li>D. 8个</li>
+</ul>
+<h4 id="正确答案-d-12">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-12"></a>
+正确答案: D
+</h4><h4 id="解析-54">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-54"></a>
+解析:
+</h4><hr>
+<h3 id="556-关于mq的消息类型以下描述错误的是">
+<a class="header-anchor" href="#556-%e5%85%b3%e4%ba%8emq%e7%9a%84%e6%b6%88%e6%81%af%e7%b1%bb%e5%9e%8b%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+556. 关于MQ的消息类型,以下描述错误的是（）。
+</h3><h4 id="选项-55">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-55"></a>
+选项:
+</h4><ul>
+<li>A. MQ支持定时消息</li>
+<li>B. MQ支持事务消息</li>
+<li>C. MQ支持消息轨迹查询</li>
+<li>D. MQ支持消息撤回</li>
+</ul>
+<h4 id="正确答案-d-13">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-13"></a>
+正确答案: D
+</h4><h4 id="解析-55">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-55"></a>
+解析:
+</h4><p><a href="https://help.aliyun.com/document_detail/155952.html">https://help.aliyun.com/document_detail/155952.html</a></p>
+<hr>
+<h3 id="557-关于mq的事务消息概念以下描述正确的是____">
+<a class="header-anchor" href="#557-%e5%85%b3%e4%ba%8emq%e7%9a%84%e4%ba%8b%e5%8a%a1%e6%b6%88%e6%81%af%e6%a6%82%e5%bf%b5%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af____"></a>
+557. 关于MQ的事务消息概念,以下描述正确的是:____。
+</h3><h4 id="选项-56">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-56"></a>
+选项:
+</h4><ul>
+<li>A. MQ中事务消息的实现机制使用了数据库来持久化消息的投递状态</li>
+<li>B. 事务消息与顺序消息最大的区别在于消息能否确保唯一性</li>
+<li>C. 事务消息确保信息按先后顺序投递,并且确保消费者也严格有序消费</li>
+<li>D. 事务消息投递失败时,会回滚消费位点,并重传失败的消息</li>
+</ul>
+<h4 id="正确答案-a-19">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-19"></a>
+正确答案: A
+</h4><h4 id="解析-56">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-56"></a>
+解析:
+</h4><hr>
+<h3 id="558-以下哪个语句可以查询读写库流量">
+<a class="header-anchor" href="#558-%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aa%e8%af%ad%e5%8f%a5%e5%8f%af%e4%bb%a5%e6%9f%a5%e8%af%a2%e8%af%bb%e5%86%99%e5%ba%93%e6%b5%81%e9%87%8f"></a>
+558. 以下哪个语句可以查询读写库流量?
+</h3><h4 id="选项-57">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-57"></a>
+选项:
+</h4><ul>
+<li>A. SHOW DBLOCK</li>
+<li>B. SHOW NODE</li>
+<li>C. SHOW PHYSICAL_SLOW</li>
+<li>D. SHOW RULE</li>
+</ul>
+<h4 id="正确答案-b-16">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-16"></a>
+正确答案: B
+</h4><h4 id="解析-57">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-57"></a>
+解析:
+</h4><p>选项B &ldquo;SHOW NODE&rdquo; 通常用于展示数据库节点的状态，包括读写库的流量信息。在许多数据库管理系统中，这个命令能提供关于各个数据库节点的详细信息，如CPU使用率、I/O状况以及网络流量等，从而间接反映出读写库的流量情况。虽然不同数据库系统命令的具体实现可能有所差异，但相比其他选项，&ldquo;SHOW NODE&rdquo; 更有可能涉及到库的流量展示。A. &ldquo;SHOW DBLOCK&rdquo; 并不是标准SQL命令，且没有直接关联到显示流量的上下文。              C. &ldquo;SHOW PHYSICAL SLOW&rdquo; 通常用于展示执行时间过长的物理操作，与流量查询不相关。                                                                                                                                         D. &ldquo;SHOW RULE&rdquo; 一般用来展示数据库中的规则设定，比如重写规则或复制规则等，并不直接用于查看流量信息。</p>
+<hr>
+<h3 id="559-mq精准定时功能最长定时时间为">
+<a class="header-anchor" href="#559-mq%e7%b2%be%e5%87%86%e5%ae%9a%e6%97%b6%e5%8a%9f%e8%83%bd%e6%9c%80%e9%95%bf%e5%ae%9a%e6%97%b6%e6%97%b6%e9%97%b4%e4%b8%ba"></a>
+559. MQ精准定时功能最长定时时间为（）
+</h3><h4 id="选项-58">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-58"></a>
+选项:
+</h4><ul>
+<li>A. 7天</li>
+<li>B. 40天</li>
+<li>C. 15天</li>
+<li>D. 3天</li>
+</ul>
+<h4 id="正确答案-b-17">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-17"></a>
+正确答案: B
+</h4><h4 id="解析-58">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-58"></a>
+解析:
+</h4><hr>
+<h3 id="560-关于mq的消费过程以下描述错误的是">
+<a class="header-anchor" href="#560-%e5%85%b3%e4%ba%8emq%e7%9a%84%e6%b6%88%e8%b4%b9%e8%bf%87%e7%a8%8b%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+560. 关于MQ的消费过程,以下描述错误的是（）。
+</h3><h4 id="选项-59">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-59"></a>
+选项:
+</h4><ul>
+<li>A. 若某条消息第一次消费失败,消费者会一直重复消费该消息,直到消费成功为止</li>
+<li>B. 消费者可重新消费已消费过的消息</li>
+<li>C. 控制台上可监控消费者的消费进度</li>
+<li>D. 一个消费者可以同时订阅多个topic</li>
+</ul>
+<h4 id="正确答案-a-20">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-20"></a>
+正确答案: A
+</h4><h4 id="解析-59">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-59"></a>
+解析:
+</h4><hr>
+<h3 id="561-关于edas中的ecs资源以下描述错误的是____">
+<a class="header-anchor" href="#561-%e5%85%b3%e4%ba%8eedas%e4%b8%ad%e7%9a%84ecs%e8%b5%84%e6%ba%90%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af____"></a>
+561. 关于EDAS中的ECS资源,以下描述错误的是____?
+</h3><h4 id="选项-60">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-60"></a>
+选项:
+</h4><ul>
+<li>A. 不同区域的ECS资源网络是不通的</li>
+<li>B. 安装EDAS-Agent时,不同区域ECS资源的安装脚本都是一样的</li>
+<li>C. 一个应用可以占用多个ECS资源</li>
+<li>D. 只要是ECS资源就可以发布EDAS应用</li>
+</ul>
+<h4 id="正确答案-b-18">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-18"></a>
+正确答案: B
+</h4><h4 id="解析-60">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-60"></a>
+解析:
+</h4><p>ECS是划分在VPC之下的，而不同地域（即文中的不同区域）的VPC默认是网络不互通的，EDAS使用ECS集群来托管应用也要遵循ECS本身的限制</p>
+<hr>
+<h3 id="562-云效代码模块管理是配置管理系统的重要功能组成以下描述中错误的是">
+<a class="header-anchor" href="#562-%e4%ba%91%e6%95%88%e4%bb%a3%e7%a0%81%e6%a8%a1%e5%9d%97%e7%ae%a1%e7%90%86%e6%98%af%e9%85%8d%e7%bd%ae%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f%e7%9a%84%e9%87%8d%e8%a6%81%e5%8a%9f%e8%83%bd%e7%bb%84%e6%88%90%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e4%b8%ad%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+562. 云效代码模块管理是配置管理系统的重要功能组成,以下描述中错误的是:
+</h3><h4 id="选项-61">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-61"></a>
+选项:
+</h4><ul>
+<li>A. 目前云效平台配置管理系统支持包括SVN及GIT的代码托管类型;</li>
+<li>B. 创建代码模块时选择&quot;代码托管到云效平台&quot;,代码路径会自动生成无需再填写;</li>
+<li>C. 为了让用户更自由的使用,系统允许创建同名代码模块;</li>
+<li>D. 代码模块支持配置多个编译脚本以应对不同的编译场景</li>
+</ul>
+<h4 id="正确答案-c-7">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-7"></a>
+正确答案: C
+</h4><h4 id="解析-61">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-61"></a>
+解析:
+</h4><hr>
+<h3 id="563-下面对云效描述错误的是">
+<a class="header-anchor" href="#563-%e4%b8%8b%e9%9d%a2%e5%af%b9%e4%ba%91%e6%95%88%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+563. 下面对云效描述错误的是（）
+</h3><h4 id="选项-62">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-62"></a>
+选项:
+</h4><ul>
+<li>A. 云效是研发效能事业部对外的商业化品牌</li>
+<li>B. 云效只支持专有云,不支持公有云</li>
+<li>C. 云效,提供从需求&gt;开发&gt;测试&gt;发布&gt;运维&gt;运营端到端的协同服务和研发工具支撑</li>
+<li>D. 云效的客户已经涵盖银行,保险,新零售,航空,地产,券商等</li>
+</ul>
+<h4 id="正确答案-b-19">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-19"></a>
+正确答案: B
+</h4><h4 id="解析-62">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-62"></a>
+解析:
+</h4><hr>
+<h3 id="564-云效单测集成系统项目中实时构建邮件会给哪些人发送">
+<a class="header-anchor" href="#564-%e4%ba%91%e6%95%88%e5%8d%95%e6%b5%8b%e9%9b%86%e6%88%90%e7%b3%bb%e7%bb%9f%e9%a1%b9%e7%9b%ae%e4%b8%ad%e5%ae%9e%e6%97%b6%e6%9e%84%e5%bb%ba%e9%82%ae%e4%bb%b6%e4%bc%9a%e7%bb%99%e5%93%aa%e4%ba%9b%e4%ba%ba%e5%8f%91%e9%80%81"></a>
+564. 云效单测集成系统,项目中实时构建邮件会给哪些人发送
+</h3><h4 id="选项-63">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-63"></a>
+选项:
+</h4><ul>
+<li>A. 项目创建人</li>
+<li>B. 代码提交人</li>
+<li>C. 代码模块负责人</li>
+<li>D. 项目参与人</li>
+</ul>
+<h4 id="正确答案-b-20">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-20"></a>
+正确答案: B
+</h4><h4 id="解析-63">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-63"></a>
+解析:
+</h4><hr>
+<h3 id="565-rds-for-mysql-监听的端口是多少">
+<a class="header-anchor" href="#565-rds-for-mysql-%e7%9b%91%e5%90%ac%e7%9a%84%e7%ab%af%e5%8f%a3%e6%98%af%e5%a4%9a%e5%b0%91"></a>
+565. RDS for Mysql 监听的端口是多少?
+</h3><h4 id="选项-64">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-64"></a>
+选项:
+</h4><ul>
+<li>A. 3306端口</li>
+<li>B. 8080端口</li>
+<li>C. 3600端口</li>
+<li>D. 3060端口</li>
+</ul>
+<h4 id="正确答案-a-21">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-21"></a>
+正确答案: A
+</h4><h4 id="解析-64">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-64"></a>
+解析:
+</h4><hr>
+<h3 id="566-在rds只读实例变更配置过程中并且只读实例的对应源数据库实例状态为升降级中主实例可以进行下列哪种任务">
+<a class="header-anchor" href="#566-%e5%9c%a8rds%e5%8f%aa%e8%af%bb%e5%ae%9e%e4%be%8b%e5%8f%98%e6%9b%b4%e9%85%8d%e7%bd%ae%e8%bf%87%e7%a8%8b%e4%b8%ad%e5%b9%b6%e4%b8%94%e5%8f%aa%e8%af%bb%e5%ae%9e%e4%be%8b%e7%9a%84%e5%af%b9%e5%ba%94%e6%ba%90%e6%95%b0%e6%8d%ae%e5%ba%93%e5%ae%9e%e4%be%8b%e7%8a%b6%e6%80%81%e4%b8%ba%e5%8d%87%e9%99%8d%e7%ba%a7%e4%b8%ad%e4%b8%bb%e5%ae%9e%e4%be%8b%e5%8f%af%e4%bb%a5%e8%bf%9b%e8%a1%8c%e4%b8%8b%e5%88%97%e5%93%aa%e7%a7%8d%e4%bb%bb%e5%8a%a1"></a>
+566. 在RDS只读实例变更配置过程中,并且只读实例的对应源数据库实例状态为“升降级中”。主实例可以进行下列哪种任务?
+</h3><h4 id="选项-65">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-65"></a>
+选项:
+</h4><ul>
+<li>A. 重启实例</li>
+<li>B. 内外网切换</li>
+<li>C. 系统资源监控</li>
+<li>D. 创建实例</li>
+</ul>
+<h4 id="正确答案-c-8">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-8"></a>
+正确答案: C
+</h4><h4 id="解析-65">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-65"></a>
+解析:
+</h4><hr>
+<h3 id="567-rds和自建数据库相比以下哪个是错误的">
+<a class="header-anchor" href="#567-rds%e5%92%8c%e8%87%aa%e5%bb%ba%e6%95%b0%e6%8d%ae%e5%ba%93%e7%9b%b8%e6%af%94%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aa%e6%98%af%e9%94%99%e8%af%af%e7%9a%84"></a>
+567. RDS和自建数据库相比,以下哪个是错误的?
+</h3><h4 id="选项-66">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-66"></a>
+选项:
+</h4><ul>
+<li>A. RDS服务可用性高达99.95%,但是自建数据库需自行保障,自行搭建主从复制,自建RAID等</li>
+<li>B. 自建数据库能方便地支持快速部署、弹性扩容</li>
+<li>C. RDS可以自行备份,自建数据库需要寻找备份存放空间以及定期验证备份是否可恢复</li>
+<li>D. RDS无需运维,自建数据库需招聘专职DBA来维护,花费大量人力成本</li>
+</ul>
+<h4 id="正确答案-b-21">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-21"></a>
+正确答案: B
+</h4><h4 id="解析-66">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-66"></a>
+解析:
+</h4><hr>
+<h3 id="568-在利用rds管理控制台将数据迁移至rds-mysql中的时候使用的方法是mysql在线迁移可以不停服务就能够完成数据库的迁移工作以下哪个mysql版本不支持在线迁移">
+<a class="header-anchor" href="#568-%e5%9c%a8%e5%88%a9%e7%94%a8rds%e7%ae%a1%e7%90%86%e6%8e%a7%e5%88%b6%e5%8f%b0%e5%b0%86%e6%95%b0%e6%8d%ae%e8%bf%81%e7%a7%bb%e8%87%b3rds-mysql%e4%b8%ad%e7%9a%84%e6%97%b6%e5%80%99%e4%bd%bf%e7%94%a8%e7%9a%84%e6%96%b9%e6%b3%95%e6%98%afmysql%e5%9c%a8%e7%ba%bf%e8%bf%81%e7%a7%bb%e5%8f%af%e4%bb%a5%e4%b8%8d%e5%81%9c%e6%9c%8d%e5%8a%a1%e5%b0%b1%e8%83%bd%e5%a4%9f%e5%ae%8c%e6%88%90%e6%95%b0%e6%8d%ae%e5%ba%93%e7%9a%84%e8%bf%81%e7%a7%bb%e5%b7%a5%e4%bd%9c%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aamysql%e7%89%88%e6%9c%ac%e4%b8%8d%e6%94%af%e6%8c%81%e5%9c%a8%e7%ba%bf%e8%bf%81%e7%a7%bb"></a>
+568. 在利用RDS管理控制台将数据迁移至RDS-MySQL中的时候,使用的方法是MySQL在线迁移,可以不停服务就能够完成数据库的迁移工作,以下哪个MySQL版本不支持在线迁移?
+</h3><h4 id="选项-67">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-67"></a>
+选项:
+</h4><ul>
+<li>A. MySQL 5.6</li>
+<li>B. MySQL 5.1</li>
+<li>C. MySQL 5.0</li>
+<li>D. MySQL 5.5</li>
+</ul>
+<h4 id="正确答案-c-9">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-9"></a>
+正确答案: C
+</h4><h4 id="解析-67">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-67"></a>
+解析:
+</h4><hr>
+<h3 id="569-下列关于rds可用区的说法正确的是">
+<a class="header-anchor" href="#569-%e4%b8%8b%e5%88%97%e5%85%b3%e4%ba%8erds%e5%8f%af%e7%94%a8%e5%8c%ba%e7%9a%84%e8%af%b4%e6%b3%95%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af"></a>
+569. 下列关于RDS可用区的说法正确的是:
+</h3><h4 id="选项-68">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-68"></a>
+选项:
+</h4><ul>
+<li>A. RDS单可用区轻松实现了同城容灾</li>
+<li>B. RDS不支持多可用区</li>
+<li>C. RDS多可用区实现了ECS和RDS间的网络延迟更小</li>
+<li>D. RDS支持跨可用区迁移</li>
+</ul>
+<h4 id="正确答案-d-14">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-14"></a>
+正确答案: D
+</h4><h4 id="解析-68">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-68"></a>
+解析:
+</h4><hr>
+<h3 id="570-下列关于rds性能的指标说法错误的是">
+<a class="header-anchor" href="#570-%e4%b8%8b%e5%88%97%e5%85%b3%e4%ba%8erds%e6%80%a7%e8%83%bd%e7%9a%84%e6%8c%87%e6%a0%87%e8%af%b4%e6%b3%95%e9%94%99%e8%af%af%e7%9a%84%e6%98%af"></a>
+570. 下列关于RDS性能的指标说法错误的是
+</h3><h4 id="选项-69">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-69"></a>
+选项:
+</h4><ul>
+<li>A. IOPS表示每秒磁盘读写(IO)次数,读写操作包括:数据从磁盘读到内存,或从内存写入磁盘 B</li>
+<li>B. 不同RDS实例之间可以资源共享</li>
+<li>C. QPS表示每秒SQL语句执行次数</li>
+<li>D. 后台管理员通过top或ps命令可以查看实例的CPU利用率</li>
+</ul>
+<h4 id="正确答案-b-22">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-22"></a>
+正确答案: B
+</h4><h4 id="解析-69">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-69"></a>
+解析:
+</h4><hr>
+<h3 id="571-已知客户承载业务的ecs存在大量商业数据目前遭受到ddos攻击导致业务中断同时发现ecs存在后门程序以及异常网络通信监测到ecs正在大量向外网传输数据面对这种情况最佳的处置方式是_">
+<a class="header-anchor" href="#571-%e5%b7%b2%e7%9f%a5%e5%ae%a2%e6%88%b7%e6%89%bf%e8%bd%bd%e4%b8%9a%e5%8a%a1%e7%9a%84ecs%e5%ad%98%e5%9c%a8%e5%a4%a7%e9%87%8f%e5%95%86%e4%b8%9a%e6%95%b0%e6%8d%ae%e7%9b%ae%e5%89%8d%e9%81%ad%e5%8f%97%e5%88%b0ddos%e6%94%bb%e5%87%bb%e5%af%bc%e8%87%b4%e4%b8%9a%e5%8a%a1%e4%b8%ad%e6%96%ad%e5%90%8c%e6%97%b6%e5%8f%91%e7%8e%b0ecs%e5%ad%98%e5%9c%a8%e5%90%8e%e9%97%a8%e7%a8%8b%e5%ba%8f%e4%bb%a5%e5%8f%8a%e5%bc%82%e5%b8%b8%e7%bd%91%e7%bb%9c%e9%80%9a%e4%bf%a1%e7%9b%91%e6%b5%8b%e5%88%b0ecs%e6%ad%a3%e5%9c%a8%e5%a4%a7%e9%87%8f%e5%90%91%e5%a4%96%e7%bd%91%e4%bc%a0%e8%be%93%e6%95%b0%e6%8d%ae%e9%9d%a2%e5%af%b9%e8%bf%99%e7%a7%8d%e6%83%85%e5%86%b5%e6%9c%80%e4%bd%b3%e7%9a%84%e5%a4%84%e7%bd%ae%e6%96%b9%e5%bc%8f%e6%98%af_"></a>
+571. @已知客户承载业务的ECS存在大量商业数据，目前遭受到DDoS攻击导致业务中断，同时发现ECS存在后门程序以及异常网络通信，监测到ECS正在大量向外网传输数据，面对这种情况最佳的处置方式是_。
+</h3><h4 id="选项-70">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-70"></a>
+选项:
+</h4><ul>
+<li>A. DDoS攻击防护一-&gt;确保业务恢复一 &gt; 应急响应处置ECS异常- &gt;安全组 (云防火墙)封堵外发流量</li>
+<li>B. 安全组(云防火墙)封堵外发流量- &gt;应急响应处置ECS异常-&gt;DDoS攻击防护- 确保业务恢复</li>
+<li>C. 应急响应处置ECS异常一&gt;DDoS攻击防护- &gt;安全组(云防火墙)封堵外发流量- -&gt;确保业务恢复</li>
+<li>D. 应急响应处置ECS异常- &gt;确保业务恢复- &gt;DDoS攻击防护- &gt;安全组(云防火墙)封堵外发流量</li>
+</ul>
+<h4 id="正确答案-b-23">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-23"></a>
+正确答案: B
+</h4><h4 id="解析-70">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-70"></a>
+解析:
+</h4><hr>
+<h3 id="572-arms的实时计算引擎基于_________">
+<a class="header-anchor" href="#572-arms%e7%9a%84%e5%ae%9e%e6%97%b6%e8%ae%a1%e7%ae%97%e5%bc%95%e6%93%8e%e5%9f%ba%e4%ba%8e_________"></a>
+572. ARMS的实时计算引擎基于_________。
+</h3><h4 id="选项-71">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-71"></a>
+选项:
+</h4><ul>
+<li>A. SPARK SREAM</li>
+<li>B. SAMZA</li>
+<li>C. JSTORM</li>
+<li>D. STORM</li>
+</ul>
+<h4 id="正确答案-c-10">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-10"></a>
+正确答案: C
+</h4><h4 id="解析-71">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-71"></a>
+解析:
+</h4><hr>
+<h3 id="573-关于arms底层架构正确的说法是__________">
+<a class="header-anchor" href="#573-%e5%85%b3%e4%ba%8earms%e5%ba%95%e5%b1%82%e6%9e%b6%e6%9e%84%e6%ad%a3%e7%a1%ae%e7%9a%84%e8%af%b4%e6%b3%95%e6%98%af__________"></a>
+573. 关于ARMS底层架构正确的说法是__________?
+</h3><h4 id="选项-72">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-72"></a>
+选项:
+</h4><ul>
+<li>A. 使用全内存流式计算引擎进行预计算</li>
+<li>B. 使用MapReduce对数据进行离线归档</li>
+<li>C. 使用分布式关系型数据库存储海量监控数据</li>
+<li>D. 使用ElasticSearch对来源数据进行索引</li>
+</ul>
+<h4 id="正确答案-a-22">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-22"></a>
+正确答案: A
+</h4><h4 id="解析-72">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-72"></a>
+解析:
+</h4><hr>
+<h3 id="574-相较于传统的分布式企业级互联网架构传统的企业架构都是中心化架构体系下面哪个服务不是整合相关的概念">
+<a class="header-anchor" href="#574-%e7%9b%b8%e8%be%83%e4%ba%8e%e4%bc%a0%e7%bb%9f%e7%9a%84%e5%88%86%e5%b8%83%e5%bc%8f%e4%bc%81%e4%b8%9a%e7%ba%a7%e4%ba%92%e8%81%94%e7%bd%91%e6%9e%b6%e6%9e%84%e4%bc%a0%e7%bb%9f%e7%9a%84%e4%bc%81%e4%b8%9a%e6%9e%b6%e6%9e%84%e9%83%bd%e6%98%af%e4%b8%ad%e5%bf%83%e5%8c%96%e6%9e%b6%e6%9e%84%e4%bd%93%e7%b3%bb%e4%b8%8b%e9%9d%a2%e5%93%aa%e4%b8%aa%e6%9c%8d%e5%8a%a1%e4%b8%8d%e6%98%af%e6%95%b4%e5%90%88%e7%9b%b8%e5%85%b3%e7%9a%84%e6%a6%82%e5%bf%b5"></a>
+574. 相较于传统的分布式企业级互联网架构,传统的企业架构都是中心化架构体系,下面哪个服务不是整合相关的概念?
+</h3><h4 id="选项-73">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-73"></a>
+选项:
+</h4><ul>
+<li>A. ServiceMix</li>
+<li>B. Drools</li>
+<li>C. BizTalk</li>
+<li>D. OpenESB</li>
+</ul>
+<h4 id="正确答案-b-24">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-24"></a>
+正确答案: B
+</h4><h4 id="解析-73">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-73"></a>
+解析:
+</h4><hr>
+<h3 id="575-edas可以设置的报警联系人为">
+<a class="header-anchor" href="#575-edas%e5%8f%af%e4%bb%a5%e8%ae%be%e7%bd%ae%e7%9a%84%e6%8a%a5%e8%ad%a6%e8%81%94%e7%b3%bb%e4%ba%ba%e4%b8%ba"></a>
+575. EDAS可以设置的报警联系人为（）?
+</h3><h4 id="选项-74">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-74"></a>
+选项:
+</h4><ul>
+<li>A. 子账号</li>
+<li>B. 合并计费的主帐号</li>
+<li>C. 主帐号</li>
+<li>D. 任意添加联系人</li>
+</ul>
+<h4 id="正确答案-d-15">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-15"></a>
+正确答案: D
+</h4><h4 id="解析-74">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-74"></a>
+解析:
+</h4><p>报警联系人可以是创建的联系人也可以是钉钉机器人，参考链接：https://help.aliyun.com/document_detail/150057.html</p>
+<hr>
+<h3 id="576-下面哪个特性属于多可用区rds的">
+<a class="header-anchor" href="#576-%e4%b8%8b%e9%9d%a2%e5%93%aa%e4%b8%aa%e7%89%b9%e6%80%a7%e5%b1%9e%e4%ba%8e%e5%a4%9a%e5%8f%af%e7%94%a8%e5%8c%bards%e7%9a%84"></a>
+576. 下面哪个特性属于多可用区RDS的?
+</h3><h4 id="选项-75">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-75"></a>
+选项:
+</h4><ul>
+<li>A. 轻松实现同城容灾</li>
+<li>B. 将RDS的存储空间扩大2倍</li>
+<li>C. 有效控制云产品间的网络延迟</li>
+<li>D. 是为了防止DDoS攻击</li>
+</ul>
+<h4 id="正确答案-a-23">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-23"></a>
+正确答案: A
+</h4><h4 id="解析-75">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-75"></a>
+解析:
+</h4><hr>
+<h3 id="577-rds-for-mysql不支持以下哪种引擎">
+<a class="header-anchor" href="#577-rds-for-mysql%e4%b8%8d%e6%94%af%e6%8c%81%e4%bb%a5%e4%b8%8b%e5%93%aa%e7%a7%8d%e5%bc%95%e6%93%8e"></a>
+577. RDS for MySQL不支持以下哪种引擎
+</h3><h4 id="选项-76">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-76"></a>
+选项:
+</h4><ul>
+<li>A. 以上都不支持</li>
+<li>B. memory</li>
+<li>C. InnoDB</li>
+<li>D. MyISAM</li>
+</ul>
+<h4 id="正确答案-b-25">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-25"></a>
+正确答案: B
+</h4><h4 id="解析-76">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-76"></a>
+解析:
+</h4><p>这一题应该是多选题：答案B、D<img src="https://wechatapppro-1252524126.file.myqcloud.com/appatJs2ciq4695/image/b_u_616ffe2c69e52_2PC2c8DU/0fnpnflu7zuvkz.png" alt="image/png"></p>
+<hr>
+<h3 id="578-在云服务总线csb上消费服务需要订阅但服务消费者首先需要找到想到订阅的服务关于搜索和查看服务以下描述不正确的是_______________">
+<a class="header-anchor" href="#578-%e5%9c%a8%e4%ba%91%e6%9c%8d%e5%8a%a1%e6%80%bb%e7%ba%bfcsb%e4%b8%8a%e6%b6%88%e8%b4%b9%e6%9c%8d%e5%8a%a1%e9%9c%80%e8%a6%81%e8%ae%a2%e9%98%85%e4%bd%86%e6%9c%8d%e5%8a%a1%e6%b6%88%e8%b4%b9%e8%80%85%e9%a6%96%e5%85%88%e9%9c%80%e8%a6%81%e6%89%be%e5%88%b0%e6%83%b3%e5%88%b0%e8%ae%a2%e9%98%85%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%85%b3%e4%ba%8e%e6%90%9c%e7%b4%a2%e5%92%8c%e6%9f%a5%e7%9c%8b%e6%9c%8d%e5%8a%a1%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af_______________"></a>
+578. 在云服务总线CSB上消费服务需要订阅,但服务消费者首先需要找到想到订阅的服务,关于搜索和查看服务,以下描述不正确的是:_______________。
+</h3><h4 id="选项-77">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-77"></a>
+选项:
+</h4><ul>
+<li>A. 用户可以查看搜索到的服务的详细信息,包括说明、归属、入参和出参等信息</li>
+<li>B. 用户可以用服务名作为查询条件来模糊搜索服务</li>
+<li>C. 用户可以用服务组名作为查询条件来搜索服务</li>
+<li>D. 用户可以搜索到当前CSB实例上发布的所有服务,包括那些把当前CSB实例作为中继实例的级联分布的服务</li>
+</ul>
+<h4 id="正确答案-d-16">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-16"></a>
+正确答案: D
+</h4><h4 id="解析-77">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-77"></a>
+解析:
+</h4><hr>
+<h3 id="579-云服务总线csb进行服务订阅后一定需要对所做的服务订阅进行查看关于服务订阅查看以下描述正确的是______________">
+<a class="header-anchor" href="#579-%e4%ba%91%e6%9c%8d%e5%8a%a1%e6%80%bb%e7%ba%bfcsb%e8%bf%9b%e8%a1%8c%e6%9c%8d%e5%8a%a1%e8%ae%a2%e9%98%85%e5%90%8e%e4%b8%80%e5%ae%9a%e9%9c%80%e8%a6%81%e5%af%b9%e6%89%80%e5%81%9a%e7%9a%84%e6%9c%8d%e5%8a%a1%e8%ae%a2%e9%98%85%e8%bf%9b%e8%a1%8c%e6%9f%a5%e7%9c%8b%e5%85%b3%e4%ba%8e%e6%9c%8d%e5%8a%a1%e8%ae%a2%e9%98%85%e6%9f%a5%e7%9c%8b%e4%bb%a5%e4%b8%8b%e6%8f%8f%e8%bf%b0%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af______________"></a>
+579. 云服务总线CSB进行服务订阅后,一定需要对所做的服务订阅进行查看,关于服务订阅查看,以下描述正确的是______________。
+</h3><h4 id="选项-78">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-78"></a>
+选项:
+</h4><ul>
+<li>A. 服务消费者可以查看订阅了哪些服务,也可以查看当前使用了哪些消费凭证来订阅某个服务</li>
+<li>B. 如果服务消费者曾经订阅过一个服务,在订阅该服务所使用的消费凭证都退订后,通过CSB控制台的订阅列表是看不到这个服务的</li>
+<li>C. 服务消费者在CSB控制台的订阅列表中也可以看到并非在当前CSB实例上订阅的服务</li>
+<li>D. 服务消费者可以查看所有正处于订阅状态的服务,但看不到订阅过但已被服务发布方注销的服务</li>
+</ul>
+<h4 id="正确答案-a-24">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-24"></a>
+正确答案: A
+</h4><h4 id="解析-78">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-78"></a>
+解析:
+</h4><hr>
+<h3 id="580-针对实时计算清洗回流场景用户通常会将流计算清洗结果数据回流至mysql等单机数据库作为报表库来查询使用当单机数据量或者单表数据量非常大时传统的关系型数据库会出现报表查询卡顿的问题下列能解决卡顿问题并支持实时计算单表数据数高达千亿条的解决方案是">
+<a class="header-anchor" href="#580-%e9%92%88%e5%af%b9%e5%ae%9e%e6%97%b6%e8%ae%a1%e7%ae%97%e6%b8%85%e6%b4%97%e5%9b%9e%e6%b5%81%e5%9c%ba%e6%99%af%e7%94%a8%e6%88%b7%e9%80%9a%e5%b8%b8%e4%bc%9a%e5%b0%86%e6%b5%81%e8%ae%a1%e7%ae%97%e6%b8%85%e6%b4%97%e7%bb%93%e6%9e%9c%e6%95%b0%e6%8d%ae%e5%9b%9e%e6%b5%81%e8%87%b3mysql%e7%ad%89%e5%8d%95%e6%9c%ba%e6%95%b0%e6%8d%ae%e5%ba%93%e4%bd%9c%e4%b8%ba%e6%8a%a5%e8%a1%a8%e5%ba%93%e6%9d%a5%e6%9f%a5%e8%af%a2%e4%bd%bf%e7%94%a8%e5%bd%93%e5%8d%95%e6%9c%ba%e6%95%b0%e6%8d%ae%e9%87%8f%e6%88%96%e8%80%85%e5%8d%95%e8%a1%a8%e6%95%b0%e6%8d%ae%e9%87%8f%e9%9d%9e%e5%b8%b8%e5%a4%a7%e6%97%b6%e4%bc%a0%e7%bb%9f%e7%9a%84%e5%85%b3%e7%b3%bb%e5%9e%8b%e6%95%b0%e6%8d%ae%e5%ba%93%e4%bc%9a%e5%87%ba%e7%8e%b0%e6%8a%a5%e8%a1%a8%e6%9f%a5%e8%af%a2%e5%8d%a1%e9%a1%bf%e7%9a%84%e9%97%ae%e9%a2%98%e4%b8%8b%e5%88%97%e8%83%bd%e8%a7%a3%e5%86%b3%e5%8d%a1%e9%a1%bf%e9%97%ae%e9%a2%98%e5%b9%b6%e6%94%af%e6%8c%81%e5%ae%9e%e6%97%b6%e8%ae%a1%e7%ae%97%e5%8d%95%e8%a1%a8%e6%95%b0%e6%8d%ae%e6%95%b0%e9%ab%98%e8%be%be%e5%8d%83%e4%ba%bf%e6%9d%a1%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%98%af"></a>
+580. 针对实时计算清洗回流场景,用户通常会将流计算清洗结果数据回流至MySQL等单机数据库.作为报表库来查询使用。当单机数据量或者单表数据量非常大时,传统的关系型数据库会出现报表查询卡顿的问题。下列能解决卡顿问题,并支持实时计算单表数据数高达千亿条的解决方案是
+</h3><h4 id="选项-79">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-79"></a>
+选项:
+</h4><ul>
+<li>A. MySQL-&gt;DTS-&gt;HBase-&gt;Datav</li>
+<li>B. Spark Streaming-&gt;ADB-&gt;Datav</li>
+<li>C. MaxCompute-&gt;DTS-&gt;ADB-&gt;Datav</li>
+<li>D. MySQL-&gt;DTS-&gt;ADB-&gt;Datav</li>
+</ul>
+<h4 id="正确答案-b-26">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-26"></a>
+正确答案: B
+</h4><h4 id="解析-79">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-79"></a>
+解析:
+</h4><p>这道题比较老，maxcompute最初主要的应用场景是离线数仓。最近才支持实时数据接入，而实时流处理框架（比如题中的Spark Streaming）是实时计算方案里必不可少的</p>
+<hr>
+<h3 id="581-kubernetes的管理层服务包括kube-scheduler和kube-controller-managerkubernetes中实现了一套简单的选主逻辑依赖etcd实现scheduler和controller-manager的选主功能如果scheduler和controller-manager在启动的时候设置了_____参数在启动后会先尝试获取leader节点身份只有在获取leader节点身份后才可以执行具体的业务逻辑">
+<a class="header-anchor" href="#581-kubernetes%e7%9a%84%e7%ae%a1%e7%90%86%e5%b1%82%e6%9c%8d%e5%8a%a1%e5%8c%85%e6%8b%ackube-scheduler%e5%92%8ckube-controller-managerkubernetes%e4%b8%ad%e5%ae%9e%e7%8e%b0%e4%ba%86%e4%b8%80%e5%a5%97%e7%ae%80%e5%8d%95%e7%9a%84%e9%80%89%e4%b8%bb%e9%80%bb%e8%be%91%e4%be%9d%e8%b5%96etcd%e5%ae%9e%e7%8e%b0scheduler%e5%92%8ccontroller-manager%e7%9a%84%e9%80%89%e4%b8%bb%e5%8a%9f%e8%83%bd%e5%a6%82%e6%9e%9cscheduler%e5%92%8ccontroller-manager%e5%9c%a8%e5%90%af%e5%8a%a8%e7%9a%84%e6%97%b6%e5%80%99%e8%ae%be%e7%bd%ae%e4%ba%86_____%e5%8f%82%e6%95%b0%e5%9c%a8%e5%90%af%e5%8a%a8%e5%90%8e%e4%bc%9a%e5%85%88%e5%b0%9d%e8%af%95%e8%8e%b7%e5%8f%96leader%e8%8a%82%e7%82%b9%e8%ba%ab%e4%bb%bd%e5%8f%aa%e6%9c%89%e5%9c%a8%e8%8e%b7%e5%8f%96leader%e8%8a%82%e7%82%b9%e8%ba%ab%e4%bb%bd%e5%90%8e%e6%89%8d%e5%8f%af%e4%bb%a5%e6%89%a7%e8%a1%8c%e5%85%b7%e4%bd%93%e7%9a%84%e4%b8%9a%e5%8a%a1%e9%80%bb%e8%be%91"></a>
+581. Kubernetes的管理层服务包括kube-scheduler和kube-controller-manager，Kubernetes中实现了一套简单的选主逻辑，依赖Etcd实现scheduler和controller-manager的选主功能。如果scheduler和controller-manager在启动的时候设置了_____参数，在启动后会先尝试获取leader节点身份，只有在获取leader节点身份后才可以执行具体的业务逻辑。
+</h3><h4 id="选项-80">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-80"></a>
+选项:
+</h4><ul>
+<li>A. leader-etcd</li>
+<li>B. leader-elect</li>
+<li>C. leader-controller</li>
+<li>D. scheduler</li>
+</ul>
+<h4 id="正确答案-b-27">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-27"></a>
+正确答案: B
+</h4><h4 id="解析-80">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-80"></a>
+解析:
+</h4><hr>
+<h3 id="582-某电商网站在618双11这种场景下需要高并发高可用为了提升系统性能系统需要减少非必要业务的资源消耗对非必要的业务功能进行主动降级可以使用ahas中的主动降级功能需要在代码中开启______">
+<a class="header-anchor" href="#582-%e6%9f%90%e7%94%b5%e5%95%86%e7%bd%91%e7%ab%99%e5%9c%a8618%e5%8f%8c11%e8%bf%99%e7%a7%8d%e5%9c%ba%e6%99%af%e4%b8%8b%e9%9c%80%e8%a6%81%e9%ab%98%e5%b9%b6%e5%8f%91%e9%ab%98%e5%8f%af%e7%94%a8%e4%b8%ba%e4%ba%86%e6%8f%90%e5%8d%87%e7%b3%bb%e7%bb%9f%e6%80%a7%e8%83%bd%e7%b3%bb%e7%bb%9f%e9%9c%80%e8%a6%81%e5%87%8f%e5%b0%91%e9%9d%9e%e5%bf%85%e8%a6%81%e4%b8%9a%e5%8a%a1%e7%9a%84%e8%b5%84%e6%ba%90%e6%b6%88%e8%80%97%e5%af%b9%e9%9d%9e%e5%bf%85%e8%a6%81%e7%9a%84%e4%b8%9a%e5%8a%a1%e5%8a%9f%e8%83%bd%e8%bf%9b%e8%a1%8c%e4%b8%bb%e5%8a%a8%e9%99%8d%e7%ba%a7%e5%8f%af%e4%bb%a5%e4%bd%bf%e7%94%a8ahas%e4%b8%ad%e7%9a%84%e4%b8%bb%e5%8a%a8%e9%99%8d%e7%ba%a7%e5%8a%9f%e8%83%bd%e9%9c%80%e8%a6%81%e5%9c%a8%e4%bb%a3%e7%a0%81%e4%b8%ad%e5%bc%80%e5%90%af______"></a>
+582. 某电商网站，在618,双11这种场景下需要高并发,高可用，为了提升系统性能，系统需要减少非必要业务的资源消耗，对非必要的业务功能进行主动降级.可以使用AHAS中的主动降级功能，需要在代码中开启______。
+</h3><h4 id="选项-81">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-81"></a>
+选项:
+</h4><ul>
+<li>A. disbaleNotNessary</li>
+<li>B. disbaleNotNessaryFeature</li>
+<li>C. SwitchConfig</li>
+<li>D. ArrayList</li>
+</ul>
+<h4 id="正确答案-b-28">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-28"></a>
+正确答案: B
+</h4><h4 id="解析-81">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-81"></a>
+解析:
+</h4><hr>
+<h3 id="583-某集团使用了阿里云idaas用于统一身份管理和实现sso的应用访问效果其中在授权的环节考虑到财务部门的敏感性该集团的cfo要求可以在工作日上班时间并且在办公网络访问系统若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问请问该要求是基于idaas的授权模式来实现">
+<a class="header-anchor" href="#583-%e6%9f%90%e9%9b%86%e5%9b%a2%e4%bd%bf%e7%94%a8%e4%ba%86%e9%98%bf%e9%87%8c%e4%ba%91idaas%e7%94%a8%e4%ba%8e%e7%bb%9f%e4%b8%80%e8%ba%ab%e4%bb%bd%e7%ae%a1%e7%90%86%e5%92%8c%e5%ae%9e%e7%8e%b0sso%e7%9a%84%e5%ba%94%e7%94%a8%e8%ae%bf%e9%97%ae%e6%95%88%e6%9e%9c%e5%85%b6%e4%b8%ad%e5%9c%a8%e6%8e%88%e6%9d%83%e7%9a%84%e7%8e%af%e8%8a%82%e8%80%83%e8%99%91%e5%88%b0%e8%b4%a2%e5%8a%a1%e9%83%a8%e9%97%a8%e7%9a%84%e6%95%8f%e6%84%9f%e6%80%a7%e8%af%a5%e9%9b%86%e5%9b%a2%e7%9a%84cfo%e8%a6%81%e6%b1%82%e5%8f%af%e4%bb%a5%e5%9c%a8%e5%b7%a5%e4%bd%9c%e6%97%a5%e4%b8%8a%e7%8f%ad%e6%97%b6%e9%97%b4%e5%b9%b6%e4%b8%94%e5%9c%a8%e5%8a%9e%e5%85%ac%e7%bd%91%e7%bb%9c%e8%ae%bf%e9%97%ae%e7%b3%bb%e7%bb%9f%e8%8b%a5%e5%b1%9e%e4%ba%8e%e8%b4%a2%e5%8a%a1%e9%83%a8%e9%97%a8%e7%9a%84%e4%ba%ba%e5%91%98%e4%bd%bf%e7%94%a8%e5%8a%9e%e5%85%ac%e7%bd%91%e7%bb%9c%e4%bd%86%e4%b8%8d%e5%9c%a8%e5%8a%9e%e5%85%ac%e6%97%b6%e9%97%b4%e8%ae%bf%e9%97%ae%e5%88%99%e5%a2%9e%e5%8a%a0%e8%bf%9b%e4%b8%80%e6%ad%a5%e7%9a%84%e9%89%b4%e6%9d%83%e9%aa%8c%e8%af%81%e8%8b%a5%e5%b1%9e%e4%ba%8e%e8%b4%a2%e5%8a%a1%e9%83%a8%e9%97%a8%e7%9a%84%e4%ba%ba%e5%91%98%e4%b8%8d%e5%9c%a8%e5%8a%9e%e5%85%ac%e6%97%b6%e9%97%b4%e8%ae%bf%e9%97%ae%e4%b8%94%e9%9d%9e%e4%bd%bf%e7%94%a8%e5%8a%9e%e5%85%ac%e7%bd%91%e7%bb%9c%e5%88%99%e6%8b%92%e7%bb%9d%e8%ae%bf%e9%97%ae%e8%af%b7%e9%97%ae%e8%af%a5%e8%a6%81%e6%b1%82%e6%98%af%e5%9f%ba%e4%ba%8eidaas%e7%9a%84%e6%8e%88%e6%9d%83%e6%a8%a1%e5%bc%8f%e6%9d%a5%e5%ae%9e%e7%8e%b0"></a>
+583. 某集团使用了阿里云IDAAS用于统一身份管理和实现SSO的应用访问效果，其中在授权的环节考虑到财务部门的敏感性，该集团的CFO要求可以在工作日上班时间并且在办公网络访问系统，若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证，若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问。请问该要求是基于IDAAS的（）授权模式来实现。
+</h3><h4 id="选项-82">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-82"></a>
+选项:
+</h4><ul>
+<li>A. ABAC</li>
+<li>B. RBAC</li>
+<li>C. 反向授权</li>
+<li>D. 上述提到的模式都包含</li>
+</ul>
+<h4 id="正确答案-a-25">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-25"></a>
+正确答案: A
+</h4><h4 id="解析-82">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-82"></a>
+解析:
+</h4><p>ABAC访问控制利用了一组称为 “属性 “的特征。这包括用户属性、环境属性和资源属性；参考：https://cloud.tencent.com/developer/article/2054572</p>
+<hr>
+<h3 id="584-一家国际公司在硅谷美国和上海中国设有两个办事处公司在美国硅谷地区创建了vpc1在中国上海地区创建了vpc2每个vpc中部署一个应用程序由于业务发展公司必须构建混合云环境将上海中国和硅谷美国的办公室连接到中国上海和美国硅谷区域的vpc在业务部署过程中必须遵循以下哪个流程">
+<a class="header-anchor" href="#584-%e4%b8%80%e5%ae%b6%e5%9b%bd%e9%99%85%e5%85%ac%e5%8f%b8%e5%9c%a8%e7%a1%85%e8%b0%b7%e7%be%8e%e5%9b%bd%e5%92%8c%e4%b8%8a%e6%b5%b7%e4%b8%ad%e5%9b%bd%e8%ae%be%e6%9c%89%e4%b8%a4%e4%b8%aa%e5%8a%9e%e4%ba%8b%e5%a4%84%e5%85%ac%e5%8f%b8%e5%9c%a8%e7%be%8e%e5%9b%bd%e7%a1%85%e8%b0%b7%e5%9c%b0%e5%8c%ba%e5%88%9b%e5%bb%ba%e4%ba%86vpc1%e5%9c%a8%e4%b8%ad%e5%9b%bd%e4%b8%8a%e6%b5%b7%e5%9c%b0%e5%8c%ba%e5%88%9b%e5%bb%ba%e4%ba%86vpc2%e6%af%8f%e4%b8%aavpc%e4%b8%ad%e9%83%a8%e7%bd%b2%e4%b8%80%e4%b8%aa%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e7%94%b1%e4%ba%8e%e4%b8%9a%e5%8a%a1%e5%8f%91%e5%b1%95%e5%85%ac%e5%8f%b8%e5%bf%85%e9%a1%bb%e6%9e%84%e5%bb%ba%e6%b7%b7%e5%90%88%e4%ba%91%e7%8e%af%e5%a2%83%e5%b0%86%e4%b8%8a%e6%b5%b7%e4%b8%ad%e5%9b%bd%e5%92%8c%e7%a1%85%e8%b0%b7%e7%be%8e%e5%9b%bd%e7%9a%84%e5%8a%9e%e5%85%ac%e5%ae%a4%e8%bf%9e%e6%8e%a5%e5%88%b0%e4%b8%ad%e5%9b%bd%e4%b8%8a%e6%b5%b7%e5%92%8c%e7%be%8e%e5%9b%bd%e7%a1%85%e8%b0%b7%e5%8c%ba%e5%9f%9f%e7%9a%84vpc%e5%9c%a8%e4%b8%9a%e5%8a%a1%e9%83%a8%e7%bd%b2%e8%bf%87%e7%a8%8b%e4%b8%ad%e5%bf%85%e9%a1%bb%e9%81%b5%e5%be%aa%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aa%e6%b5%81%e7%a8%8b"></a>
+584. 一家国际公司在硅谷（美国）和上海（中国）设有两个办事处。公司在美国（硅谷）地区创建了VPC1，在中国（上海）地区创建了VPC2。每个VPC中部署一个应用程序。由于业务发展，公司必须构建混合云环境，将上海（中国）和硅谷（美国）的办公室连接到中国（上海）和美国（硅谷）区域的VPC。在业务部署过程中必须遵循以下哪个流程？
+</h3><h4 id="选项-83">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-83"></a>
+选项:
+</h4><ul>
+<li>A. 为每个办公室配置路由＞创建到硅谷（美国）办公室的IPsec—VPN连接＞创建到上海（中国）办公室的IPsec—VPN连接＞发布到CEN实例的路由＞将VPC附加到CEN实例＞测试网络连通性</li>
+<li>B. 创建与硅谷（美国）办事处的IPsec—VPN连接＞创建与上海（中国）办事处的IPsec—VPN连接＞将VPC附加到CEN实例＞为每个办事处配置路由＞发布到CEN实例的路由＞测试网络连通性</li>
+<li>C. 创建与硅谷（美国）办事处的IPsec—VPN连接＞创建与上海（中国）办事处的IPsec—VPN连接＞发布到CEN实例的路由＞将VPC附加到CEN实例＞为每个办事处配置路由＞测试网络连通性</li>
+<li>D. 创建与硅谷（美国）办事处的IPsec—VPN连接＞创建与上海（中国）办事处的IPsec—VPN连接＞将VPC附加到CEN实例＞将路由通告到CEN实例＞为每个办事处配置路由＞测试网络连通性</li>
+</ul>
+<h4 id="正确答案-d-17">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-17"></a>
+正确答案: D
+</h4><h4 id="解析-83">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-83"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/110822.html</p>
+<hr>
+<h3 id="585-阿里云专有网络vpc包含vswitchoverlayvroutercontroller几部分将从虚拟机出来的l2包放在一个虚拟隧道中进行传输在隧道的两端看起来像是同一个l2从而使虚拟网络和物理网络解耦组成逻辑大二层网络">
+<a class="header-anchor" href="#585-%e9%98%bf%e9%87%8c%e4%ba%91%e4%b8%93%e6%9c%89%e7%bd%91%e7%bb%9cvpc%e5%8c%85%e5%90%abvswitchoverlayvroutercontroller%e5%87%a0%e9%83%a8%e5%88%86%e5%b0%86%e4%bb%8e%e8%99%9a%e6%8b%9f%e6%9c%ba%e5%87%ba%e6%9d%a5%e7%9a%84l2%e5%8c%85%e6%94%be%e5%9c%a8%e4%b8%80%e4%b8%aa%e8%99%9a%e6%8b%9f%e9%9a%a7%e9%81%93%e4%b8%ad%e8%bf%9b%e8%a1%8c%e4%bc%a0%e8%be%93%e5%9c%a8%e9%9a%a7%e9%81%93%e7%9a%84%e4%b8%a4%e7%ab%af%e7%9c%8b%e8%b5%b7%e6%9d%a5%e5%83%8f%e6%98%af%e5%90%8c%e4%b8%80%e4%b8%aal2%e4%bb%8e%e8%80%8c%e4%bd%bf%e8%99%9a%e6%8b%9f%e7%bd%91%e7%bb%9c%e5%92%8c%e7%89%a9%e7%90%86%e7%bd%91%e7%bb%9c%e8%a7%a3%e8%80%a6%e7%bb%84%e6%88%90%e9%80%bb%e8%be%91%e5%a4%a7%e4%ba%8c%e5%b1%82%e7%bd%91%e7%bb%9c"></a>
+585. 阿里云专有网络VPC包含vSwitch、Overlay、vRouter、Controller几部分。（）将从虚拟机出来的L2包放在一个虚拟隧道中进行传输，在隧道的两端看起来像是同一个L2，从而使虚拟网络和物理网络解耦，组成逻辑大二层网络。
+</h3><h4 id="选项-84">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-84"></a>
+选项:
+</h4><ul>
+<li>A. vSwitch</li>
+<li>B. Controller</li>
+<li>C. Overlay</li>
+<li>D. vRouter</li>
+</ul>
+<h4 id="正确答案-c-11">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-11"></a>
+正确答案: C
+</h4><h4 id="解析-84">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-84"></a>
+解析:
+</h4><p>Overlay是在传统网络上虚拟出一个虚拟网络来，传统网络不需要在做任何适配,这样物理层网络只对应物理层的计算（物理机、虚拟化层管理网），虚拟的网络只对应虚拟计算（虚拟机的业务IP）</p>
+<hr>
+<h3 id="586-业务部署在ack集群上并在ack集群上运行常规业务当业务突发波动如秒杀活动时让突增的业务运行在实例上随着业务波动动态创建或释放该实例达到成本的最优控制同时业务方无需管理节点和容量规划全自动实现容器无限弹性扩容">
+<a class="header-anchor" href="#586-%e4%b8%9a%e5%8a%a1%e9%83%a8%e7%bd%b2%e5%9c%a8ack%e9%9b%86%e7%be%a4%e4%b8%8a%e5%b9%b6%e5%9c%a8ack%e9%9b%86%e7%be%a4%e4%b8%8a%e8%bf%90%e8%a1%8c%e5%b8%b8%e8%a7%84%e4%b8%9a%e5%8a%a1%e5%bd%93%e4%b8%9a%e5%8a%a1%e7%aa%81%e5%8f%91%e6%b3%a2%e5%8a%a8%e5%a6%82%e7%a7%92%e6%9d%80%e6%b4%bb%e5%8a%a8%e6%97%b6%e8%ae%a9%e7%aa%81%e5%a2%9e%e7%9a%84%e4%b8%9a%e5%8a%a1%e8%bf%90%e8%a1%8c%e5%9c%a8%e5%ae%9e%e4%be%8b%e4%b8%8a%e9%9a%8f%e7%9d%80%e4%b8%9a%e5%8a%a1%e6%b3%a2%e5%8a%a8%e5%8a%a8%e6%80%81%e5%88%9b%e5%bb%ba%e6%88%96%e9%87%8a%e6%94%be%e8%af%a5%e5%ae%9e%e4%be%8b%e8%be%be%e5%88%b0%e6%88%90%e6%9c%ac%e7%9a%84%e6%9c%80%e4%bc%98%e6%8e%a7%e5%88%b6%e5%90%8c%e6%97%b6%e4%b8%9a%e5%8a%a1%e6%96%b9%e6%97%a0%e9%9c%80%e7%ae%a1%e7%90%86%e8%8a%82%e7%82%b9%e5%92%8c%e5%ae%b9%e9%87%8f%e8%a7%84%e5%88%92%e5%85%a8%e8%87%aa%e5%8a%a8%e5%ae%9e%e7%8e%b0%e5%ae%b9%e5%99%a8%e6%97%a0%e9%99%90%e5%bc%b9%e6%80%a7%e6%89%a9%e5%ae%b9"></a>
+586. 业务部署在ACK集群上并在ACK集群上运行常规业务，当业务突发波动（如秒杀活动）时，让突增的业务运行在（）实例上，随着业务波动动态，创建或释放该实例，达到成本的最优控制。同时，业务方无需管理节点和容量规划，全自动实现容器无限弹性扩容。
+</h3><h4 id="选项-85">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-85"></a>
+选项:
+</h4><ul>
+<li>A. ACK</li>
+<li>B. ECS</li>
+<li>C. docker</li>
+<li>D. ECI</li>
+</ul>
+<h4 id="正确答案-d-18">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-18"></a>
+正确答案: D
+</h4><h4 id="解析-85">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-85"></a>
+解析:
+</h4><p>参考：https://developer.aliyun.com/article/742526</p>
+<hr>
+<h3 id="587-相比于为ecs实例创建安全组规则通过主机边界防火墙定义访问控制策略组具有的诸多优势以下关于优势的描述不正确的是哪一项">
+<a class="header-anchor" href="#587-%e7%9b%b8%e6%af%94%e4%ba%8e%e4%b8%baecs%e5%ae%9e%e4%be%8b%e5%88%9b%e5%bb%ba%e5%ae%89%e5%85%a8%e7%bb%84%e8%a7%84%e5%88%99%e9%80%9a%e8%bf%87%e4%b8%bb%e6%9c%ba%e8%be%b9%e7%95%8c%e9%98%b2%e7%81%ab%e5%a2%99%e5%ae%9a%e4%b9%89%e8%ae%bf%e9%97%ae%e6%8e%a7%e5%88%b6%e7%ad%96%e7%95%a5%e7%bb%84%e5%85%b7%e6%9c%89%e7%9a%84%e8%af%b8%e5%a4%9a%e4%bc%98%e5%8a%bf%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8e%e4%bc%98%e5%8a%bf%e7%9a%84%e6%8f%8f%e8%bf%b0%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af%e5%93%aa%e4%b8%80%e9%a1%b9"></a>
+587. 相比于为ECS实例创建安全组规则，通过主机边界防火墙定义访问控制策略组具有的诸多优势，以下关于优势的描述不正确的是哪一项？
+</h3><h4 id="选项-86">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-86"></a>
+选项:
+</h4><ul>
+<li>A. 策略支持观察模式</li>
+<li>B. 支持策略的灰度发布</li>
+<li>C. 在云防火墙控制台可实现策略的统一管控，并且无需切换ECS实例所在的地域</li>
+<li>D. 同应用组配合，自动创建安全组</li>
+</ul>
+<h4 id="正确答案-b-29">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-29"></a>
+正确答案: B
+</h4><h4 id="解析-86">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-86"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/90631.html</p>
+<hr>
+<h3 id="588-某用户购买云安全中心用于针对ecs系统漏洞进行修复可以通过以下哪种方式进行快速检查确认漏洞修复情况">
+<a class="header-anchor" href="#588-%e6%9f%90%e7%94%a8%e6%88%b7%e8%b4%ad%e4%b9%b0%e4%ba%91%e5%ae%89%e5%85%a8%e4%b8%ad%e5%bf%83%e7%94%a8%e4%ba%8e%e9%92%88%e5%af%b9ecs%e7%b3%bb%e7%bb%9f%e6%bc%8f%e6%b4%9e%e8%bf%9b%e8%a1%8c%e4%bf%ae%e5%a4%8d%e5%8f%af%e4%bb%a5%e9%80%9a%e8%bf%87%e4%bb%a5%e4%b8%8b%e5%93%aa%e7%a7%8d%e6%96%b9%e5%bc%8f%e8%bf%9b%e8%a1%8c%e5%bf%ab%e9%80%9f%e6%a3%80%e6%9f%a5%e7%a1%ae%e8%ae%a4%e6%bc%8f%e6%b4%9e%e4%bf%ae%e5%a4%8d%e6%83%85%e5%86%b5"></a>
+588. 某用户购买云安全中心用于针对ECS系统漏洞进行修复，可以通过以下哪种方式进行快速检查，确认漏洞修复情况？
+</h3><h4 id="选项-87">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-87"></a>
+选项:
+</h4><ul>
+<li>A. 逐台登录ECS，进行相关漏洞修复检查</li>
+<li>B. 登录云安全中心的漏洞修复功能进行查看</li>
+<li>C. 登录云安全中心控制台的威胁告警功能进行查看</li>
+<li>D. 登录ECS控制台查看漏洞修复情况</li>
+</ul>
+<h4 id="正确答案-b-30">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-30"></a>
+正确答案: B
+</h4><h4 id="解析-87">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-87"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/424809.html</p>
+<hr>
+<h3 id="589-根据togaf的定义企业是具有一系列共同目标的组织的集合企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具这其中不包括">
+<a class="header-anchor" href="#589-%e6%a0%b9%e6%8d%aetogaf%e7%9a%84%e5%ae%9a%e4%b9%89%e4%bc%81%e4%b8%9a%e6%98%af%e5%85%b7%e6%9c%89%e4%b8%80%e7%b3%bb%e5%88%97%e5%85%b1%e5%90%8c%e7%9b%ae%e6%a0%87%e7%9a%84%e7%bb%84%e7%bb%87%e7%9a%84%e9%9b%86%e5%90%88%e4%bc%81%e4%b8%9a%e6%9e%b6%e6%9e%84%e5%88%99%e6%98%af%e4%b8%ba%e4%ba%86%e6%9c%89%e6%95%88%e5%9c%b0%e5%ae%9e%e7%8e%b0%e8%bf%99%e4%b8%80%e7%b3%bb%e5%88%97%e7%9b%ae%e6%a0%87%e5%8e%bb%e5%ae%9a%e4%b9%89%e4%bc%81%e4%b8%9a%e7%9a%84%e4%b8%80%e5%a5%97%e6%96%b9%e6%b3%95%e5%92%8c%e5%b7%a5%e5%85%b7%e8%bf%99%e5%85%b6%e4%b8%ad%e4%b8%8d%e5%8c%85%e6%8b%ac"></a>
+589. 根据TOGAF的定义，企业是具有一系列共同目标的组织的集合，企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具，这其中不包括（）。
+</h3><h4 id="选项-88">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-88"></a>
+选项:
+</h4><ul>
+<li>A. 业务架构</li>
+<li>B. 应用架构</li>
+<li>C. 网络架构</li>
+<li>D. 数据架构</li>
+</ul>
+<h4 id="正确答案-c-12">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-c-12"></a>
+正确答案: C
+</h4><h4 id="解析-88">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-88"></a>
+解析:
+</h4><p>包含业务架构、信息架构（数据架构和应用架构）和技术架构</p>
+<hr>
+<h3 id="590-阿里云容器服务kubernetes目前已经和四款监控云服务进行了打通它们分别是sls日志服务arms应用实时监控服务ahas应用高可用服务和cloud-monitor云监控sls主要负责日志的采集分析以下不属于sls可以采集的日志是">
+<a class="header-anchor" href="#590-%e9%98%bf%e9%87%8c%e4%ba%91%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1kubernetes%e7%9b%ae%e5%89%8d%e5%b7%b2%e7%bb%8f%e5%92%8c%e5%9b%9b%e6%ac%be%e7%9b%91%e6%8e%a7%e4%ba%91%e6%9c%8d%e5%8a%a1%e8%bf%9b%e8%a1%8c%e4%ba%86%e6%89%93%e9%80%9a%e5%ae%83%e4%bb%ac%e5%88%86%e5%88%ab%e6%98%afsls%e6%97%a5%e5%bf%97%e6%9c%8d%e5%8a%a1arms%e5%ba%94%e7%94%a8%e5%ae%9e%e6%97%b6%e7%9b%91%e6%8e%a7%e6%9c%8d%e5%8a%a1ahas%e5%ba%94%e7%94%a8%e9%ab%98%e5%8f%af%e7%94%a8%e6%9c%8d%e5%8a%a1%e5%92%8ccloud-monitor%e4%ba%91%e7%9b%91%e6%8e%a7sls%e4%b8%bb%e8%a6%81%e8%b4%9f%e8%b4%a3%e6%97%a5%e5%bf%97%e7%9a%84%e9%87%87%e9%9b%86%e5%88%86%e6%9e%90%e4%bb%a5%e4%b8%8b%e4%b8%8d%e5%b1%9e%e4%ba%8esls%e5%8f%af%e4%bb%a5%e9%87%87%e9%9b%86%e7%9a%84%e6%97%a5%e5%bf%97%e6%98%af"></a>
+590. 阿里云容器服务Kubernetes目前已经和四款监控云服务进行了“打通”，它们分别是SLS（日志服务）、ARMS（应用实时监控服务）、AHAS（应用高可用服务）和Cloud Monitor（云监控）。SLS主要负责日志的采集、分析。以下不属于SLS可以采集的日志是（）。
+</h3><h4 id="选项-89">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-89"></a>
+选项:
+</h4><ul>
+<li>A. 应用的标准日志</li>
+<li>B. 操作内容的日志</li>
+<li>C. Service Mesh和lngress等接入层的日志</li>
+<li>D. API Server等核心组件的日志</li>
+</ul>
+<h4 id="正确答案-b-31">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-31"></a>
+正确答案: B
+</h4><h4 id="解析-89">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-89"></a>
+解析:
+</h4><p>在阿里云容器服务 Kubernetes 中，SLS 可以采集三种不同类型的日志：APIServer 等核心组件的日志；Service Mesh/Ingress 等接入层的日志；应用的标准日志</p>
+<hr>
+<h3 id="591-某技术人员需要连接到阿里云rds-postgresql数据库上进行数据筛选但是通过工具远程登录时显示报错报错信息为fatalremaining-connection-slots-are-reserved-for-non-replication-superuser-connections技术人员排查时发现在dms上还有该实例剩余的会话窗口可以对数据库进行操作该人员可以执行命令来查看当前连接数的pid并结束可以断掉的连接来解决以上报错">
+<a class="header-anchor" href="#591-%e6%9f%90%e6%8a%80%e6%9c%af%e4%ba%ba%e5%91%98%e9%9c%80%e8%a6%81%e8%bf%9e%e6%8e%a5%e5%88%b0%e9%98%bf%e9%87%8c%e4%ba%91rds-postgresql%e6%95%b0%e6%8d%ae%e5%ba%93%e4%b8%8a%e8%bf%9b%e8%a1%8c%e6%95%b0%e6%8d%ae%e7%ad%9b%e9%80%89%e4%bd%86%e6%98%af%e9%80%9a%e8%bf%87%e5%b7%a5%e5%85%b7%e8%bf%9c%e7%a8%8b%e7%99%bb%e5%bd%95%e6%97%b6%e6%98%be%e7%a4%ba%e6%8a%a5%e9%94%99%e6%8a%a5%e9%94%99%e4%bf%a1%e6%81%af%e4%b8%bafatalremaining-connection-slots-are-reserved-for-non-replication-superuser-connections%e6%8a%80%e6%9c%af%e4%ba%ba%e5%91%98%e6%8e%92%e6%9f%a5%e6%97%b6%e5%8f%91%e7%8e%b0%e5%9c%a8dms%e4%b8%8a%e8%bf%98%e6%9c%89%e8%af%a5%e5%ae%9e%e4%be%8b%e5%89%a9%e4%bd%99%e7%9a%84%e4%bc%9a%e8%af%9d%e7%aa%97%e5%8f%a3%e5%8f%af%e4%bb%a5%e5%af%b9%e6%95%b0%e6%8d%ae%e5%ba%93%e8%bf%9b%e8%a1%8c%e6%93%8d%e4%bd%9c%e8%af%a5%e4%ba%ba%e5%91%98%e5%8f%af%e4%bb%a5%e6%89%a7%e8%a1%8c%e5%91%bd%e4%bb%a4%e6%9d%a5%e6%9f%a5%e7%9c%8b%e5%bd%93%e5%89%8d%e8%bf%9e%e6%8e%a5%e6%95%b0%e7%9a%84pid%e5%b9%b6%e7%bb%93%e6%9d%9f%e5%8f%af%e4%bb%a5%e6%96%ad%e6%8e%89%e7%9a%84%e8%bf%9e%e6%8e%a5%e6%9d%a5%e8%a7%a3%e5%86%b3%e4%bb%a5%e4%b8%8a%e6%8a%a5%e9%94%99"></a>
+591. 某技术人员需要连接到阿里云RDS PostgreSQL数据库上进行数据筛选，但是通过工具远程登录时显示报错，报错信息为“FATAL：remaining connection slots are reserved for non-replication superuser connections”，技术人员排查时，发现在DMS上还有该实例剩余的会话窗口，可以对数据库进行操作，该人员可以执行（）命令，来查看当前连接数的PID，并结束可以断掉的连接，来解决以上报错。
+</h3><h4 id="选项-90">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-90"></a>
+选项:
+</h4><ul>
+<li>A. select*from pg_stat_statements</li>
+<li>B. select*from pg_stat_activity</li>
+<li>C. show maximumPoolSize</li>
+<li>D. show max_connections</li>
+</ul>
+<h4 id="正确答案-b-32">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-32"></a>
+正确答案: B
+</h4><h4 id="解析-90">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-90"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/41742.html</p>
+<hr>
+<h3 id="592-某公司的阿里云账号下有多个业务服务器现在需要进行权限划分技术人员自定义访问控制的权限策略来实现每个子账号能看到所有资源但是ecs只能查看到一台指定的服务器如i001以下关于策略规则符合需求的是">
+<a class="header-anchor" href="#592-%e6%9f%90%e5%85%ac%e5%8f%b8%e7%9a%84%e9%98%bf%e9%87%8c%e4%ba%91%e8%b4%a6%e5%8f%b7%e4%b8%8b%e6%9c%89%e5%a4%9a%e4%b8%aa%e4%b8%9a%e5%8a%a1%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%8e%b0%e5%9c%a8%e9%9c%80%e8%a6%81%e8%bf%9b%e8%a1%8c%e6%9d%83%e9%99%90%e5%88%92%e5%88%86%e6%8a%80%e6%9c%af%e4%ba%ba%e5%91%98%e8%87%aa%e5%ae%9a%e4%b9%89%e8%ae%bf%e9%97%ae%e6%8e%a7%e5%88%b6%e7%9a%84%e6%9d%83%e9%99%90%e7%ad%96%e7%95%a5%e6%9d%a5%e5%ae%9e%e7%8e%b0%e6%af%8f%e4%b8%aa%e5%ad%90%e8%b4%a6%e5%8f%b7%e8%83%bd%e7%9c%8b%e5%88%b0%e6%89%80%e6%9c%89%e8%b5%84%e6%ba%90%e4%bd%86%e6%98%afecs%e5%8f%aa%e8%83%bd%e6%9f%a5%e7%9c%8b%e5%88%b0%e4%b8%80%e5%8f%b0%e6%8c%87%e5%ae%9a%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%a6%82i001%e4%bb%a5%e4%b8%8b%e5%85%b3%e4%ba%8e%e7%ad%96%e7%95%a5%e8%a7%84%e5%88%99%e7%ac%a6%e5%90%88%e9%9c%80%e6%b1%82%e7%9a%84%e6%98%af"></a>
+592. 某公司的阿里云账号下有多个业务服务器，现在需要进行权限划分，技术人员自定义访问控制的权限策略，来实现每个子账号能看到所有资源，但是ECS只能查看到一台指定的服务器（如：i—001），以下关于策略规则符合需求的是（）
+</h3><h4 id="选项-91">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-91"></a>
+选项:
+</h4><ul>
+<li>A. {&ldquo;Statement&rdquo;:[{&ldquo;Action&rdquo;: &ldquo;ecs:<em>&rdquo;, &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;.&ldquo;Resource&rdquo;:&ldquo;acs:ecs:</em>:<em>instance/i-001&rdquo;}{&ldquo;Action&rdquo;:&ldquo;ecs:Describe</em>&rdquo;. &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&quot;*&quot;}[&ldquo;Version&rdquo;:&ldquo;1”}</li>
+<li>B. {&ldquo;Statement&rdquo;:[{&ldquo;Action&rdquo;:&ldquo;ecs:<em>&rdquo;, &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;: &ldquo;acs:ecs:</em>&rdquo;}{&ldquo;Action&rdquo;:&ldquo;ecs:Describe*:&ldquo;instance/i-001&rdquo;, &ldquo;Effect&rdquo;: &ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&rdquo;*&rdquo;}]&ldquo;Version&rdquo;:&ldquo;1”}</li>
+<li>C. {&ldquo;Statement&rdquo;:[{&ldquo;Action&rdquo;:&ldquo;ecs:<em>&rdquo;. &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&ldquo;acs:ecs:</em>&rdquo;}{&ldquo;Action&rdquo;:&ldquo;ecs:Describe*&rdquo;, &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&rdquo;*:instance/i-001&quot;}]&ldquo;Version&rdquo;:&ldquo;1”}</li>
+<li>D. {&ldquo;Statement&rdquo;:[{&ldquo;Action&rdquo;:&ldquo;ecs: instance/i-001&rdquo;, &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&ldquo;acs:ecs:<em>.&rdquo;}{&ldquo;Action&rdquo;:&ldquo;ecs:Describe</em>&rdquo;, &ldquo;Effect&rdquo;:&ldquo;Allow&rdquo;,&ldquo;Resource&rdquo;:&rdquo;&quot;}[&ldquo;Version&rdquo;:&ldquo;1&rdquo;}</li>
+</ul>
+<h4 id="正确答案-a-26">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-26"></a>
+正确答案: A
+</h4><h4 id="解析-91">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-91"></a>
+解析:
+</h4><p>参考：https://help.aliyun.com/document_detail/58900.html</p>
+<hr>
+<h3 id="593-某公司在香港有自己的asn网络现在正在将业务搬迁到阿里云该公司在中国大陆有很多用户因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验同时还要求希望搬迁上云后仍然使用自己的ip地址以下选项中哪一项是推荐的最优解决方法">
+<a class="header-anchor" href="#593-%e6%9f%90%e5%85%ac%e5%8f%b8%e5%9c%a8%e9%a6%99%e6%b8%af%e6%9c%89%e8%87%aa%e5%b7%b1%e7%9a%84asn%e7%bd%91%e7%bb%9c%e7%8e%b0%e5%9c%a8%e6%ad%a3%e5%9c%a8%e5%b0%86%e4%b8%9a%e5%8a%a1%e6%90%ac%e8%bf%81%e5%88%b0%e9%98%bf%e9%87%8c%e4%ba%91%e8%af%a5%e5%85%ac%e5%8f%b8%e5%9c%a8%e4%b8%ad%e5%9b%bd%e5%a4%a7%e9%99%86%e6%9c%89%e5%be%88%e5%a4%9a%e7%94%a8%e6%88%b7%e5%9b%a0%e6%ad%a4%e5%b8%8c%e6%9c%9b%e4%b8%8a%e4%ba%91%e5%90%8e%e8%83%bd%e5%a4%9f%e5%85%bc%e9%a1%be%e4%b8%ad%e5%9b%bd%e5%a4%a7%e9%99%86%e7%94%a8%e6%88%b7%e5%92%8c%e5%9b%bd%e9%99%85%e5%ae%a2%e6%88%b7%e7%9a%84%e8%ae%bf%e9%97%ae%e4%bd%93%e9%aa%8c%e5%90%8c%e6%97%b6%e8%bf%98%e8%a6%81%e6%b1%82%e5%b8%8c%e6%9c%9b%e6%90%ac%e8%bf%81%e4%b8%8a%e4%ba%91%e5%90%8e%e4%bb%8d%e7%84%b6%e4%bd%bf%e7%94%a8%e8%87%aa%e5%b7%b1%e7%9a%84ip%e5%9c%b0%e5%9d%80%e4%bb%a5%e4%b8%8b%e9%80%89%e9%a1%b9%e4%b8%ad%e5%93%aa%e4%b8%80%e9%a1%b9%e6%98%af%e6%8e%a8%e8%8d%90%e7%9a%84%e6%9c%80%e4%bc%98%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95"></a>
+593. 某公司在香港有自己的ASN网络，现在正在将业务搬迁到阿里云，该公司在中国大陆有很多用户，因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验，同时还要求，希望搬迁上云后，仍然使用自己的IP地址，以下选项中哪一项是推荐的最优解决方法？
+</h3><h4 id="选项-92">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-92"></a>
+选项:
+</h4><ul>
+<li>A. 建议将业务搬迁到阿里云香港，通过BYOIP自带IP上云。同时，要使用阿里云香港精品BGP。另外，可从视情况使用全球加速</li>
+<li>B. 可以搬迁上云，但是建议将业务迁移到中国大陆。只有这样，中国大陆的访问者才能有很好的访问体验</li>
+<li>C. 可以搬迁上云。但是无法兼顾中国大陆和国际客户的访问体验</li>
+<li>D. 可以搬迁上云。但是搬迁之后必须使用阿里云提供的IP地址，无法使用自有IP地址段</li>
+</ul>
+<h4 id="正确答案-a-27">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-27"></a>
+正确答案: A
+</h4><h4 id="解析-92">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-92"></a>
+解析:
+</h4><p>答案A：选项A推荐了使用BYOIP（Bring Your Own IP）功能，该公司可以将自己的IP地址段搬迁到阿里云，并在搬迁后继续使用自有IP地址。通过选择阿里云香港区域和使用阿里云香港精品BGP服务，可以兼顾中国大陆用户和国际客户的访问体验。此外，视情况可以使用全球加速服务来提高全球范围内的访问速度和稳定性。</p>
+<hr>
+<h3 id="594-某用户使用阿里云容器服务要求当某可用区挂掉后则不影响应用和集群的高可用阿里云容器服务kubernetes版配合______rds-mysql版云数据库redis版等产品实现跨可用区高可用">
+<a class="header-anchor" href="#594-%e6%9f%90%e7%94%a8%e6%88%b7%e4%bd%bf%e7%94%a8%e9%98%bf%e9%87%8c%e4%ba%91%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1%e8%a6%81%e6%b1%82%e5%bd%93%e6%9f%90%e5%8f%af%e7%94%a8%e5%8c%ba%e6%8c%82%e6%8e%89%e5%90%8e%e5%88%99%e4%b8%8d%e5%bd%b1%e5%93%8d%e5%ba%94%e7%94%a8%e5%92%8c%e9%9b%86%e7%be%a4%e7%9a%84%e9%ab%98%e5%8f%af%e7%94%a8%e9%98%bf%e9%87%8c%e4%ba%91%e5%ae%b9%e5%99%a8%e6%9c%8d%e5%8a%a1kubernetes%e7%89%88%e9%85%8d%e5%90%88______rds-mysql%e7%89%88%e4%ba%91%e6%95%b0%e6%8d%ae%e5%ba%93redis%e7%89%88%e7%ad%89%e4%ba%a7%e5%93%81%e5%ae%9e%e7%8e%b0%e8%b7%a8%e5%8f%af%e7%94%a8%e5%8c%ba%e9%ab%98%e5%8f%af%e7%94%a8"></a>
+594. 某用户使用阿里云容器服务，要求当某可用区挂掉后，则不影响应用和集群的高可用，阿里云容器服务Kubernetes版配合______、RDS MySQL版、云数据库Redis版等产品，实现跨可用区高可用。
+</h3><h4 id="选项-93">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-93"></a>
+选项:
+</h4><ul>
+<li>A. 负载均衡SLB</li>
+<li>B. 弹性伸缩AS</li>
+<li>C. 云服务器ECS</li>
+<li>D. 应用高可用AHAS</li>
+</ul>
+<h4 id="正确答案-a-28">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-28"></a>
+正确答案: A
+</h4><h4 id="解析-93">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-93"></a>
+解析:
+</h4><hr>
+<h3 id="595-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择____产品或服务进行判断">
+<a class="header-anchor" href="#595-%e9%98%bf%e9%87%8c%e4%ba%91%e6%8f%90%e4%be%9b%e7%9a%84%e5%ae%89%e5%85%a8%e4%ba%a7%e5%93%81%e4%ba%91%e7%9b%be%e6%b6%b5%e7%9b%96%e4%bb%8e%e7%bd%91%e7%bb%9c%e4%b8%bb%e6%9c%ba%e5%ba%94%e7%94%a8%e6%95%b0%e6%8d%ae%e5%9b%be%e7%89%87%e8%af%86%e5%88%ab%e6%b7%b7%e5%90%88%e4%ba%91%e5%88%b0%e6%95%b0%e5%ad%97%e8%af%81%e4%b9%a6%e5%92%8c%e4%b8%9a%e5%8a%a1%e9%a3%8e%e6%8e%a7%e4%bf%9d%e9%99%a9%e7%ad%89%e5%a4%9a%e4%b8%aa%e5%ad%90%e4%ba%a7%e5%93%81%e9%81%87%e5%88%b0%e4%b8%8d%e5%90%8c%e7%9a%84%e9%a3%8e%e9%99%a9%e6%97%b6%e9%80%89%e6%8b%a9%e5%90%88%e9%80%82%e7%9a%84%e4%ba%a7%e5%93%81%e5%8f%af%e4%bb%a5%e5%81%9a%e5%88%b0%e4%ba%8b%e5%8d%8a%e5%8a%9f%e5%80%8d%e5%bd%93%e5%ae%a2%e6%88%b7%e4%b8%8d%e6%b8%85%e6%a5%9a%e8%87%aa%e5%b7%b1%e5%9c%a8%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8a%e6%8f%90%e4%be%9b%e6%9c%8d%e5%8a%a1%e7%9a%84%e7%b3%bb%e7%bb%9f%e6%98%af%e5%90%a6%e5%af%b9%e5%a4%96%e5%ad%98%e5%9c%a8%e5%ae%89%e5%85%a8%e6%bc%8f%e6%b4%9e%e6%9c%89%e5%93%aa%e4%ba%9b%e5%ae%89%e5%85%a8%e9%9a%90%e6%82%a3%e6%97%b6%e5%8f%af%e4%bb%a5%e9%80%89%e6%8b%a9____%e4%ba%a7%e5%93%81%e6%88%96%e6%9c%8d%e5%8a%a1%e8%bf%9b%e8%a1%8c%e5%88%a4%e6%96%ad"></a>
+595. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品，遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞，有哪些安全隐患时，可以选择____产品或服务进行判断。
+</h3><h4 id="选项-94">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-94"></a>
+选项:
+</h4><ul>
+<li>A. 云安全中心</li>
+<li>B. 安全管家服务</li>
+<li>C. 安全众测</li>
+<li>D. WEB应用防火墙（WAF）</li>
+</ul>
+<h4 id="正确答案-a-29">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-29"></a>
+正确答案: A
+</h4><h4 id="解析-94">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-94"></a>
+解析:
+</h4><hr>
+<h3 id="596-小张调用阿里云对象存储oss的putobject接口上传一个大小为47gb的文件无法上传成功但是上传100m的文件是可用上传成功的这有可能是服务器的_____设置较大导致的">
+<a class="header-anchor" href="#596-%e5%b0%8f%e5%bc%a0%e8%b0%83%e7%94%a8%e9%98%bf%e9%87%8c%e4%ba%91%e5%af%b9%e8%b1%a1%e5%ad%98%e5%82%a8oss%e7%9a%84putobject%e6%8e%a5%e5%8f%a3%e4%b8%8a%e4%bc%a0%e4%b8%80%e4%b8%aa%e5%a4%a7%e5%b0%8f%e4%b8%ba47gb%e7%9a%84%e6%96%87%e4%bb%b6%e6%97%a0%e6%b3%95%e4%b8%8a%e4%bc%a0%e6%88%90%e5%8a%9f%e4%bd%86%e6%98%af%e4%b8%8a%e4%bc%a0100m%e7%9a%84%e6%96%87%e4%bb%b6%e6%98%af%e5%8f%af%e7%94%a8%e4%b8%8a%e4%bc%a0%e6%88%90%e5%8a%9f%e7%9a%84%e8%bf%99%e6%9c%89%e5%8f%af%e8%83%bd%e6%98%af%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%9a%84_____%e8%ae%be%e7%bd%ae%e8%be%83%e5%a4%a7%e5%af%bc%e8%87%b4%e7%9a%84"></a>
+596. 小张调用阿里云对象存储OSS的PutObject接口上传一个大小为4.7GB的文件，无法上传成功，但是上传100M的文件是可用上传成功的，这有可能是服务器的_____设置较大导致的。
+</h3><h4 id="选项-95">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-95"></a>
+选项:
+</h4><ul>
+<li>A. MUP</li>
+<li>B. NRPOC</li>
+<li>C. NOFILE</li>
+<li>D. MTU</li>
+</ul>
+<h4 id="正确答案-d-19">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-19"></a>
+正确答案: D
+</h4><h4 id="解析-95">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-95"></a>
+解析:
+</h4><p>nofile表示单个进程可以打开的最大文件句柄数，nproc表示单个用户创建的进程数Https://help.aliyun.com/document_detail/39595.html?spm=a2c4g.11186623.0.0.6de51277iUOxVe<img src="https://up.zaixiankaoshi.com/2115829/7417735/image/png/1662027780408.png" alt="1662027780408.png"></p>
+<hr>
+<h3 id="597-kubernetes是一个开源的用于管理云平台中多个主机的容器化应用kubernetes的目标是让部署容器化的应用简单并且高效kubernetes提供了应用部署规划更新维护的一种机制在kubernetes集群中的应用大致可分为_____这两种类型这两种应用对存储的需求不同">
+<a class="header-anchor" href="#597-kubernetes%e6%98%af%e4%b8%80%e4%b8%aa%e5%bc%80%e6%ba%90%e7%9a%84%e7%94%a8%e4%ba%8e%e7%ae%a1%e7%90%86%e4%ba%91%e5%b9%b3%e5%8f%b0%e4%b8%ad%e5%a4%9a%e4%b8%aa%e4%b8%bb%e6%9c%ba%e7%9a%84%e5%ae%b9%e5%99%a8%e5%8c%96%e5%ba%94%e7%94%a8kubernetes%e7%9a%84%e7%9b%ae%e6%a0%87%e6%98%af%e8%ae%a9%e9%83%a8%e7%bd%b2%e5%ae%b9%e5%99%a8%e5%8c%96%e7%9a%84%e5%ba%94%e7%94%a8%e7%ae%80%e5%8d%95%e5%b9%b6%e4%b8%94%e9%ab%98%e6%95%88kubernetes%e6%8f%90%e4%be%9b%e4%ba%86%e5%ba%94%e7%94%a8%e9%83%a8%e7%bd%b2%e8%a7%84%e5%88%92%e6%9b%b4%e6%96%b0%e7%bb%b4%e6%8a%a4%e7%9a%84%e4%b8%80%e7%a7%8d%e6%9c%ba%e5%88%b6%e5%9c%a8kubernetes%e9%9b%86%e7%be%a4%e4%b8%ad%e7%9a%84%e5%ba%94%e7%94%a8%e5%a4%a7%e8%87%b4%e5%8f%af%e5%88%86%e4%b8%ba_____%e8%bf%99%e4%b8%a4%e7%a7%8d%e7%b1%bb%e5%9e%8b%e8%bf%99%e4%b8%a4%e7%a7%8d%e5%ba%94%e7%94%a8%e5%af%b9%e5%ad%98%e5%82%a8%e7%9a%84%e9%9c%80%e6%b1%82%e4%b8%8d%e5%90%8c"></a>
+597. Kubernetes是一个开源的，用于管理云平台中多个主机的容器化应用，Kubernetes的目标是让部署容器化的应用简单并且高效，Kubernetes提供了应用部署，规划，更新，维护的一种机制。在Kubernetes集群中的应用大致可分为_____这两种类型。这两种应用对存储的需求不同。
+</h3><h4 id="选项-96">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-96"></a>
+选项:
+</h4><ul>
+<li>A. 无状态应用和有状态应用</li>
+<li>B. 关闭状态应用和运行状态应用</li>
+<li>C. 保存状态应用和读取状态应用</li>
+<li>D. 挂起状态应用和重置状态应用</li>
+</ul>
+<h4 id="正确答案-a-30">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-30"></a>
+正确答案: A
+</h4><h4 id="解析-96">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-96"></a>
+解析:
+</h4><hr>
+<h3 id="598-某电子商务平台商品智能导购app作为社交电商平台拥有6000万注册用户平台总交易额达到420亿元双11期间流量瞬间上涨由于经验不足系统发生多起故障如无法分享商品搜索出问题业务高峰时后台不敢查询等等在解决上述问题的同时进行合理的提高it资源的利用率我们可用使用_____方案">
+<a class="header-anchor" href="#598-%e6%9f%90%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b9%b3%e5%8f%b0%e5%95%86%e5%93%81%e6%99%ba%e8%83%bd%e5%af%bc%e8%b4%adapp%e4%bd%9c%e4%b8%ba%e7%a4%be%e4%ba%a4%e7%94%b5%e5%95%86%e5%b9%b3%e5%8f%b0%e6%8b%a5%e6%9c%896000%e4%b8%87%e6%b3%a8%e5%86%8c%e7%94%a8%e6%88%b7%e5%b9%b3%e5%8f%b0%e6%80%bb%e4%ba%a4%e6%98%93%e9%a2%9d%e8%be%be%e5%88%b0420%e4%ba%bf%e5%85%83%e5%8f%8c11%e6%9c%9f%e9%97%b4%e6%b5%81%e9%87%8f%e7%9e%ac%e9%97%b4%e4%b8%8a%e6%b6%a8%e7%94%b1%e4%ba%8e%e7%bb%8f%e9%aa%8c%e4%b8%8d%e8%b6%b3%e7%b3%bb%e7%bb%9f%e5%8f%91%e7%94%9f%e5%a4%9a%e8%b5%b7%e6%95%85%e9%9a%9c%e5%a6%82%e6%97%a0%e6%b3%95%e5%88%86%e4%ba%ab%e5%95%86%e5%93%81%e6%90%9c%e7%b4%a2%e5%87%ba%e9%97%ae%e9%a2%98%e4%b8%9a%e5%8a%a1%e9%ab%98%e5%b3%b0%e6%97%b6%e5%90%8e%e5%8f%b0%e4%b8%8d%e6%95%a2%e6%9f%a5%e8%af%a2%e7%ad%89%e7%ad%89%e5%9c%a8%e8%a7%a3%e5%86%b3%e4%b8%8a%e8%bf%b0%e9%97%ae%e9%a2%98%e7%9a%84%e5%90%8c%e6%97%b6%e8%bf%9b%e8%a1%8c%e5%90%88%e7%90%86%e7%9a%84%e6%8f%90%e9%ab%98it%e8%b5%84%e6%ba%90%e7%9a%84%e5%88%a9%e7%94%a8%e7%8e%87%e6%88%91%e4%bb%ac%e5%8f%af%e7%94%a8%e4%bd%bf%e7%94%a8_____%e6%96%b9%e6%a1%88"></a>
+598. 某电子商务平台商品智能导购APP，作为社交电商平台拥有6000万注册用户，平台总交易额达到420亿元，双11期间流量瞬间上涨，由于经验不足，系统发生多起故障，如无法分享商品、搜索出问题、业务高峰时后台不敢查询等等。在解决上述问题的同时，进行合理的提高IT资源的利用率，我们可用使用_____方案。
+</h3><h4 id="选项-97">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-97"></a>
+选项:
+</h4><ul>
+<li>A. 将业务进行云原生微服务体系架构改造</li>
+<li>B. 使用多台负载均衡，达到提高资源利用率，解决业务高峰问题</li>
+<li>C. 将服务器升级至高性能的神龙服务器，带宽升级至最高</li>
+<li>D. 集中管理云上资产权限，全程记录操作数据，从流量和主机层面实现全链路威胁检测、响应、溯源的自动化安全运营闭环</li>
+</ul>
+<h4 id="正确答案-a-31">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-31"></a>
+正确答案: A
+</h4><h4 id="解析-97">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-97"></a>
+解析:
+</h4><p>答案：A选项A建议将业务进行云原生微服务体系架构改造。由于电子商务平台在双11期间面临流量激增和多起系统故障，采用云原生微服务体系架构可以提高系统的可伸缩性、弹性和稳定性。通过拆分应用为一组小而独立的微服务，可以更好地管理和部署系统的各个模块，并充分利用云计算资源，以提高IT资源的利用率。此外，云原生架构还可以使开发团队更灵活地进行持续交付和快速迭代，从而更好地应对业务高峰和故障情况。</p>
+<hr>
+<h3 id="599-当我们进行架构设计时初始目标通常会设定弹性高性能高可靠通用的手段往往都是通过增加更多的服务器来满足设计目标这就意味着更高的成本tco下面关于成本方面的描述错误的是______">
+<a class="header-anchor" href="#599-%e5%bd%93%e6%88%91%e4%bb%ac%e8%bf%9b%e8%a1%8c%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1%e6%97%b6%e5%88%9d%e5%a7%8b%e7%9b%ae%e6%a0%87%e9%80%9a%e5%b8%b8%e4%bc%9a%e8%ae%be%e5%ae%9a%e5%bc%b9%e6%80%a7%e9%ab%98%e6%80%a7%e8%83%bd%e9%ab%98%e5%8f%af%e9%9d%a0%e9%80%9a%e7%94%a8%e7%9a%84%e6%89%8b%e6%ae%b5%e5%be%80%e5%be%80%e9%83%bd%e6%98%af%e9%80%9a%e8%bf%87%e5%a2%9e%e5%8a%a0%e6%9b%b4%e5%a4%9a%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e6%9d%a5%e6%bb%a1%e8%b6%b3%e8%ae%be%e8%ae%a1%e7%9b%ae%e6%a0%87%e8%bf%99%e5%b0%b1%e6%84%8f%e5%91%b3%e7%9d%80%e6%9b%b4%e9%ab%98%e7%9a%84%e6%88%90%e6%9c%actco%e4%b8%8b%e9%9d%a2%e5%85%b3%e4%ba%8e%e6%88%90%e6%9c%ac%e6%96%b9%e9%9d%a2%e7%9a%84%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af______"></a>
+599. 当我们进行架构设计时，初始目标通常会设定：弹性、高性能、高可靠、通用的手段往往都是通过增加更多的服务器来满足设计目标，这就意味着更高的成本（TCO），下面关于成本方面的描述，错误的是______.
+</h3><h4 id="选项-98">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-98"></a>
+选项:
+</h4><ul>
+<li>A. 当项目规模较太时，成本就会变成架构设计中非常重点的关键指标</li>
+<li>B. 实际进行架构设计的时候往往是更重视高可靠，因为保持业务的稳定是第一优先级</li>
+<li>C. 低成本本质上是与高性能和高可用冲实的</li>
+<li>D. 当项目规模较小时，成本并不是重点关注目标</li>
+</ul>
+<h4 id="正确答案-b-33">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-33"></a>
+正确答案: B
+</h4><h4 id="解析-98">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-98"></a>
+解析:
+</h4><p><img src="https://up.zaixiankaoshi.com/2115829/7417735/image/png/1662691139574.png" alt="1662691139574.png"></p>
+<hr>
+<h3 id="600-国内知名游戏厂商业务涵盖影视游戏和电竞三大板块是我国最大的影游综合体集团为了保证用户体验游戏需要极低时延对战服必须尽量本地部署因此在国内五大区域都有部署需求需要强大的基础设施保障基于上述业务需求最佳上云解决方案是_____">
+<a class="header-anchor" href="#600-%e5%9b%bd%e5%86%85%e7%9f%a5%e5%90%8d%e6%b8%b8%e6%88%8f%e5%8e%82%e5%95%86%e4%b8%9a%e5%8a%a1%e6%b6%b5%e7%9b%96%e5%bd%b1%e8%a7%86%e6%b8%b8%e6%88%8f%e5%92%8c%e7%94%b5%e7%ab%9e%e4%b8%89%e5%a4%a7%e6%9d%bf%e5%9d%97%e6%98%af%e6%88%91%e5%9b%bd%e6%9c%80%e5%a4%a7%e7%9a%84%e5%bd%b1%e6%b8%b8%e7%bb%bc%e5%90%88%e4%bd%93%e9%9b%86%e5%9b%a2%e4%b8%ba%e4%ba%86%e4%bf%9d%e8%af%81%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c%e6%b8%b8%e6%88%8f%e9%9c%80%e8%a6%81%e6%9e%81%e4%bd%8e%e6%97%b6%e5%bb%b6%e5%af%b9%e6%88%98%e6%9c%8d%e5%bf%85%e9%a1%bb%e5%b0%bd%e9%87%8f%e6%9c%ac%e5%9c%b0%e9%83%a8%e7%bd%b2%e5%9b%a0%e6%ad%a4%e5%9c%a8%e5%9b%bd%e5%86%85%e4%ba%94%e5%a4%a7%e5%8c%ba%e5%9f%9f%e9%83%bd%e6%9c%89%e9%83%a8%e7%bd%b2%e9%9c%80%e6%b1%82%e9%9c%80%e8%a6%81%e5%bc%ba%e5%a4%a7%e7%9a%84%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e4%bf%9d%e9%9a%9c%e5%9f%ba%e4%ba%8e%e4%b8%8a%e8%bf%b0%e4%b8%9a%e5%8a%a1%e9%9c%80%e6%b1%82%e6%9c%80%e4%bd%b3%e4%b8%8a%e4%ba%91%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%98%af_____"></a>
+600. 国内知名游戏厂商，业务涵盖影视、游戏和电竞三大板块，是我国最大的影游综合体集团。为了保证用户体验，游戏需要极低时延，对战服必须尽量本地部署，因此在国内五大区域都有部署需求，需要强大的基础设施保障，基于上述业务需求，最佳上云解决方案是_____.
+</h3><h4 id="选项-99">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-99"></a>
+选项:
+</h4><ul>
+<li>A. 政务云部署</li>
+<li>B. 公有云部署</li>
+<li>C. 混合云部署</li>
+<li>D. 专有云部署</li>
+</ul>
+<h4 id="正确答案-b-34">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-34"></a>
+正确答案: B
+</h4><h4 id="解析-99">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-99"></a>
+解析:
+</h4><p>答案为B. 官网原话，https://developer.aliyun.com/article/780827为什么选择阿里云？强大的基础设施保障是完美对阿里能力的认可，完美的竞技对战平台客户面向遍布全国的游戏玩家，而游戏本身又是对延时要求比较高，对战服务器必须尽量本地部署，只有阿里在国内有丰富的公有云地域平台，遍及国内多个区域，可以满足完美多地域部署的需求。阿里云的产品的性能和稳定性也是非常的强大，这也是完美选择阿里云平台的一大原因，阿里云新推出的七代高主频产品在性价上有巨大的优势，性能强劲，可以让业务流畅运行，同时阿里在稳定性SLA的承诺上也是全网最高的，这些也是打动客户的关键因素。</p>
+<hr>
+</div>
+    <footer class="article-footer"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/ace"
+        rel="tag"
+        >ACE</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/%e9%a2%98%e5%ba%93"
+        rel="tag"
+        >题库</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap article-nav-link-left"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="阿里云 ACE 笔试题库 401-500 题"
+              class="lazyload"
+            /><a href="/post/aliyun_401_500/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">阿里云 ACE 笔试题库 401-500 题</h3>
+      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="阿里云 ACE 笔试题库 601-700 题"
+              class="lazyload"
+            /><a href="/post/aliyun_601_700/"></a>
+        <div class="article-nav-caption">后一篇</div>
+        <h3 class="article-nav-title">阿里云 ACE 笔试题库 601-700 题</h3>
+      </div></nav></article></section>
+        </div><footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div>
+      <span class="icon-copyright"></span>2020-2025<span class="footer-info-sep rotate"></span>
+      yuntu
+    </div><div>
+        基于&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          >Hugo</a
+        >&nbsp; Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;320.2k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;10:44</span>
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >总访问量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >总访客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#501-基于edas平台开发应用使用的java容器是___________">501. 基于EDAS平台开发应用,使用的java容器是___________?</a></li>
+        <li><a href="#502-edas容器部署的包的格式是__________">502. EDAS容器部署的包的格式是__________?</a></li>
+        <li><a href="#503-edas产品中eclipse安装tomcat4e插件的方式是__________">503. EDAS产品中Eclipse安装Tomcat4E插件的方式是__________?</a></li>
+        <li><a href="#504-edas应用基础信息界面显示有机器agent异常时如何处理___________">504. EDAS应用基础信息界面显示有机器Agent异常时,如何处理___________?</a></li>
+        <li><a href="#505-drds目前兼容的协议方式和语法是____________">505. DRDS目前兼容的协议方式和语法是____________.</a></li>
+        <li><a href="#506-通过oss加速域名配合函数计算和函数工作流可以快速打造低成本高效的跨境对象存储数据同步传输系统用于满足有跨境对象存储数据传输需求对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户以下对该系统优势描述不正确的是哪一项">506. 通过OSS加速域名,配合函数计算和函数工作流,可以快速打造低成本、高效的跨境对象存储数据同步传输系统,用于满足有跨境对象存储数据传输需求,对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户,以下对该系统优势描述不正确的是哪一项?</a></li>
+        <li><a href="#507-企业上云迁移的过程中非结构化数据的迁移往往占用比较多的时间不能用于非结构化数据的迁移">507. 企业上云迁移的过程中，非结构化数据的迁移往往占用比较多的时间。（）不能用于非结构化数据的迁移。</a></li>
+        <li><a href="#508-某公司利用阿里云的api网关开发一款社交类app会员之间可以信息发送与语音交流刚上线后即收到好评下载量剧增但是随后又很多用户反馈使用app后手机严重发热耗电同时流量消耗很快cto要求开发人员立刻排查故请问最可能是什么原因造成的">508. 某公司利用阿里云的API网关开发一款社交类APP,会员之间可以信息发送与语音交流,刚上线后即收到好评,下载量剧增,但是随后又很多用户反馈使用APP后手机严重发热耗电,同时流量消耗很快,CTO要求开发人员立刻排查故,请问最可能是什么原因造成的?()</a></li>
+        <li><a href="#509-某企业是一家运动健身公司主推一款个人健身应用app类似线上健身房完全个人化完全数字化该app提供世界级知名教练的音频训练包括用户身体跑步骑自行车运动数据精神瑜伽和灵魂冥想谈话的课程拥有在全活动水平上量身定制的品牌锻炼计划综合冥想计划平衡身体锻炼它融汇了达到健康目标所需的所有健身领域小强是该app的新晋安全工程师通过情报得知近期会有黑客计划攻击该app以达到勒索公司钱款的目的小强同时得知该app因为历史原因还存在部分重要接口是基于ip提供服务为了应对本次攻击以下产品是小强的最优选择">509. 某企业是一家运动健身公司，主推一款个人健身应用APP，类似线上健身房，完全个人化完全数字化。该APP提供世界级知名教练的音频训练。包括用户身体（跑步/骑自行车）运动数据，精神（瑜伽）和灵魂（冥想/谈话）的课程，拥有在全活动水平上量身定制的品牌锻炼计划，综合冥想计划，平衡身体锻炼。它融汇了达到健康目标所需的所有健身领域。小强是该APP的新晋安全工程师，通过情报得知近期会有黑客计划攻击该APP以达到勒索公司钱款的目的，小强同时得知该APP因为历史原因还存在部分重要接口是基于IP提供服务，为了应对本次攻击，以下（）产品是小强的最优选择。</a></li>
+        <li><a href="#510-某教育平台希望打造一套敏捷交付系统加速软件的开放测试与交付通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长人员效率低下软件质量无法保障等问题以下非敏捷交付系统必须的组件">510. 某教育平台希望打造一套敏捷交付系统，加速软件的开放、测试与交付。通过自动化的方式减少从前由于流程或者认为因素干扰而造成的开发周期冗长，人员效率低下，软件质量无法保障等问题。以下（）非敏捷交付系统必须的组件</a></li>
+        <li><a href="#511-rds采用的贮备m-m的高可用架构其贮备之间的数据同步依靠日志的方式实现mysql数据和sql-server分别使用的日志是什么">511. RDS采用的贮备M-M的高可用架构,其贮备之间的数据同步依靠日志的方式实现,MySQL数据和SQL server分别使用的日志是什么?</a></li>
+        <li><a href="#512-在实际应用中那种性能指标表示rds实例磁盘空间的使用量">512. 在实际应用中,那种性能指标表示RDS实例磁盘空间的使用量?</a></li>
+        <li><a href="#513-通过dms管理后台或者数据库客户端连接rds数据库时提示错误信息max_user_connections代表什么含义">513. 通过DMS管理后台或者数据库客户端,连接RDS数据库时,提示错误信息“max_user_connections&quot;,代表什么含义?</a></li>
+        <li><a href="#514-哪个字符集是目前rds-for-mysql不支持的">514. 哪个字符集是目前RDS for MySQL不支持的</a></li>
+        <li><a href="#515-下面列出的参数中哪一个不属于rds-sql-server中用的大字段">515. 下面列出的参数中哪一个不属于RDS SQL SERVER中用的大字段?</a></li>
+        <li><a href="#516-以下哪些应用场景适合rds只读实例来完成">516. 以下哪些应用场景适合RDS只读实例来完成?</a></li>
+        <li><a href="#517-关于rds数据迁移错误的是">517. 关于RDS数据迁移,错误的是</a></li>
+        <li><a href="#518-闪电立方在帮助客户迁移数据上云时不仅关注数据本身的可靠性也关注数据的安全性以下关于高可靠说法不正确的是">518. 闪电立方在帮助客户迁移数据上云时,不仅关注数据本身的可靠性,也关注数据的安全性,以下关于高可靠说法不正确的是</a></li>
+        <li><a href="#519-小刘是某传媒公司的系统管理员随着公司业务的迅速发展公司每个月会产生1t的增量数据且数据存储周期最少不能低于180天考虑到公司自建机房的存储成本过高小刘了解到阿里云的oss可以有效降低存储的费用其本有8t的历史数据平时几乎是不调用的可做为归档类型的存储请问这8t的历史数据存放在oss类型的存储中可以达到成本最优化的目的">519. 小刘是某传媒公司的系统管理员，随着公司业务的迅速发展，公司每个月会产生1T的增量数据且数据存储周期最少不能低于180天，考虑到公司自建机房的存储成本过高，小刘了解到阿里云的OSS可以有效降低存储的费用，其本有8T的历史数据平时几乎是不调用的可做为归档类型的存储，请问这8T的历史数据存放在OSS（）类型的存储中可以达到成本最优化的目的。</a></li>
+        <li><a href="#520-在openstack中宿主机电源断电后云主机不能故障迁移出现这种问题的原因是">520. 在OpenStack中宿主机电源断电后，云主机不能故障迁移，出现这种问题的原因是（）</a></li>
+        <li><a href="#521-应用配置管理acmapplication-configuration-management是一款在分布式架构环境中对应用配置进行集中管理和推送的产品以下关于acm的特性说明中正确的是___">521. 应用配置管理ACM（Application Configuration Management）是一款在分布式架构环境中对应用配置进行集中管理和推送的产品。以下关于ACM的特性说明中，正确的是___.</a></li>
+        <li><a href="#522-在openstack的对称集群中所有节点都是活动的都参与请求处理可以将集群理解为类似于集群">522. 在OpenStack的对称集群中，所有节点都是活动的都参与请求处理，可以将集群理解为类似于（）集群</a></li>
+        <li><a href="#523-云效的客户画像中哪属性是不属于目标客户">523. 云效的客户画像中哪属性是不属于目标客户?</a></li>
+        <li><a href="#524-小童原先的drds和后端的rds实例俱在经典网络为了利用vpc的灵活和高隔离请问该如何操作才可顺利切换">524. 小童原先的DRDS和后端的RDS实例俱在经典网络,为了利用VPC的灵活和高隔离,请问该如何操作才可顺利切换</a></li>
+        <li><a href="#525-云效aui录制的脚本云端执行正常本机回放却一直打不开可能的原因是">525. 云效AUI录制的脚本,云端执行正常,本机回放却一直打不开,可能的原因是</a></li>
+        <li><a href="#526-如果用户本源站是共享存储nas-在迁移的过程总哪些说法是正确的">526. 如果用户本源站是共享存储NAS ,在迁移的过程总哪些说法是正确的</a></li>
+        <li><a href="#527-某个游戏初创公司发布了国际象棋对战游戏希望借助阿里云实现全球同服他主要的客户分布在欧洲部分用户分布在日本和中国综合考虑架构负责程度与性价比请问该推荐什么方案">527. 某个游戏初创公司,发布了国际象棋对战游戏,希望借助阿里云实现全球同服,他主要的客户分布在欧洲,部分用户分布在日本和中国,综合考虑架构负责程度与性价比,请问该推荐什么方案</a></li>
+        <li><a href="#528-某电商网站部署在一台ecs-上近期由于业务增长数据库cpu占用率较高经常导致服务器cpu使用率达100经过排查发现数据库大多为查询操作为解决此种场景以下哪些方案不合理的">528. 某电商网站部署在一台ECS 上,近期由于业务增长数据库CPU占用率较高,经常导致服务器CPU使用率达100%,经过排查发现数据库大多为查询操作,为解决此种场景以下哪些方案不合理的?</a></li>
+        <li><a href="#529-飞天系统提供分布式环境下所需要的协调服务远程过程调用安全管理和资源管理的服务这些底层服务为上层的分布式文件系统任务调度等模块提供支持以下描述中错误的是">529. 飞天系统提供分布式环境下所需要的协调服务、远程过程调用、安全管理和资源管理的服务。这些底层服务为上层的分布式文件系统、任务调度等模块提供支持。以下描述中,错误的是:</a></li>
+        <li><a href="#530-某集团公司旗下有三家子公司子公司的网络和集团公司网络是打通的子公司阿里云账号下各有一个vpc现在集团总部建好了到阿里云的专线各子公司需要利用该专线连接各自的vpc数据要相互隔离还要考虑未来的业务扩展以下选中哪一项是最佳方法">530. 某集团公司，旗下有三家子公司，子公司的网络和集团公司网络是打通的，子公司阿里云账号下各有一个VPC，现在，集团总部建好了到阿里云的专线，各子公司需要利用该专线连接各自的VPC，数据要相互隔离，还要考虑未来的业务扩展，以下选中哪一项是最佳方法？</a></li>
+        <li><a href="#531-某在线教育行业客户随着业务量的增大其录制和转码需求越来越多而阿里云基于serverless的容器基础设施通过事件触发提供高并发低成本的容器实例调度及事件处理能力以下对这种能力描述不正确">531. 某在线教育行业客户随着业务量的增大,其录制和转码需求越来越多,而阿里云基于Serverless的容器基础设施,通过事件触发,提供高并发、低成本的容器实例调度及事件处理能力,以下()对这种能力描述不正确。</a></li>
+        <li><a href="#532-某企业运营voip业务业务部署在idc中现在需要搬迁上云已经自行采购ecs部署在vpc中进行测试由于ecs的网卡ip和eip之间是nat无法较好的支持sip协议客户业务测试总是失败面对此情况你觉得以下哪个选项可以更好的解决问题">532. 某企业运营VOIP业务，业务部署在IDC中，现在需要搬迁上云，已经自行采购ECS部署在VPC中进行测试，由于ECS的网卡IP和EIP之间是NAT，无法较好的支持SIP协议，客户业务测试总是失败，面对此情况，你觉得以下哪个选项可以更好的解决问题？</a></li>
+        <li><a href="#533-某制鞋厂sap系统部署在idc机房因为部分应用系统感染了勒索病毒导致业务停摆公司领导决定sap生产系统即刻迁移上云并要求云上的主机设计全部采用地域高可用架构作为架构师的您除了要选择sap认证的机型之外在网络侧应该采用产品来实现高可用架构下的访问">533. 某制鞋厂SAP系统部署在IDC机房，因为部分应用系统感染了勒索病毒导致业务停摆，公司领导决定SAP生产系统即刻迁移上云，并要求云上的主机设计全部采用地域高可用架构，作为架构师的您，除了要选择SAP认证的机型之外，在网络侧应该采用（）产品来实现高可用架构下的访问。</a></li>
+        <li><a href="#534-某企业原来使用的阿里云服务都是位于经典网络中的由于专有网络vpc相比于经典网络更安全性能更高用户决定将所有经典网络中的服务迁移到专有网络vpc中为了实现业务能够平滑的迁移以下哪些建议是不可行的">534. 某企业原来使用的阿里云服务都是位于经典网络中的,由于专有网络VPC相比于经典网络更安全,性能更高,用户决定将所有经典网络中的服务迁移到专有网络VPC中。为了实现业务能够平滑的迁移,以下哪些建议是不可行的?</a></li>
+        <li><a href="#535-在一个典型的社交网络中常常会存在谁认识谁上过什么学校常住什么地方喜欢什么餐馆之类的查询传统关系型数据库对于超过3度的查询十分低效且难以胜任但__可轻松应对社交网络的各种复杂存储和查询场景">535. 在一个典型的社交网络中,常常会存在谁认识谁,上过什么学校,常住什么地方,喜欢什么餐馆之类的查询,传统关系型数据库对于超过3度的查询十分低效且难以胜任，但__可轻松应对社交网络的各种复杂存储和查询场景。</a></li>
+        <li><a href="#536-很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机vm使用在一个容器里放多个进程监控进程日志进程sshd进程甚至整个systemd这样操作存会存在____问题">536. 很多刚刚接触容器的人喜欢按照旧习惯把容器当作虚拟机（VM）使用，在一个容器里放多个进程：监控进程、日志进程、sshd进程、甚至整个Systemd。这样操作存会存在____问题。</a></li>
+        <li><a href="#537-某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时可利用混合云容灾服务支持业务的_____的容灾能力对整体的应用做容灾备份来应对单地区的故障满足业务的rtorpo核心指标">537. 某企业当生产站点因为不可抗力因素导致应用在短时间内无法恢复时,可利用混合云容灾服务支持业务的_____的容灾能力,对整体的应用做容灾备份来应对单地区的故障,满足业务的RTO/RPO核心指标。</a></li>
+        <li><a href="#538-某游戏公司新上线一款游戏上线第三天即飙升至免费榜第3平均每日承载5万玩家为更清晰了解用户公司需要进行游戏运营数据分析该游戏运营分析系统分为三个阶段数据采集阶段数据归档阶段数据分析阶段对各个阶段说法不正确的是">538. 某游戏公司新上线一款游戏,上线第三天即飙升至免费榜第3。平均每日承载5万玩家。为更清晰了解用户,公司需要进行游戏运营数据分析。该游戏运营分析系统分为三个阶段:数据采集阶段,数据归档阶段,数据分析阶段。对各个阶段说法不正确的是?</a></li>
+        <li><a href="#539-由于rds只读实例的数据均由源数据库实例同步而来以下那些功能只读实例可以使用">539. 由于RDS只读实例的数据均由源数据库实例同步而来,以下那些功能只读实例可以使用?</a></li>
+        <li><a href="#540-关于rds数据转移功能描述最准确的是">540. 关于RDS数据转移功能,描述最准确的是</a></li>
+        <li><a href="#541-阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是">541. 阿里云企业级互联网架构中保障业务系统在大促秒杀场景下平稳运行的核心方案是?</a></li>
+        <li><a href="#542-当出现消费者对某条消息重复消费的情况时重复消费的结果与消费一次的结果是相同的并且多次消费并未对业务系统产生任何负面影响那么这整个过程就可实现消息幂等以下关于消息幂等的描述错误的是___">542. 当出现消费者对某条消息重复消费的情况时，重复消费的结果与消费一次的结果是相同的，并且多次消费并未对业务系统产生任何负面影响，那么这整个过程就可实现消息幂等。以下关于消息幂等的描述，错误的是___。</a></li>
+        <li><a href="#543-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择产品或服务进行判断">543. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品,遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞,有哪些安全隐患时,可以选择()产品或服务进行判断。</a></li>
+        <li><a href="#544-阿里云操作系统叫作飞天云网络平台称为洛神作为飞天系统的核心组件洛神平台支撑超大规模租户超大规模虚拟机的高性能云网络洛神的负责云网络中数据包的处理它就如同物理世界中的网线和路由交换设备把数据包高效率低延时地从发送端送到目的地类似地这个平面包含各种不同角色的组件包括支持各种不同类型计算形态的虚拟交换机用于数据中心互联的dcn网关用于云网络连接的公网网关用于云上云下互联的混合云网关等">544. 阿里云操作系统叫作“飞天”，云网络平台称为”洛神“，作为飞天系统的核心组件，洛神平台支撑超大规模租户，超大规模虚拟机的高性能云网络，洛神的（）负责云网络中数据包的处理，它就如同物理世界中的网线和路由交换设备，把数据包高效率，低延时地从发送端送到目的地，类似地，这个平面包含各种不同角色的组件，包括支持各种不同类型计算形态的虚拟交换机、用于数据中心互联的DCN网关，用于云网络连接的公网网关，用于云上云下互联的混合云网关等。</a></li>
+        <li><a href="#545-企业通过数字化转型引导业务创新在混合云架构创造的与之间权衡利弊结合企业自身的混合云战略和建设思路建立和优化企业管理方式业务创新路径财务结算方式人力投入的it组织是企业能够发挥混合云建设成效的关键">545. 企业通过数字化转型，引导业务创新，在混合云架构创造的（）与（）之间权衡利弊，结合企业自身的混合云战略和建设思路，建立和优化企业管理方式，业务创新路径，财务结算方式，人力投入的IT组织，是企业能够发挥混合云建设成效的关键。</a></li>
+        <li><a href="#546-运维工程师小李将应用部署在阿里云容器服务上他希望将前端服务配置文件webconf挂载到pod中以下___是正确的挂载方式">546. 运维工程师小李将应用部署在阿里云容器服务上，他希望将前端服务配置文件web.conf挂载到pod中，以下___是正确的挂载方式。</a></li>
+        <li><a href="#547-某资讯类平台最近发现服务器资源使用率突然增高并且从访问日志发现有大量的爬虫程序在爬取站点信息导致用户正常浏览资讯信息非常慢用户体验很差如果你是cto可以通过_____方式来防止爬虫程序的爬取">547. 某资讯类平台，最近发现服务器资源使用率突然增高，并且从访问日志发现有大量的爬虫程序在爬取站点信息。导致用户正常浏览资讯信息非常慢，用户体验很差。如果你是CTO可以通过_____方式来防止爬虫程序的爬取。</a></li>
+        <li><a href="#548-比特币挖掘病毒与wannacry类似同样是利用ms17-010漏洞除了文件加密勒索外还会控制感染主机进行比特币挖掘该病毒是一个dll文件在感染前会检测运行环境如果是俄罗斯白俄罗斯哈萨科斯坦将不进行感染感染后会留下一个名为_decode_filestxt的文本里面是勒索信息同时将文件加密为_格式">548. 比特币挖掘病毒与WannaCry类似,同样是利用MS17-010漏洞,除了文件加密勒索外还会控制感染主机进行比特币挖掘。该病毒是一个dll文件,在感染前会检测运行环境,如果是俄罗斯,白俄罗斯、哈萨科斯坦将不进行感染,感染后会留下一个名为“_DECODE_FILES.txt”的文本,里面是勒索信息,同时将文件加密为_格式。</a></li>
+        <li><a href="#549-数据库是较大型的应用对于繁忙的数据库需要消耗大量的内存cpuio网络资源sql优化是数据库优化的手段之一而为了达到sql优化的最佳效果首先需要了解最消耗资源的sql-top-sql-例如io消耗最高的sql在rds-postgresql数据库中查询单次调用最耗io-sql的语句是______">549. 数据库是较大型的应用，对于繁忙的数据库,需要消耗大量的内存、CPU、IO、网络资源。SQL优化是数据库优化的手段之一，而为了达到SQL优化的最佳效果首先需要了解最消耗资源的SQL (Top SQL) ,例如IO消耗最高的SQL,在RDS PostgreSQL数据库中,查询单次调用最耗IO SQL的语句是______。</a></li>
+        <li><a href="#550-跨站攻击即cross-site-script-execution通常简写为xss因为css与层叠样式表同名故改为xss是指攻击者利用网站程序对用户输入过滤不足输入可以显示在页面上对其他用户造成影响的html代码从而盗取用户资料利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式很多人对于xss的利用大多停留在弹框的程度一些厂商对xss也是不以为然都认为安全级别很低甚至忽略不计作为公司网络安全工程师今天安排对公司官网进行手工验证网站漏洞工作时为了测试某个跨站攻击漏洞在修改跨站脚本攻击时以下做法错误的是______">550. 跨站攻击,即Cross Site Script Execution(通常简写为XSS,因为CSS与层叠样式表同名,故改为XSS)是指攻击者利用网站程序对用户输入过滤不足.输入可以显示在页面上对其他用户造成影响的HTML代码，从而盗取用户资料、利用用户身份进行某种动作或者对访问者进行病毒侵害的一种攻击方式。很多人对于XSS的利用大多停留在弹框的程度，一些厂商对XSS也是不以为然，都认为安全级别很低，甚至忽略不计。作为公司网络安全工程师，今天安排对公司官网进行手工验证网站漏洞工作时，为了测试某个跨站攻击漏洞在修改跨站脚本攻击时，以下做法错误的是______</a></li>
+        <li><a href="#551-ctf是一种流行的信息安全竞赛形式其英文名可译为夺旗赛在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式ctf起源于1996年defcon全球黑客大会以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式发展至今已经成为全球范围网络安全圈流行的竞赛形式ctf的参赛团队成员通过相互合作使用逆向解密取证分析渗透利用等技术最终取得_______">551. CTF是一种流行的信息安全竞赛形式其英文名可译为“夺旗赛”,在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式。CTF起源于1996年DEFCON全球黑客大会，以代替之前黑客们通过互相发起真实攻击进行技术比拼的方式，发展至今,已经成为全球范围网络安全圈流行的竞赛形式,CTF的参赛团队成员通过相互合作使用逆向、解密、取证分析、渗透利用等技术最终取得_______。</a></li>
+        <li><a href="#552-随着应用上云的普及单机架构向分布式架构演进系统之间的依赖关系调用链路变的十分复杂业务发展带来的服务端迭代越来越快在性能管理上很难有足够的投入经常会产生未知的隐患导致性能的大幅下-降借助于阿里巴巴内部多年高可用体系沉淀下来的经验结合使用应用高可用服务ahas和其他中间件产品可协助保障应用的稳定性以下关于ahas的实践描述错误的是">552. 随着应用上云的普及,单机架构向分布式架构演进,系统之间的依赖关系、调用链路变的十分复杂。业务发展带来的服务端迭代越来越快,在性能管理上很难有足够的投入,经常会产生未知的隐患导致性能的大幅下 降。借助于阿里巴巴内部多年高可用体系沉淀下来的经验,结合使用应用高可用服务AHAS和其他中间件产品,可协助保障应用的稳定性。以下关于AHAS的实践描述,错误的是</a></li>
+        <li><a href="#553-阿里云e-mapreduce-elastic-mapreduce是运行在阿里云平台上的一种大数据处理的系统解决方案用户希望使用e-mapreduce进行mysql-binlog日志准实时传输涉及到多种阿里云产品其中数据流向正确的是">553. 阿里云E-MapReduce (Elastic MapReduce)是运行在阿里云平台上的一种大数据处理的系统解决方案，用户希望使用E-MapReduce进行MySQL Binlog日志准实时传输，涉及到多种阿里云产品，其中数据流向正确的是</a></li>
+        <li><a href="#554-随着微服务架构的逐渐流行越来越多的应用选择使用容器服务ack来进行部署与管理容器服务提供了多种部署发布方式以下____发布方式不是容器服务可以提供的">554. 随着微服务架构的逐渐流行,越来越多的应用选择使用容器服务ACK来进行部署与管理。容器服务提供了多种部署发布方式,以下____发布方式不是容器服务可以提供的。</a></li>
+        <li><a href="#555-drds建库默认在一个rds节点上创建多少个分库_____________">555. DRDS建库默认在一个RDS节点上创建多少个分库_____________。</a></li>
+        <li><a href="#556-关于mq的消息类型以下描述错误的是">556. 关于MQ的消息类型,以下描述错误的是（）。</a></li>
+        <li><a href="#557-关于mq的事务消息概念以下描述正确的是____">557. 关于MQ的事务消息概念,以下描述正确的是:____。</a></li>
+        <li><a href="#558-以下哪个语句可以查询读写库流量">558. 以下哪个语句可以查询读写库流量?</a></li>
+        <li><a href="#559-mq精准定时功能最长定时时间为">559. MQ精准定时功能最长定时时间为（）</a></li>
+        <li><a href="#560-关于mq的消费过程以下描述错误的是">560. 关于MQ的消费过程,以下描述错误的是（）。</a></li>
+        <li><a href="#561-关于edas中的ecs资源以下描述错误的是____">561. 关于EDAS中的ECS资源,以下描述错误的是____?</a></li>
+        <li><a href="#562-云效代码模块管理是配置管理系统的重要功能组成以下描述中错误的是">562. 云效代码模块管理是配置管理系统的重要功能组成,以下描述中错误的是:</a></li>
+        <li><a href="#563-下面对云效描述错误的是">563. 下面对云效描述错误的是（）</a></li>
+        <li><a href="#564-云效单测集成系统项目中实时构建邮件会给哪些人发送">564. 云效单测集成系统,项目中实时构建邮件会给哪些人发送</a></li>
+        <li><a href="#565-rds-for-mysql-监听的端口是多少">565. RDS for Mysql 监听的端口是多少?</a></li>
+        <li><a href="#566-在rds只读实例变更配置过程中并且只读实例的对应源数据库实例状态为升降级中主实例可以进行下列哪种任务">566. 在RDS只读实例变更配置过程中,并且只读实例的对应源数据库实例状态为“升降级中”。主实例可以进行下列哪种任务?</a></li>
+        <li><a href="#567-rds和自建数据库相比以下哪个是错误的">567. RDS和自建数据库相比,以下哪个是错误的?</a></li>
+        <li><a href="#568-在利用rds管理控制台将数据迁移至rds-mysql中的时候使用的方法是mysql在线迁移可以不停服务就能够完成数据库的迁移工作以下哪个mysql版本不支持在线迁移">568. 在利用RDS管理控制台将数据迁移至RDS-MySQL中的时候,使用的方法是MySQL在线迁移,可以不停服务就能够完成数据库的迁移工作,以下哪个MySQL版本不支持在线迁移?</a></li>
+        <li><a href="#569-下列关于rds可用区的说法正确的是">569. 下列关于RDS可用区的说法正确的是:</a></li>
+        <li><a href="#570-下列关于rds性能的指标说法错误的是">570. 下列关于RDS性能的指标说法错误的是</a></li>
+        <li><a href="#571-已知客户承载业务的ecs存在大量商业数据目前遭受到ddos攻击导致业务中断同时发现ecs存在后门程序以及异常网络通信监测到ecs正在大量向外网传输数据面对这种情况最佳的处置方式是_">571. @已知客户承载业务的ECS存在大量商业数据，目前遭受到DDoS攻击导致业务中断，同时发现ECS存在后门程序以及异常网络通信，监测到ECS正在大量向外网传输数据，面对这种情况最佳的处置方式是_。</a></li>
+        <li><a href="#572-arms的实时计算引擎基于_________">572. ARMS的实时计算引擎基于_________。</a></li>
+        <li><a href="#573-关于arms底层架构正确的说法是__________">573. 关于ARMS底层架构正确的说法是__________?</a></li>
+        <li><a href="#574-相较于传统的分布式企业级互联网架构传统的企业架构都是中心化架构体系下面哪个服务不是整合相关的概念">574. 相较于传统的分布式企业级互联网架构,传统的企业架构都是中心化架构体系,下面哪个服务不是整合相关的概念?</a></li>
+        <li><a href="#575-edas可以设置的报警联系人为">575. EDAS可以设置的报警联系人为（）?</a></li>
+        <li><a href="#576-下面哪个特性属于多可用区rds的">576. 下面哪个特性属于多可用区RDS的?</a></li>
+        <li><a href="#577-rds-for-mysql不支持以下哪种引擎">577. RDS for MySQL不支持以下哪种引擎</a></li>
+        <li><a href="#578-在云服务总线csb上消费服务需要订阅但服务消费者首先需要找到想到订阅的服务关于搜索和查看服务以下描述不正确的是_______________">578. 在云服务总线CSB上消费服务需要订阅,但服务消费者首先需要找到想到订阅的服务,关于搜索和查看服务,以下描述不正确的是:_______________。</a></li>
+        <li><a href="#579-云服务总线csb进行服务订阅后一定需要对所做的服务订阅进行查看关于服务订阅查看以下描述正确的是______________">579. 云服务总线CSB进行服务订阅后,一定需要对所做的服务订阅进行查看,关于服务订阅查看,以下描述正确的是______________。</a></li>
+        <li><a href="#580-针对实时计算清洗回流场景用户通常会将流计算清洗结果数据回流至mysql等单机数据库作为报表库来查询使用当单机数据量或者单表数据量非常大时传统的关系型数据库会出现报表查询卡顿的问题下列能解决卡顿问题并支持实时计算单表数据数高达千亿条的解决方案是">580. 针对实时计算清洗回流场景,用户通常会将流计算清洗结果数据回流至MySQL等单机数据库.作为报表库来查询使用。当单机数据量或者单表数据量非常大时,传统的关系型数据库会出现报表查询卡顿的问题。下列能解决卡顿问题,并支持实时计算单表数据数高达千亿条的解决方案是</a></li>
+        <li><a href="#581-kubernetes的管理层服务包括kube-scheduler和kube-controller-managerkubernetes中实现了一套简单的选主逻辑依赖etcd实现scheduler和controller-manager的选主功能如果scheduler和controller-manager在启动的时候设置了_____参数在启动后会先尝试获取leader节点身份只有在获取leader节点身份后才可以执行具体的业务逻辑">581. Kubernetes的管理层服务包括kube-scheduler和kube-controller-manager，Kubernetes中实现了一套简单的选主逻辑，依赖Etcd实现scheduler和controller-manager的选主功能。如果scheduler和controller-manager在启动的时候设置了_____参数，在启动后会先尝试获取leader节点身份，只有在获取leader节点身份后才可以执行具体的业务逻辑。</a></li>
+        <li><a href="#582-某电商网站在618双11这种场景下需要高并发高可用为了提升系统性能系统需要减少非必要业务的资源消耗对非必要的业务功能进行主动降级可以使用ahas中的主动降级功能需要在代码中开启______">582. 某电商网站，在618,双11这种场景下需要高并发,高可用，为了提升系统性能，系统需要减少非必要业务的资源消耗，对非必要的业务功能进行主动降级.可以使用AHAS中的主动降级功能，需要在代码中开启______。</a></li>
+        <li><a href="#583-某集团使用了阿里云idaas用于统一身份管理和实现sso的应用访问效果其中在授权的环节考虑到财务部门的敏感性该集团的cfo要求可以在工作日上班时间并且在办公网络访问系统若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问请问该要求是基于idaas的授权模式来实现">583. 某集团使用了阿里云IDAAS用于统一身份管理和实现SSO的应用访问效果，其中在授权的环节考虑到财务部门的敏感性，该集团的CFO要求可以在工作日上班时间并且在办公网络访问系统，若属于财务部门的人员使用办公网络但不在办公时间访问则增加进一步的鉴权验证，若属于财务部门的人员不在办公时间访问且非使用办公网络则拒绝访问。请问该要求是基于IDAAS的（）授权模式来实现。</a></li>
+        <li><a href="#584-一家国际公司在硅谷美国和上海中国设有两个办事处公司在美国硅谷地区创建了vpc1在中国上海地区创建了vpc2每个vpc中部署一个应用程序由于业务发展公司必须构建混合云环境将上海中国和硅谷美国的办公室连接到中国上海和美国硅谷区域的vpc在业务部署过程中必须遵循以下哪个流程">584. 一家国际公司在硅谷（美国）和上海（中国）设有两个办事处。公司在美国（硅谷）地区创建了VPC1，在中国（上海）地区创建了VPC2。每个VPC中部署一个应用程序。由于业务发展，公司必须构建混合云环境，将上海（中国）和硅谷（美国）的办公室连接到中国（上海）和美国（硅谷）区域的VPC。在业务部署过程中必须遵循以下哪个流程？</a></li>
+        <li><a href="#585-阿里云专有网络vpc包含vswitchoverlayvroutercontroller几部分将从虚拟机出来的l2包放在一个虚拟隧道中进行传输在隧道的两端看起来像是同一个l2从而使虚拟网络和物理网络解耦组成逻辑大二层网络">585. 阿里云专有网络VPC包含vSwitch、Overlay、vRouter、Controller几部分。（）将从虚拟机出来的L2包放在一个虚拟隧道中进行传输，在隧道的两端看起来像是同一个L2，从而使虚拟网络和物理网络解耦，组成逻辑大二层网络。</a></li>
+        <li><a href="#586-业务部署在ack集群上并在ack集群上运行常规业务当业务突发波动如秒杀活动时让突增的业务运行在实例上随着业务波动动态创建或释放该实例达到成本的最优控制同时业务方无需管理节点和容量规划全自动实现容器无限弹性扩容">586. 业务部署在ACK集群上并在ACK集群上运行常规业务，当业务突发波动（如秒杀活动）时，让突增的业务运行在（）实例上，随着业务波动动态，创建或释放该实例，达到成本的最优控制。同时，业务方无需管理节点和容量规划，全自动实现容器无限弹性扩容。</a></li>
+        <li><a href="#587-相比于为ecs实例创建安全组规则通过主机边界防火墙定义访问控制策略组具有的诸多优势以下关于优势的描述不正确的是哪一项">587. 相比于为ECS实例创建安全组规则，通过主机边界防火墙定义访问控制策略组具有的诸多优势，以下关于优势的描述不正确的是哪一项？</a></li>
+        <li><a href="#588-某用户购买云安全中心用于针对ecs系统漏洞进行修复可以通过以下哪种方式进行快速检查确认漏洞修复情况">588. 某用户购买云安全中心用于针对ECS系统漏洞进行修复，可以通过以下哪种方式进行快速检查，确认漏洞修复情况？</a></li>
+        <li><a href="#589-根据togaf的定义企业是具有一系列共同目标的组织的集合企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具这其中不包括">589. 根据TOGAF的定义，企业是具有一系列共同目标的组织的集合，企业架构则是为了有效地实现这一系列目标去定义企业的一套方法和工具，这其中不包括（）。</a></li>
+        <li><a href="#590-阿里云容器服务kubernetes目前已经和四款监控云服务进行了打通它们分别是sls日志服务arms应用实时监控服务ahas应用高可用服务和cloud-monitor云监控sls主要负责日志的采集分析以下不属于sls可以采集的日志是">590. 阿里云容器服务Kubernetes目前已经和四款监控云服务进行了“打通”，它们分别是SLS（日志服务）、ARMS（应用实时监控服务）、AHAS（应用高可用服务）和Cloud Monitor（云监控）。SLS主要负责日志的采集、分析。以下不属于SLS可以采集的日志是（）。</a></li>
+        <li><a href="#591-某技术人员需要连接到阿里云rds-postgresql数据库上进行数据筛选但是通过工具远程登录时显示报错报错信息为fatalremaining-connection-slots-are-reserved-for-non-replication-superuser-connections技术人员排查时发现在dms上还有该实例剩余的会话窗口可以对数据库进行操作该人员可以执行命令来查看当前连接数的pid并结束可以断掉的连接来解决以上报错">591. 某技术人员需要连接到阿里云RDS PostgreSQL数据库上进行数据筛选，但是通过工具远程登录时显示报错，报错信息为“FATAL：remaining connection slots are reserved for non-replication superuser connections”，技术人员排查时，发现在DMS上还有该实例剩余的会话窗口，可以对数据库进行操作，该人员可以执行（）命令，来查看当前连接数的PID，并结束可以断掉的连接，来解决以上报错。</a></li>
+        <li><a href="#592-某公司的阿里云账号下有多个业务服务器现在需要进行权限划分技术人员自定义访问控制的权限策略来实现每个子账号能看到所有资源但是ecs只能查看到一台指定的服务器如i001以下关于策略规则符合需求的是">592. 某公司的阿里云账号下有多个业务服务器，现在需要进行权限划分，技术人员自定义访问控制的权限策略，来实现每个子账号能看到所有资源，但是ECS只能查看到一台指定的服务器（如：i—001），以下关于策略规则符合需求的是（）</a></li>
+        <li><a href="#593-某公司在香港有自己的asn网络现在正在将业务搬迁到阿里云该公司在中国大陆有很多用户因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验同时还要求希望搬迁上云后仍然使用自己的ip地址以下选项中哪一项是推荐的最优解决方法">593. 某公司在香港有自己的ASN网络，现在正在将业务搬迁到阿里云，该公司在中国大陆有很多用户，因此希望上云后能够兼顾中国大陆用户和国际客户的访问体验，同时还要求，希望搬迁上云后，仍然使用自己的IP地址，以下选项中哪一项是推荐的最优解决方法？</a></li>
+        <li><a href="#594-某用户使用阿里云容器服务要求当某可用区挂掉后则不影响应用和集群的高可用阿里云容器服务kubernetes版配合______rds-mysql版云数据库redis版等产品实现跨可用区高可用">594. 某用户使用阿里云容器服务，要求当某可用区挂掉后，则不影响应用和集群的高可用，阿里云容器服务Kubernetes版配合______、RDS MySQL版、云数据库Redis版等产品，实现跨可用区高可用。</a></li>
+        <li><a href="#595-阿里云提供的安全产品云盾涵盖从网络主机应用数据图片识别混合云到数字证书和业务风控保险等多个子产品遇到不同的风险时选择合适的产品可以做到事半功倍当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞有哪些安全隐患时可以选择____产品或服务进行判断">595. 阿里云提供的安全产品云盾涵盖从网络、主机、应用、数据、图片识别、混合云到数字证书和业务风控、保险等多个子产品，遇到不同的风险时选择合适的产品可以做到事半功倍。当客户不清楚自己在互联网上提供服务的系统是否对外存在安全漏洞，有哪些安全隐患时，可以选择____产品或服务进行判断。</a></li>
+        <li><a href="#596-小张调用阿里云对象存储oss的putobject接口上传一个大小为47gb的文件无法上传成功但是上传100m的文件是可用上传成功的这有可能是服务器的_____设置较大导致的">596. 小张调用阿里云对象存储OSS的PutObject接口上传一个大小为4.7GB的文件，无法上传成功，但是上传100M的文件是可用上传成功的，这有可能是服务器的_____设置较大导致的。</a></li>
+        <li><a href="#597-kubernetes是一个开源的用于管理云平台中多个主机的容器化应用kubernetes的目标是让部署容器化的应用简单并且高效kubernetes提供了应用部署规划更新维护的一种机制在kubernetes集群中的应用大致可分为_____这两种类型这两种应用对存储的需求不同">597. Kubernetes是一个开源的，用于管理云平台中多个主机的容器化应用，Kubernetes的目标是让部署容器化的应用简单并且高效，Kubernetes提供了应用部署，规划，更新，维护的一种机制。在Kubernetes集群中的应用大致可分为_____这两种类型。这两种应用对存储的需求不同。</a></li>
+        <li><a href="#598-某电子商务平台商品智能导购app作为社交电商平台拥有6000万注册用户平台总交易额达到420亿元双11期间流量瞬间上涨由于经验不足系统发生多起故障如无法分享商品搜索出问题业务高峰时后台不敢查询等等在解决上述问题的同时进行合理的提高it资源的利用率我们可用使用_____方案">598. 某电子商务平台商品智能导购APP，作为社交电商平台拥有6000万注册用户，平台总交易额达到420亿元，双11期间流量瞬间上涨，由于经验不足，系统发生多起故障，如无法分享商品、搜索出问题、业务高峰时后台不敢查询等等。在解决上述问题的同时，进行合理的提高IT资源的利用率，我们可用使用_____方案。</a></li>
+        <li><a href="#599-当我们进行架构设计时初始目标通常会设定弹性高性能高可靠通用的手段往往都是通过增加更多的服务器来满足设计目标这就意味着更高的成本tco下面关于成本方面的描述错误的是______">599. 当我们进行架构设计时，初始目标通常会设定：弹性、高性能、高可靠、通用的手段往往都是通过增加更多的服务器来满足设计目标，这就意味着更高的成本（TCO），下面关于成本方面的描述，错误的是______.</a></li>
+        <li><a href="#600-国内知名游戏厂商业务涵盖影视游戏和电竞三大板块是我国最大的影游综合体集团为了保证用户体验游戏需要极低时延对战服必须尽量本地部署因此在国内五大区域都有部署需求需要强大的基础设施保障基于上述业务需求最佳上云解决方案是_____">600. 国内知名游戏厂商，业务涵盖影视、游戏和电竞三大板块，是我国最大的影游综合体集团。为了保证用户体验，游戏需要极低时延，对战服必须尽量本地部署，因此在国内五大区域都有部署需求，需要强大的基础设施保障，基于上述业务需求，最佳上云解决方案是_____.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/erya.webp"
+    data-sizes="auto"
+    alt="yuntu"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">yuntu</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">10</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      1
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+</div>
+<div class="sidebar-social"></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">首页</div>
+    </div></div>
+</div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" ></script><script src="/js/aos.js" ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" data-pjax></script><script
+    src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js"
+    integrity="sha384-8LyaidD9GPxQQgLJO/WRw/O2h3BoNq/ApI/ecpvM6RsrCz2qP2ppBXUKihP4V/2d" crossorigin="anonymous"></script><script>
+  if (window.firework) {
+    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+    options.excludeElements = options.excludeelements;
+    delete options.excludeelements;
+    window.firework(options);
+  }
+</script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "yuntu",
+          title: "阿里云 ACE 笔试题库 501-600 题",
+          url: "http:\/\/localhost:1313\/post\/aliyun_501_600\/",
+          description: " 501. 基于EDAS平台开发应用,使用的java容器是___________? 选项: A. Jboss B. Ali-Tomcat C. Apache Tomcat D. Jetty 正确答案: B 解析: 502. EDAS容器部署的包的格式是__________? 选项: A. war B. tar C. zip D. jar 正确答案: A 解析: 503. EDAS产品中Eclipse安装Tomcat4E插件的方式是__________? 选项: A. 不用安装,eclipse自带 B. 打开Help按钮,点击Install new software C. 打开Help按钮,点 …",
+          cover: "http:\/\/localhost:1313\/images\/banner.webp",
+        };
+      </script><script src="/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    asyncintegrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script></body>
+</html>

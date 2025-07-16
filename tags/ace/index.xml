@@ -98,6 +98,329 @@
     
 
     <item>
+      <title>阿里云 ACE 笔试题库 501-600 题</title>
+      <link>http://localhost:1313/post/aliyun_501_600/</link>
+      <pubDate>Mon, 23 Jun 2025 22:40:53 &#43;0800</pubDate>
+      <author>yuntu_x@qq.com (yuntu)</author>
+      <guid>http://localhost:1313/post/aliyun_501_600/</guid>
+      <description>
+        <![CDATA[<h1>阿里云 ACE 笔试题库 501-600 题</h1><p>作者：yuntu（yuntu_x@qq.com）</p>
+        
+          <h3 id="501-基于edas平台开发应用使用的java容器是___________">
+<a class="header-anchor" href="#501-%e5%9f%ba%e4%ba%8eedas%e5%b9%b3%e5%8f%b0%e5%bc%80%e5%8f%91%e5%ba%94%e7%94%a8%e4%bd%bf%e7%94%a8%e7%9a%84java%e5%ae%b9%e5%99%a8%e6%98%af___________"></a>
+501. 基于EDAS平台开发应用,使用的java容器是___________?
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. Jboss</li>
+<li>B. Ali-Tomcat</li>
+<li>C. Apache Tomcat</li>
+<li>D. Jetty</li>
+</ul>
+<h4 id="正确答案-b">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b"></a>
+正确答案: B
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><hr>
+<h3 id="502-edas容器部署的包的格式是__________">
+<a class="header-anchor" href="#502-edas%e5%ae%b9%e5%99%a8%e9%83%a8%e7%bd%b2%e7%9a%84%e5%8c%85%e7%9a%84%e6%a0%bc%e5%bc%8f%e6%98%af__________"></a>
+502. EDAS容器部署的包的格式是__________?
+</h3><h4 id="选项-1">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-1"></a>
+选项:
+</h4><ul>
+<li>A. war</li>
+<li>B. tar</li>
+<li>C. zip</li>
+<li>D. jar</li>
+</ul>
+<h4 id="正确答案-a">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a"></a>
+正确答案: A
+</h4><h4 id="解析-1">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-1"></a>
+解析:
+</h4><hr>
+<h3 id="503-edas产品中eclipse安装tomcat4e插件的方式是__________">
+<a class="header-anchor" href="#503-edas%e4%ba%a7%e5%93%81%e4%b8%adeclipse%e5%ae%89%e8%a3%85tomcat4e%e6%8f%92%e4%bb%b6%e7%9a%84%e6%96%b9%e5%bc%8f%e6%98%af__________"></a>
+503. EDAS产品中Eclipse安装Tomcat4E插件的方式是__________?
+</h3><h4 id="选项-2">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-2"></a>
+选项:
+</h4><ul>
+<li>A. 不用安装,eclipse自带</li>
+<li>B. 打开Help按钮,点击Install new software</li>
+<li>C. 打开Help按钮,点击check for updates</li>
+<li>D. 打开Windows按钮,点击preferences</li>
+</ul>
+<h4 id="正确答案-b-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-1"></a>
+正确答案: B
+</h4><h4 id="解析-2">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-2"></a>
+解析:
+</h4><hr>
+<h3 id="504-edas应用基础信息界面显示有机器agent异常时如何处理___________">
+<a class="header-anchor" href="#504-edas%e5%ba%94%e7%94%a8%e5%9f%ba%e7%a1%80%e4%bf%a1%e6%81%af%e7%95%8c%e9%9d%a2%e6%98%be%e7%a4%ba%e6%9c%89%e6%9c%ba%e5%99%a8agent%e5%bc%82%e5%b8%b8%e6%97%b6%e5%a6%82%e4%bd%95%e5%a4%84%e7%90%86___________"></a>
+504. EDAS应用基础信息界面显示有机器Agent异常时,如何处理___________?
+</h3><h4 id="选项-3">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-3"></a>
+选项:
+</h4><ul>
+<li>A. 需要登陆到对应的机器手动启动EDAS Agent</li>
+<li>B. 会自动恢复,不需要处理</li>
+<li>C. 继续进行正常的部署、启动、停止操作,不影响</li>
+<li>D. 重置可以解决该问题</li>
+</ul>
+<h4 id="正确答案-a-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-1"></a>
+正确答案: A
+</h4><h4 id="解析-3">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-3"></a>
+解析:
+</h4><hr>
+<h3 id="505-drds目前兼容的协议方式和语法是____________">
+<a class="header-anchor" href="#505-drds%e7%9b%ae%e5%89%8d%e5%85%bc%e5%ae%b9%e7%9a%84%e5%8d%8f%e8%ae%ae%e6%96%b9%e5%bc%8f%e5%92%8c%e8%af%ad%e6%b3%95%e6%98%af____________"></a>
+505. DRDS目前兼容的协议方式和语法是____________.
+</h3><h4 id="选项-4">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-4"></a>
+选项:
+</h4><ul>
+<li>A. SQLSERVER协议和语法</li>
+<li>B. MySQL协议和语法</li>
+<li>C. Redis</li>
+<li>D. Oracle协议和语法</li>
+</ul>
+<h4 id="正确答案-b-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-b-2"></a>
+正确答案: B
+</h4><h4 id="解析-4">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-4"></a>
+解析:
+</h4><hr>
+<h3 id="506-通过oss加速域名配合函数计算和函数工作流可以快速打造低成本高效的跨境对象存储数据同步传输系统用于满足有跨境对象存储数据传输需求对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户以下对该系统优势描述不正确的是哪一项">
+<a class="header-anchor" href="#506-%e9%80%9a%e8%bf%87oss%e5%8a%a0%e9%80%9f%e5%9f%9f%e5%90%8d%e9%85%8d%e5%90%88%e5%87%bd%e6%95%b0%e8%ae%a1%e7%ae%97%e5%92%8c%e5%87%bd%e6%95%b0%e5%b7%a5%e4%bd%9c%e6%b5%81%e5%8f%af%e4%bb%a5%e5%bf%ab%e9%80%9f%e6%89%93%e9%80%a0%e4%bd%8e%e6%88%90%e6%9c%ac%e9%ab%98%e6%95%88%e7%9a%84%e8%b7%a8%e5%a2%83%e5%af%b9%e8%b1%a1%e5%ad%98%e5%82%a8%e6%95%b0%e6%8d%ae%e5%90%8c%e6%ad%a5%e4%bc%a0%e8%be%93%e7%b3%bb%e7%bb%9f%e7%94%a8%e4%ba%8e%e6%bb%a1%e8%b6%b3%e6%9c%89%e8%b7%a8%e5%a2%83%e5%af%b9%e8%b1%a1%e5%ad%98%e5%82%a8%e6%95%b0%e6%8d%ae%e4%bc%a0%e8%be%93%e9%9c%80%e6%b1%82%e5%af%b9%e8%b7%a8%e5%a2%83%e4%bc%a0%e8%be%93%e6%88%90%e6%9c%ac%e6%8e%a7%e5%88%b6%e4%b8%a5%e8%8b%9b%e4%b8%94%e8%83%bd%e6%8e%a5%e5%8f%97%e4%b8%80%e5%ae%9a%e7%a8%8b%e5%ba%a6%e7%bd%91%e7%bb%9c%e6%8a%96%e5%8a%a8%e5%b8%a6%e6%9d%a5%e7%9a%84%e6%96%87%e4%bb%b6%e5%90%8c%e6%ad%a5%e5%bb%b6%e8%bf%9f%e7%9a%84%e7%94%a8%e6%88%b7%e4%bb%a5%e4%b8%8b%e5%af%b9%e8%af%a5%e7%b3%bb%e7%bb%9f%e4%bc%98%e5%8a%bf%e6%8f%8f%e8%bf%b0%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e6%98%af%e5%93%aa%e4%b8%80%e9%a1%b9"></a>
+506. 通过OSS加速域名,配合函数计算和函数工作流,可以快速打造低成本、高效的跨境对象存储数据同步传输系统,用于满足有跨境对象存储数据传输需求,对跨境传输成本控制严苛且能接受一定程度网络抖动带来的文件同步延迟的用户,以下对该系统优势描述不正确的是哪一项?
+</h3><h4 id="选项-5">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-5"></a>
+选项:
+</h4><ul>
+<li>A. 无运维成本:开发人员只需关注代码逻辑即可。</li>
+<li>B. 网络成本低:相比云企业网高速通道的方式,网络成本降低。</li>
+<li>C. 同步服务部署成本低:文件上传OSS后即可触发函数计算调用Serverless工作流,按量触发,无需准备ECS资源。</li>
+<li>D. 弹性高效:一个文件同步触发一个Serverless工作流任务,充分利用资源,高效同步。</li>
+</ul>
+<h4 id="正确答案-a-2">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a-2"></a>
+正确答案: A
+</h4><h4 id="解析-5">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-5"></a>
+解析:
+</h4><p>低运维成本,并非无运维成本；参考：https://help.aliyun.com/document_detail/197548.html</p>
+        
+        <hr><p>本文2025-06-23首发于<a href='http://localhost:1313/'></a>，最后修改于2025-06-23</p>]]>
+      </description>
+      
+        <category>ACE</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>阿里云 ACE 笔试题库 601-700 题</title>
+      <link>http://localhost:1313/post/aliyun_601_700/</link>
+      <pubDate>Mon, 23 Jun 2025 22:40:54 &#43;0800</pubDate>
+      <author>yuntu_x@qq.com (yuntu)</author>
+      <guid>http://localhost:1313/post/aliyun_601_700/</guid>
+      <description>
+        <![CDATA[<h1>阿里云 ACE 笔试题库 601-700 题</h1><p>作者：yuntu（yuntu_x@qq.com）</p>
+        
+          <h3 id="601-作为架构师你需要来提高一个规模较大的电商网站的整体安全系统运行在阿里云vpc中使用多层架构设计使用slb部署在web服务与应用服务之前并直接连接oss数据库使用rds和redis的组合数据每天晚上备份到oss之后使用emr进行处理某天系统管理员在系统中发现了可疑的日志条怀疑有人试图进行未经授权的访问为了防御这种攻击下面哪种方法最具有可行性同时具有可扩展性">
+<a class="header-anchor" href="#601-%e4%bd%9c%e4%b8%ba%e6%9e%b6%e6%9e%84%e5%b8%88%e4%bd%a0%e9%9c%80%e8%a6%81%e6%9d%a5%e6%8f%90%e9%ab%98%e4%b8%80%e4%b8%aa%e8%a7%84%e6%a8%a1%e8%be%83%e5%a4%a7%e7%9a%84%e7%94%b5%e5%95%86%e7%bd%91%e7%ab%99%e7%9a%84%e6%95%b4%e4%bd%93%e5%ae%89%e5%85%a8%e7%b3%bb%e7%bb%9f%e8%bf%90%e8%a1%8c%e5%9c%a8%e9%98%bf%e9%87%8c%e4%ba%91vpc%e4%b8%ad%e4%bd%bf%e7%94%a8%e5%a4%9a%e5%b1%82%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1%e4%bd%bf%e7%94%a8slb%e9%83%a8%e7%bd%b2%e5%9c%a8web%e6%9c%8d%e5%8a%a1%e4%b8%8e%e5%ba%94%e7%94%a8%e6%9c%8d%e5%8a%a1%e4%b9%8b%e5%89%8d%e5%b9%b6%e7%9b%b4%e6%8e%a5%e8%bf%9e%e6%8e%a5oss%e6%95%b0%e6%8d%ae%e5%ba%93%e4%bd%bf%e7%94%a8rds%e5%92%8credis%e7%9a%84%e7%bb%84%e5%90%88%e6%95%b0%e6%8d%ae%e6%af%8f%e5%a4%a9%e6%99%9a%e4%b8%8a%e5%a4%87%e4%bb%bd%e5%88%b0oss%e4%b9%8b%e5%90%8e%e4%bd%bf%e7%94%a8emr%e8%bf%9b%e8%a1%8c%e5%a4%84%e7%90%86%e6%9f%90%e5%a4%a9%e7%b3%bb%e7%bb%9f%e7%ae%a1%e7%90%86%e5%91%98%e5%9c%a8%e7%b3%bb%e7%bb%9f%e4%b8%ad%e5%8f%91%e7%8e%b0%e4%ba%86%e5%8f%af%e7%96%91%e7%9a%84%e6%97%a5%e5%bf%97%e6%9d%a1%e6%80%80%e7%96%91%e6%9c%89%e4%ba%ba%e8%af%95%e5%9b%be%e8%bf%9b%e8%a1%8c%e6%9c%aa%e7%bb%8f%e6%8e%88%e6%9d%83%e7%9a%84%e8%ae%bf%e9%97%ae%e4%b8%ba%e4%ba%86%e9%98%b2%e5%be%a1%e8%bf%99%e7%a7%8d%e6%94%bb%e5%87%bb%e4%b8%8b%e9%9d%a2%e5%93%aa%e7%a7%8d%e6%96%b9%e6%b3%95%e6%9c%80%e5%85%b7%e6%9c%89%e5%8f%af%e8%a1%8c%e6%80%a7%e5%90%8c%e6%97%b6%e5%85%b7%e6%9c%89%e5%8f%af%e6%89%a9%e5%b1%95%e6%80%a7"></a>
+601. 作为架构师，你需要来提高一个规模较大的电商网站的整体安全。系统运行在阿里云VPC中，使用多层架构设计，使用SLB部署在Web服务与应用服务之前，并直接连接OSS。数据库使用RDS和Redis的组合，数据每天晚上备份到OSS，之后使用EMR进行处理。某天系统管理员在系统中发现了可疑的日志条，怀疑有人试图进行未经授权的访问。为了防御这种攻击，下面哪种方法最具有可行性同时具有可扩展性？
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. 将先前识别的政击源的IP添加到web服务的访问控制列表中</li>
+<li>B. 从Web层SLB中删除称TLS 1.2之外的所有内容，并启用高级协议过滤，将使SLB自身具有VAF功能</li>
+<li>C. 建议在合作伙件的机房租用宝间，通过1G 带宽的高速通道与VPC连接，在私有环境中部署商业化WAF过滤流量，通过高速通道的连接将过滤后的据传输到在其VPC中运行的应用程序中</li>
+<li>D. 在SLB之前部署WAF服务，将DNS重定向到WAF，设置网络层安全组的规则为仅允许来自WAF层的流量</li>
+</ul>
+<h4 id="正确答案-d">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d"></a>
+正确答案: D
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><hr>
+<h3 id="602-某在线教育平台访问量峰谷波动剧烈最高峰是低谷的几十上百倍全部保有高峰期资源成本高浪费大同时手动扩容不仅反应滞后而且无法应对计划外的突增流量而且人工配置容易出错基于此痛点以下____是比较合理方案规划">
+<a class="header-anchor" href="#602-%e6%9f%90%e5%9c%a8%e7%ba%bf%e6%95%99%e8%82%b2%e5%b9%b3%e5%8f%b0%e8%ae%bf%e9%97%ae%e9%87%8f%e5%b3%b0%e8%b0%b7%e6%b3%a2%e5%8a%a8%e5%89%a7%e7%83%88%e6%9c%80%e9%ab%98%e5%b3%b0%e6%98%af%e4%bd%8e%e8%b0%b7%e7%9a%84%e5%87%a0%e5%8d%81%e4%b8%8a%e7%99%be%e5%80%8d%e5%85%a8%e9%83%a8%e4%bf%9d%e6%9c%89%e9%ab%98%e5%b3%b0%e6%9c%9f%e8%b5%84%e6%ba%90%e6%88%90%e6%9c%ac%e9%ab%98%e6%b5%aa%e8%b4%b9%e5%a4%a7%e5%90%8c%e6%97%b6%e6%89%8b%e5%8a%a8%e6%89%a9%e5%ae%b9%e4%b8%8d%e4%bb%85%e5%8f%8d%e5%ba%94%e6%bb%9e%e5%90%8e%e8%80%8c%e4%b8%94%e6%97%a0%e6%b3%95%e5%ba%94%e5%af%b9%e8%ae%a1%e5%88%92%e5%a4%96%e7%9a%84%e7%aa%81%e5%a2%9e%e6%b5%81%e9%87%8f%e8%80%8c%e4%b8%94%e4%ba%ba%e5%b7%a5%e9%85%8d%e7%bd%ae%e5%ae%b9%e6%98%93%e5%87%ba%e9%94%99%e5%9f%ba%e4%ba%8e%e6%ad%a4%e7%97%9b%e7%82%b9%e4%bb%a5%e4%b8%8b____%e6%98%af%e6%af%94%e8%be%83%e5%90%88%e7%90%86%e6%96%b9%e6%a1%88%e8%a7%84%e5%88%92"></a>
+602. 某在线教育平台访问量峰谷波动剧烈，最高峰是低谷的几十上百倍，全部保有高峰期资源成本高浪费大，同时手动扩容不仅反应滞后，而且无法应对计划外的突增流量，而且人工配置容易出错，基于此痛点以下____是比较合理方案规划。
+</h3><h4 id="选项-1">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-1"></a>
+选项:
+</h4><ul>
+<li>A. 使用按量+SPOT付费方式代替传统包月模式有降低成本</li>
+<li>B. 根据业务波动接需创建和释放实例，并自动与RDS和SLB联动，无需人工干预</li>
+<li>C. 仅需包月保有基础业务实例资源，使用弹性伸缩的定时任务模式，交付临时高峰需求，大大降低成本</li>
+<li>D. 仅需包月保有基础业务实资源，使用弹性缩的定时任务+动态模式，交付临时高峰需求，大大降低成本</li>
+</ul>
+<h4 id="正确答案-d-1">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-d-1"></a>
+正确答案: D
+</h4><h4 id="解析-1">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-1"></a>
+解析:
+</h4><hr>
+<h3 id="603-阿里云专有云云盾的流量安全监控模块由2台安装双端口万兆网卡的高性能服务器完成流量数据的收集-一个ip的流量-经过2台beaver流量采集服务器后经过汇总将数据存储并进行信息输出关于流量采集监控模块信息输出描述错误的是---">
+<a class="header-anchor" href="#603-%e9%98%bf%e9%87%8c%e4%ba%91%e4%b8%93%e6%9c%89%e4%ba%91%e4%ba%91%e7%9b%be%e7%9a%84%e6%b5%81%e9%87%8f%e5%ae%89%e5%85%a8%e7%9b%91%e6%8e%a7%e6%a8%a1%e5%9d%97%e7%94%b12%e5%8f%b0%e5%ae%89%e8%a3%85%e5%8f%8c%e7%ab%af%e5%8f%a3%e4%b8%87%e5%85%86%e7%bd%91%e5%8d%a1%e7%9a%84%e9%ab%98%e6%80%a7%e8%83%bd%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%ae%8c%e6%88%90%e6%b5%81%e9%87%8f%e6%95%b0%e6%8d%ae%e7%9a%84%e6%94%b6%e9%9b%86-%e4%b8%80%e4%b8%aaip%e7%9a%84%e6%b5%81%e9%87%8f-%e7%bb%8f%e8%bf%872%e5%8f%b0beaver%e6%b5%81%e9%87%8f%e9%87%87%e9%9b%86%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%90%8e%e7%bb%8f%e8%bf%87%e6%b1%87%e6%80%bb%e5%b0%86%e6%95%b0%e6%8d%ae%e5%ad%98%e5%82%a8%e5%b9%b6%e8%bf%9b%e8%a1%8c%e4%bf%a1%e6%81%af%e8%be%93%e5%87%ba%e5%85%b3%e4%ba%8e%e6%b5%81%e9%87%8f%e9%87%87%e9%9b%86%e7%9b%91%e6%8e%a7%e6%a8%a1%e5%9d%97%e4%bf%a1%e6%81%af%e8%be%93%e5%87%ba%e6%8f%8f%e8%bf%b0%e9%94%99%e8%af%af%e7%9a%84%e6%98%af---"></a>
+603. 阿里云专有云云盾的流量安全监控模块由2台安装双端口万兆网卡的高性能服务器完成流量数据的收集， 一个IP的流量 经过2台beaver流量采集服务器后，经过汇总将数据存储并进行信息输出。关于流量采集监控模块信息输出描述错误的是（  ） 。
+</h3><h4 id="选项-2">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9-2"></a>
+选项:
+</h4><ul>
+<li>A. 攻击信息发送到安全审计</li>
+<li>B. 输出HTTP日志到态势感知分析引擎平台</li>
+<li>C. 流量信息(仅计数统计)存入到数据库</li>
+<li>D. 告警信息发给到云安全中心</li>
+</ul>
+<h4 id="正确答案-a">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-a"></a>
+正确答案: A
+</h4><h4 id="解析-2">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90-2"></a>
+解析:
+</h4><p>解析攻击信息发送到态势感知</p>
+        
+        <hr><p>本文2025-06-23首发于<a href='http://localhost:1313/'></a>，最后修改于2025-06-23</p>]]>
+      </description>
+      
+        <category>ACE</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>阿里云 ACE 笔试题库 701-800 题</title>
+      <link>http://localhost:1313/post/aliyun_701_800/</link>
+      <pubDate>Mon, 23 Jun 2025 22:40:55 &#43;0800</pubDate>
+      <author>yuntu_x@qq.com (yuntu)</author>
+      <guid>http://localhost:1313/post/aliyun_701_800/</guid>
+      <description>
+        <![CDATA[<h1>阿里云 ACE 笔试题库 701-800 题</h1><p>作者：yuntu（yuntu_x@qq.com）</p>
+        
+          <h3 id="701-随着互联网技术在人类生活领域中的广泛应用针对重要信息资源和网络基础设施的入侵行为和企图入侵行为的数量仍在持续不断增加网络攻击对生活造成了极大的威胁计算机病毒不断地通过网络产生和传播计算机网络被不断地非法入侵重要情报资料被窃取甚至造成网络系统的瘫痪等等为了应对日益复杂的网络安全问题作为公司的公有云架构师负责相关产品在阿里云上的架构实施与运维面对众多安全产品如1waf防火墙2ddos高防3cdn4scdn5云防火墙6ssl证书ca证书觉得以下选择比较合理的是_______">
+<a class="header-anchor" href="#701-%e9%9a%8f%e7%9d%80%e4%ba%92%e8%81%94%e7%bd%91%e6%8a%80%e6%9c%af%e5%9c%a8%e4%ba%ba%e7%b1%bb%e7%94%9f%e6%b4%bb%e9%a2%86%e5%9f%9f%e4%b8%ad%e7%9a%84%e5%b9%bf%e6%b3%9b%e5%ba%94%e7%94%a8%e9%92%88%e5%af%b9%e9%87%8d%e8%a6%81%e4%bf%a1%e6%81%af%e8%b5%84%e6%ba%90%e5%92%8c%e7%bd%91%e7%bb%9c%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e7%9a%84%e5%85%a5%e4%be%b5%e8%a1%8c%e4%b8%ba%e5%92%8c%e4%bc%81%e5%9b%be%e5%85%a5%e4%be%b5%e8%a1%8c%e4%b8%ba%e7%9a%84%e6%95%b0%e9%87%8f%e4%bb%8d%e5%9c%a8%e6%8c%81%e7%bb%ad%e4%b8%8d%e6%96%ad%e5%a2%9e%e5%8a%a0%e7%bd%91%e7%bb%9c%e6%94%bb%e5%87%bb%e5%af%b9%e7%94%9f%e6%b4%bb%e9%80%a0%e6%88%90%e4%ba%86%e6%9e%81%e5%a4%a7%e7%9a%84%e5%a8%81%e8%83%81%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%97%85%e6%af%92%e4%b8%8d%e6%96%ad%e5%9c%b0%e9%80%9a%e8%bf%87%e7%bd%91%e7%bb%9c%e4%ba%a7%e7%94%9f%e5%92%8c%e4%bc%a0%e6%92%ad%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c%e8%a2%ab%e4%b8%8d%e6%96%ad%e5%9c%b0%e9%9d%9e%e6%b3%95%e5%85%a5%e4%be%b5%e9%87%8d%e8%a6%81%e6%83%85%e6%8a%a5%e8%b5%84%e6%96%99%e8%a2%ab%e7%aa%83%e5%8f%96%e7%94%9a%e8%87%b3%e9%80%a0%e6%88%90%e7%bd%91%e7%bb%9c%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%98%ab%e7%97%aa%e7%ad%89%e7%ad%89%e4%b8%ba%e4%ba%86%e5%ba%94%e5%af%b9%e6%97%a5%e7%9b%8a%e5%a4%8d%e6%9d%82%e7%9a%84%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e9%97%ae%e9%a2%98%e4%bd%9c%e4%b8%ba%e5%85%ac%e5%8f%b8%e7%9a%84%e5%85%ac%e6%9c%89%e4%ba%91%e6%9e%b6%e6%9e%84%e5%b8%88%e8%b4%9f%e8%b4%a3%e7%9b%b8%e5%85%b3%e4%ba%a7%e5%93%81%e5%9c%a8%e9%98%bf%e9%87%8c%e4%ba%91%e4%b8%8a%e7%9a%84%e6%9e%b6%e6%9e%84%e5%ae%9e%e6%96%bd%e4%b8%8e%e8%bf%90%e7%bb%b4%e9%9d%a2%e5%af%b9%e4%bc%97%e5%a4%9a%e5%ae%89%e5%85%a8%e4%ba%a7%e5%93%81%e5%a6%821waf%e9%98%b2%e7%81%ab%e5%a2%992ddos%e9%ab%98%e9%98%b23cdn4scdn5%e4%ba%91%e9%98%b2%e7%81%ab%e5%a2%996ssl%e8%af%81%e4%b9%a6ca%e8%af%81%e4%b9%a6%e8%a7%89%e5%be%97%e4%bb%a5%e4%b8%8b%e9%80%89%e6%8b%a9%e6%af%94%e8%be%83%e5%90%88%e7%90%86%e7%9a%84%e6%98%af_______"></a>
+701. 随着互联网技术在人类生活领域中的广泛应用，针对重要信息资源和网络基础设施的入侵行为和企图入侵行为的数量仍在持续不断增加，网络攻击对生活造成了极大的威胁。计算机病毒不断地通过网络产生和传播，计算机网络被不断地非法入侵，重要情报，资料被窃取，甚至造成网络系统的瘫痪等等。为了应对日益复杂的网络安全问题，作为公司的公有云架构师负责相关产品在阿里云上的架构、实施与运维，面对众多安全产品如：1、WAF防火墙；2、DDoS高防；3、CDN；4、SCDN；5、云防火墙；6、SSL证书（CA证书）；觉得以下选择比较合理的是_______。
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. 6,3,1,2,5</li>
+<li>B. 6,2,3,1,5</li>
+<li>C. 6,4,5</li>
+<li>D. 2,4,1,5</li>
+</ul>
+<h4 id="正确答案-bc">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-bc"></a>
+正确答案: BC
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><p>解析，A不选，因为有顺序关系，不可能先过WAF再过DDOS高防。B正确。C正确。D不选，顺序是先过SCDN再过DDOS高防。</p>
+        
+        <hr><p>本文2025-06-23首发于<a href='http://localhost:1313/'></a>，最后修改于2025-06-23</p>]]>
+      </description>
+      
+        <category>ACE</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>阿里云 ACE 笔试题库 801-900 题</title>
+      <link>http://localhost:1313/post/aliyun_801_900/</link>
+      <pubDate>Mon, 23 Jun 2025 22:40:56 &#43;0800</pubDate>
+      <author>yuntu_x@qq.com (yuntu)</author>
+      <guid>http://localhost:1313/post/aliyun_801_900/</guid>
+      <description>
+        <![CDATA[<h1>阿里云 ACE 笔试题库 801-900 题</h1><p>作者：yuntu（yuntu_x@qq.com）</p>
+        
+          <h3 id="801-黑客对网站进行扫描发现页面存在注入风险通过手工构造sql注入语句渗透入最客户的效据库获取网站相关核心数据可以通过来进行解决">
+<a class="header-anchor" href="#801-%e9%bb%91%e5%ae%a2%e5%af%b9%e7%bd%91%e7%ab%99%e8%bf%9b%e8%a1%8c%e6%89%ab%e6%8f%8f%e5%8f%91%e7%8e%b0%e9%a1%b5%e9%9d%a2%e5%ad%98%e5%9c%a8%e6%b3%a8%e5%85%a5%e9%a3%8e%e9%99%a9%e9%80%9a%e8%bf%87%e6%89%8b%e5%b7%a5%e6%9e%84%e9%80%a0sql%e6%b3%a8%e5%85%a5%e8%af%ad%e5%8f%a5%e6%b8%97%e9%80%8f%e5%85%a5%e6%9c%80%e5%ae%a2%e6%88%b7%e7%9a%84%e6%95%88%e6%8d%ae%e5%ba%93%e8%8e%b7%e5%8f%96%e7%bd%91%e7%ab%99%e7%9b%b8%e5%85%b3%e6%a0%b8%e5%bf%83%e6%95%b0%e6%8d%ae%e5%8f%af%e4%bb%a5%e9%80%9a%e8%bf%87%e6%9d%a5%e8%bf%9b%e8%a1%8c%e8%a7%a3%e5%86%b3"></a>
+801. 黑客对网站进行扫描，发现页面存在注入风险，通过手工构造SQL注入语句，渗透入最客户的效据库,获取网站相关核心数据。可以通过（）来进行解决
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. 安全管家</li>
+<li>B. web应用防火墙</li>
+<li>C. 使用正则表达式过滤传入的参数</li>
+<li>D. 云安全中心</li>
+</ul>
+<h4 id="正确答案-bc">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-bc"></a>
+正确答案: BC
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><p>答案是B和C。针对 SQL 注入问题，可以通过 Web 应用防火墙 (WAF) 进行解决。WAF 可以提供基于规则的 SQL 注入攻击防御，通过对用户请求进行监控和过滤来防止 SQL 注入攻击。正则表达式过滤传入的参数也可以为应用程序提供基本的防护机制，通过对请求参数进行过滤，检查是否含有特殊字符等。安全管家是一个安全扫描工具，可以扫描和修复云资源中的安全漏洞，但无法解决 SQL 注入问题。云安全中心是一个多云安全管理平台，可以进行企业级安全管理和威胁检测等，但也无法解决 SQL 注入问题。因此，选项B、C是正确的描述。</p>
+        
+        <hr><p>本文2025-06-23首发于<a href='http://localhost:1313/'></a>，最后修改于2025-06-23</p>]]>
+      </description>
+      
+        <category>ACE</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>阿里云 ACE 笔试题库 901-971 题</title>
+      <link>http://localhost:1313/post/aliyun_901_971/</link>
+      <pubDate>Mon, 23 Jun 2025 22:40:57 &#43;0800</pubDate>
+      <author>yuntu_x@qq.com (yuntu)</author>
+      <guid>http://localhost:1313/post/aliyun_901_971/</guid>
+      <description>
+        <![CDATA[<h1>阿里云 ACE 笔试题库 901-971 题</h1><p>作者：yuntu（yuntu_x@qq.com）</p>
+        
+          <h3 id="901-某企业使用slb来解决业务系统的水平扩展问题将应用部署到slb后端的ecs服务器上随着业务的发展该企业将自己的业务系统划分为多个独立的业务模块以不同的二级域名独立对外提供服务由于不同的模块部署在不同的ecs上并且同一个模块会同时部署在多个ecs上一台ecs承载多个模块的功能为了解决用户访问不同业务模块时流量分配到后端不同的ecs组以下哪个方式可以满足要求">
+<a class="header-anchor" href="#901-%e6%9f%90%e4%bc%81%e4%b8%9a%e4%bd%bf%e7%94%a8slb%e6%9d%a5%e8%a7%a3%e5%86%b3%e4%b8%9a%e5%8a%a1%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%b0%b4%e5%b9%b3%e6%89%a9%e5%b1%95%e9%97%ae%e9%a2%98%e5%b0%86%e5%ba%94%e7%94%a8%e9%83%a8%e7%bd%b2%e5%88%b0slb%e5%90%8e%e7%ab%af%e7%9a%84ecs%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%b8%8a%e9%9a%8f%e7%9d%80%e4%b8%9a%e5%8a%a1%e7%9a%84%e5%8f%91%e5%b1%95%e8%af%a5%e4%bc%81%e4%b8%9a%e5%b0%86%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%9a%e5%8a%a1%e7%b3%bb%e7%bb%9f%e5%88%92%e5%88%86%e4%b8%ba%e5%a4%9a%e4%b8%aa%e7%8b%ac%e7%ab%8b%e7%9a%84%e4%b8%9a%e5%8a%a1%e6%a8%a1%e5%9d%97%e4%bb%a5%e4%b8%8d%e5%90%8c%e7%9a%84%e4%ba%8c%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%8b%ac%e7%ab%8b%e5%af%b9%e5%a4%96%e6%8f%90%e4%be%9b%e6%9c%8d%e5%8a%a1%e7%94%b1%e4%ba%8e%e4%b8%8d%e5%90%8c%e7%9a%84%e6%a8%a1%e5%9d%97%e9%83%a8%e7%bd%b2%e5%9c%a8%e4%b8%8d%e5%90%8c%e7%9a%84ecs%e4%b8%8a%e5%b9%b6%e4%b8%94%e5%90%8c%e4%b8%80%e4%b8%aa%e6%a8%a1%e5%9d%97%e4%bc%9a%e5%90%8c%e6%97%b6%e9%83%a8%e7%bd%b2%e5%9c%a8%e5%a4%9a%e4%b8%aaecs%e4%b8%8a%e4%b8%80%e5%8f%b0ecs%e6%89%bf%e8%bd%bd%e5%a4%9a%e4%b8%aa%e6%a8%a1%e5%9d%97%e7%9a%84%e5%8a%9f%e8%83%bd%e4%b8%ba%e4%ba%86%e8%a7%a3%e5%86%b3%e7%94%a8%e6%88%b7%e8%ae%bf%e9%97%ae%e4%b8%8d%e5%90%8c%e4%b8%9a%e5%8a%a1%e6%a8%a1%e5%9d%97%e6%97%b6%e6%b5%81%e9%87%8f%e5%88%86%e9%85%8d%e5%88%b0%e5%90%8e%e7%ab%af%e4%b8%8d%e5%90%8c%e7%9a%84ecs%e7%bb%84%e4%bb%a5%e4%b8%8b%e5%93%aa%e4%b8%aa%e6%96%b9%e5%bc%8f%e5%8f%af%e4%bb%a5%e6%bb%a1%e8%b6%b3%e8%a6%81%e6%b1%82"></a>
+901. 某企业使用SLB来解决业务系统的水平扩展问题,将应用部署到SLB后端的ECS服务器上,随着业务的发展,该企业将自己的业务系统划分为多个独立的业务模块。以不同的二级域名独立对外提供服务。由于不同的模块部署在不同的ECS上,并且同一个模块会同时部署在多个ECS上,一台ECS承载多个模块的功能。为了解决用户访问不同业务模块时,流量分配到后端不同的ECS组,以下哪个方式可以满足要求?()
+</h3><h4 id="选项">
+<a class="header-anchor" href="#%e9%80%89%e9%a1%b9"></a>
+选项:
+</h4><ul>
+<li>A. 三个二级域名共用一个SLB实例,通过配置SLB的虚拟服务器组和转发规则实现</li>
+<li>B. 三个二级域名分别创建一个SLB实例,每一个SLB实例挂载不同的后端ECS实例</li>
+<li>C. 使用一个SLB实例响应所有二级域名的访问请求,SLB后端搭建一个LVS+Keepalive集群来实现不同的域名访问请求转发到不同的ECS</li>
+<li>D. 使用一个SLB实例响应所有域名的访问请求,SLB后端搭建一个Nginx集群来实现不同的域名访问请求转发到不同的ECS</li>
+</ul>
+<h4 id="正确答案-ad">
+<a class="header-anchor" href="#%e6%ad%a3%e7%a1%ae%e7%ad%94%e6%a1%88-ad"></a>
+正确答案: AD
+</h4><h4 id="解析">
+<a class="header-anchor" href="#%e8%a7%a3%e6%9e%90"></a>
+解析:
+</h4><p>A正确，可以在一个监听下添加多条转发策略，每条转发策略关联不同的虚拟服务器组（一个虚拟服务器组由一组ECS实例组成）。例如您可以将所有读请求转发到一组后端服务器上而将写请求转发到另一组后端服务器上，这样可以更灵活地适配业务需求，合理分配资源；D正确，Nginx配置多端口多域名访问的实现 在一个服务器上部署多个站点,需要开放多个端口来访问不同的站点</p>
+        
+        <hr><p>本文2025-06-23首发于<a href='http://localhost:1313/'></a>，最后修改于2025-06-23</p>]]>
+      </description>
+      
+        <category>ACE</category>
+      
+    </item>
+    
+    
+
+    <item>
       <title>阿里云 ACE 笔试题库 201-300 题</title>
       <link>http://localhost:1313/post/aliyun_201_300/</link>
       <pubDate>Mon, 23 Jun 2025 22:40:50 &#43;0800</pubDate>
